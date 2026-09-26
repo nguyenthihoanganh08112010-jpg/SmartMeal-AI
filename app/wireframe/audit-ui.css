@@ -1,0 +1,67 @@
+#sm-draft .audit-home{background:#FFFCF0;color:#39452D}
+#sm-draft .audit-home .hp-top{background:#CFE6AF;padding:28px 18px 26px;min-height:125px;border-radius:0 0 30px 30px;margin-bottom:20px;gap:10px}
+#sm-draft .audit-home .hp-body{background:transparent;padding:0 16px 22px;border-radius:0}
+#sm-draft .audit-home .hp-box{background:#fff;border:0;box-shadow:0 3px 14px #39452D08;border-radius:22px;color:#39452D}
+#sm-draft .audit-home .hp-knowledge{padding:18px;margin-bottom:18px;border-top:5px solid #FFF0B0}
+#sm-draft .audit-home .hp-box h3{color:#39452D;line-height:1.45;font-size:14px;margin-top:0}
+#sm-draft .audit-home .hp-content{background:#FFFCF0;border:0;border-radius:14px;min-height:94px;padding:14px;font-size:12px;color:#68735c}
+#sm-draft .audit-home .hp-tile{padding:14px;text-align:left;min-width:0}
+#sm-draft .audit-home .hp-tile>.hp-placeholder{background:transparent;border:0;padding:0;font-size:12px}
+#sm-draft .audit-home .hp-value,#sm-draft .audit-home .hp-absence{font-size:20px;color:#39452D;margin:10px 0}
+#sm-draft .audit-home .hp-streak{background:#252c20;color:#fff}
+#sm-draft .audit-home .hp-streak h3,#sm-draft .audit-home .hp-streak small{color:#eef1e9}
+#sm-draft .audit-home .home-bowel{background:#eef5e5;display:block;width:100%;border:0}
+#sm-draft .audit-home .home-bowel:active{background:#CFE6AF}
+#sm-draft .audit-home .hp-digest,#sm-draft .audit-home .hp-guide{padding:18px;margin-top:18px}
+#sm-draft .audit-home .hp-guide{background:#fff8dd}
+#sm-draft .audit-home .hp-guide-image{background:#fff;border:1px dashed #b5bea9;border-radius:16px}
+#sm-draft .audit-home .hp-nav{background:#FFFCF0}
+#sm-draft .audit-home .hp-account{color:#39452D}
+#sm-draft .account-continue{display:inline-flex;align-items:center;justify-content:center;border:0;background:#CFE6AFb3;color:#39452D;border-radius:16px;padding:10px 14px;min-height:44px;font-weight:500;white-space:nowrap}
+#sm-draft .account-signedout{background:#a7cc8099;font-size:16px;padding:14px 18px}
+#sm-draft .saved-title .account-continue{margin-left:12px;font-size:13px}
+#sm-draft .record-entry .account-continue{margin-top:12px}
+#sm-draft .account-shell{height:100%;display:flex;flex-direction:column;background:#FFFCF0;color:#39452D}
+#sm-draft .account-content{overflow:auto;flex:1;min-height:0;padding:20px}
+#sm-draft .account-content input,#sm-draft .account-content select{display:block;width:100%;min-height:44px;background:#fff;border:1px solid #aab69b;border-radius:12px;margin:6px 0 14px;color:#39452D;font-size:16px}
+#sm-draft .account-main{width:100%;border:0;background:#CFE6AF;border-radius:18px;min-height:44px;margin:12px 0}
+#sm-draft .audit-notice{font-size:12px;color:#637052;background:#fff3c4;padding:12px;border-radius:12px}
+#sm-draft .account-error,#sm-draft .audit-save-error{color:#943b3b;font-size:13px}
+#sm-draft .audit-overlay{position:absolute;inset:0;z-index:500;background:#39452D77;display:flex;align-items:center;justify-content:center;padding:20px}
+#sm-draft .audit-overlay section{width:100%;background:#FFFCF0;border-radius:22px;padding:22px;max-height:90%;overflow:auto}
+#sm-draft .audit-overlay button{display:block;width:100%;margin-top:12px;border:0;border-radius:16px;background:#CFE6AF;min-height:44px}
+#sm-draft .record-history-row .record-edit{position:absolute;right:4px;top:1px;min-height:36px;z-index:2;padding:4px 10px;border:0;background:transparent;font-size:12px;color:#39452D}
+#sm-draft .record-history-row.swiped .record-edit{right:66px}
+#sm-draft .record-history-row .record-duration{padding-top:20px}
+#sm-draft .record-history-row .record-delete{background:#FFA5AF}
+#sm-draft .record-history-row .original-trash{flex-shrink:0}
+#sm-draft .a8-section{padding:12px 0;border-bottom:1px solid #39452D18}
+#sm-draft .a8-section h4{margin:5px 0}
+#sm-draft .a8-section p{font-size:13px}
+#sm-draft .persona-description-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px}
+#sm-draft .persona-description-row span{color:#7b8373;font-size:12px}
+#sm-draft .persona-empty-lines{padding:8px 0 20px}
+#sm-draft .persona-empty-lines i{display:block;height:10px;background:#39452D0a;border-radius:5px;margin:10px 0;width:90%}
+#sm-draft .persona-empty-lines i:last-child{width:60%}
+#sm-draft .persona-empty-lines+.persona-description-row{border-top:1px dashed #39452D22;padding-top:15px}
+#sm-draft .saved-top{position:relative}
+#sm-draft .saved-search-mascot{position:absolute;left:24px;bottom:26px;font-size:9px;color:#637052}
+#sm-draft .saved-top input{padding-left:70px}
+#sm-draft .recipe-save-status{display:block;font-size:12px;margin:8px;color:#39452D}
+#sm-draft{--sm-green:#CFE6AF;--sm-yellow:#FFF0B0;--sm-cream:#FFFCF0;--sm-ink:#39452D}
+#sm-draft .hp-nav{background:var(--sm-cream);color:var(--sm-ink)}
+#sm-draft .hp-pill{background:#fff;border-color:#fff}
+#sm-draft .hp-pill button{color:#637052;background:transparent}
+#sm-draft .hp-pill button[aria-current=page],#sm-draft .saved-shell .hp-pill button[aria-current=page],#sm-draft .record-shell .hp-pill button[aria-current=page]{background:var(--sm-green);color:var(--sm-ink)}
+#sm-draft .hp-ai{background:var(--sm-yellow);color:var(--sm-ink)}
+#sm-draft #sm-page .hp-nav{background:var(--sm-cream);color:var(--sm-ink)}
+#sm-draft #sm-page .hp-nav button{color:#637052;background:transparent}
+#sm-draft #sm-page .hp-nav [aria-current="page"]{background:var(--sm-green);color:var(--sm-ink)}
+#sm-draft #sm-page .hp-nav .hp-ai{background:var(--sm-yellow);color:var(--sm-ink)}
+#sm-draft .audit-home .hp-digest{background:var(--sm-green)}
+#sm-draft .hp-week-control button,#sm-draft .hp-week-label,#sm-draft .hp-day{color:var(--sm-ink)}
+#sm-draft .hp-day.selected{background:#ffffff80}
+#sm-draft .hp-day .date{border-color:#ffffff80;outline-color:#ffffff80}
+#sm-draft .hp-day.selected .date{background:var(--sm-yellow);border-color:var(--sm-yellow)}
+#sm-draft .recommendation>[data-audit]{border:0;border-radius:14px;background:#FFF0B0;margin:10px 0}
+@media(max-width:350px){#sm-draft .audit-home .hp-top{padding:20px 12px}#sm-draft .account-signedout{font-size:14px;padding:12px}#sm-draft .audit-home .hp-tile{padding:10px}#sm-draft .hp-grid{gap:10px}}
