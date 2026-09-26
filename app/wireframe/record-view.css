@@ -40,7 +40,7 @@
 #sm-draft .record-history-open strong{font-size:16px;display:block}
 #sm-draft .record-history-open small{display:block;margin-top:4px}
 #sm-draft .record-history-open .record-duration{margin-left:auto;text-align:right;max-width:90px;font-size:13px}
-#sm-draft .record-history-row.swiped .record-history-open{transform:translateX(-82px)}
+#sm-draft .record-history-row.swiped .record-history-surface{transform:translateX(-82px)}
 #sm-draft .record-delete{position:absolute;right:0;top:0;width:82px;height:100%;border:0;background:#F4C5C9;z-index:0;font-weight:600}
 #sm-draft .record-delete span{display:block;font-size:11px}
 #sm-draft .record-modal-backdrop{position:absolute;inset:0;background:#39452D66;z-index:8;display:flex;align-items:center;padding:22px}

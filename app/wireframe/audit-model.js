@@ -12,6 +12,7 @@ const AuditModel=(()=>{
  const saveRecipe=(rows,r)=>rows.some(x=>x.id===r.id)?{rows,status:'Đã lưu'}:{rows:[...rows,{...r}],status:'Đã lưu vào Sổ tay'};
  const updateRecipe=(rows,next,yes,appearanceChanged)=>!yes?rows:rows.map(r=>r.id===next.id?{...next,imageId:appearanceChanged?next.imageId:r.imageId}:r);
  const changeGoal=(log,old,next,date)=>old===next?log:[...log,{date,from:old,to:next}];
- return {day,iso,hanoiDate,streak,a8,durationGroup,groupCounts,saveRecipe,updateRecipe,changeGoal};
+ function streakCells(today,earnedDays){const d=new Date(today+'T00:00:00Z'),year=d.getUTCFullYear(),month=d.getUTCMonth(),first=new Date(Date.UTC(year,month,1)),offset=(first.getUTCDay()+6)%7,total=new Date(Date.UTC(year,month+1,0)).getUTCDate(),earned=new Set(earnedDays);return Array.from({length:Math.ceil((offset+total)/7)*7},(_,i)=>{const n=i-offset+1;if(n<1||n>total)return null;const date=new Date(Date.UTC(year,month,n)).toISOString().slice(0,10);return {date,day:n,earned:date<=today&&earned.has(date)};});}
+ return {day,iso,hanoiDate,streak,streakCells,a8,durationGroup,groupCounts,saveRecipe,updateRecipe,changeGoal};
 })();
 if(typeof module!=='undefined')module.exports=AuditModel;

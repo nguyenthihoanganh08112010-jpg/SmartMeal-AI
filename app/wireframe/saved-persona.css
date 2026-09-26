@@ -10,8 +10,8 @@
 #sm-draft .saved-filters button{white-space:nowrap;border:0;border-radius:18px;background:transparent;padding:6px 10px;min-height:36px;font-size:12px}
 #sm-draft .saved-filters button[aria-pressed=true]{background:#CFE6AF}
 #sm-draft .saved-list{overflow:auto;flex:1;min-height:0;padding:7px 16px 24px;background:#FFFCF0}
-#sm-draft .saved-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 14px;align-content:start}
-#sm-draft .saved-card-wrap{position:relative;border-radius:18px;overflow:hidden;background:#FFA5AF;box-shadow:0 3px 13px #39452D0c;aspect-ratio:1}
+#sm-draft .saved-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-content:start;grid-auto-rows:auto}
+#sm-draft .saved-card-wrap{min-width:0;position:relative;border-radius:18px;overflow:hidden;background:#FFA5AF;box-shadow:0 3px 13px #39452D0c;aspect-ratio:1}
 #sm-draft .saved-card{width:100%;height:100%;position:relative;overflow:hidden;border:0;background:#fff;border-radius:18px;text-align:left;display:block;padding:0;transition:transform .2s;touch-action:pan-y;z-index:1}
 #sm-draft .saved-card-wrap.swiped .saved-card{transform:translateX(-57px)}
 #sm-draft .saved-plate{position:absolute;right:-26px;top:-45px;width:132px;height:132px;border-radius:50%;border:1px dashed #9eaa8e;background:#FFFCF0;display:flex;align-items:center;justify-content:center;text-align:center;padding:25px;font-size:11px;transform:rotate(-7deg)}
@@ -63,5 +63,5 @@
 #sm-draft .persona-modal>div{background:#FFFCF0;border-radius:22px;padding:22px;width:100%}
 #sm-draft .persona-modal button{display:block;width:100%;border-radius:22px;margin-top:12px;background:#CFE6AF;border:1px solid #39452D;padding:12px}
 #sm-draft .persona-modal button+button{background:#FFF0B0}
-@media(max-width:350px){#sm-draft .saved-grid{gap:12px 10px}#sm-draft .saved-plate{width:109px;height:109px;right:-23px;top:-40px}#sm-draft .saved-copy{font-size:10px;bottom:7px}#sm-draft .saved-copy strong{font-size:12px}#sm-draft .saved-tag{font-size:9px;padding:2px 4px}}
+@media(max-width:350px){#sm-draft .saved-grid{gap:16px}#sm-draft .saved-plate{width:109px;height:109px;right:-23px;top:-40px}#sm-draft .saved-copy{font-size:10px;bottom:7px}#sm-draft .saved-copy strong{font-size:12px}#sm-draft .saved-tag{font-size:9px;padding:2px 4px}}
 @media(prefers-reduced-motion:reduce){#sm-draft .persona-track,#sm-draft .persona-card,#sm-draft .saved-card{transition:none}}

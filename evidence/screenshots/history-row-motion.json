@@ -1,0 +1,106 @@
+{
+  "before": [
+    {
+      "cls": "record-history-open",
+      "text": "[Hình gốc]Thỏi dài mịn14:454 phút",
+      "x": 17.600000381469727
+    },
+    {
+      "cls": "record-art",
+      "text": "[Hình gốc]",
+      "x": 29.600000381469727
+    },
+    {
+      "cls": "",
+      "text": "Thỏi dài mịn14:45",
+      "x": 83.5999984741211
+    },
+    {
+      "cls": "",
+      "text": "Thỏi dài mịn",
+      "x": 83.5999984741211
+    },
+    {
+      "cls": "",
+      "text": "14:45",
+      "x": 83.5999984741211
+    },
+    {
+      "cls": "record-duration",
+      "text": "4 phút",
+      "x": 324.25
+    },
+    {
+      "cls": "record-edit",
+      "text": "Sửa",
+      "x": 321.6875
+    }
+  ],
+  "after": [
+    {
+      "cls": "record-history-open",
+      "text": "[Hình gốc]Thỏi dài mịn14:454 phút",
+      "x": -64.4000015258789
+    },
+    {
+      "cls": "record-art",
+      "text": "[Hình gốc]",
+      "x": -52.400001525878906
+    },
+    {
+      "cls": "",
+      "text": "Thỏi dài mịn14:45",
+      "x": 1.600000023841858
+    },
+    {
+      "cls": "",
+      "text": "Thỏi dài mịn",
+      "x": 1.600000023841858
+    },
+    {
+      "cls": "",
+      "text": "14:45",
+      "x": 1.600000023841858
+    },
+    {
+      "cls": "record-duration",
+      "text": "4 phút",
+      "x": 242.25
+    },
+    {
+      "cls": "record-edit",
+      "text": "Sửa",
+      "x": 239.6875
+    }
+  ],
+  "delta": [
+    {
+      "cls": "record-history-open",
+      "delta": -82.00000190734863
+    },
+    {
+      "cls": "record-art",
+      "delta": -82.00000190734863
+    },
+    {
+      "cls": "",
+      "delta": -81.99999845027924
+    },
+    {
+      "cls": "",
+      "delta": -81.99999845027924
+    },
+    {
+      "cls": "",
+      "delta": -81.99999845027924
+    },
+    {
+      "cls": "record-duration",
+      "delta": -82
+    },
+    {
+      "cls": "record-edit",
+      "delta": -82
+    }
+  ]
+}

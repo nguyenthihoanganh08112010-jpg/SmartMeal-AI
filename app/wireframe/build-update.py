@@ -1,11 +1,11 @@
 from pathlib import Path
-import re,subprocess
+import re,subprocess,os,shutil
 p=Path(__file__).parent
 for f in ['build-latest.py','build-record.py','build-complete.py']:
  subprocess.run([__import__('sys').executable,str(p/f)],check=True)
 s=(p/'smartmeal-complete.html').read_text(encoding='utf-8')
 js=(p/'diary-model.js').read_text(encoding='utf-8')+'\n'+(p/'meal-update-model.js').read_text(encoding='utf-8')+'\n'+(p/'chat-diary-update.js').read_text(encoding='utf-8')+'\n'+(p/'audit-model.js').read_text(encoding='utf-8')+'\n'+(p/'audit-ui.js').read_text(encoding='utf-8')
-s=s.replace('const initialState=window.openai',js+'\nconst initialState=window.openai')
+s=s.replace('const initialState=window.openai',js+'\n'+(p/'home-knowledge.js').read_text(encoding='utf-8')+'\nconst initialState=window.openai')
 s=s.replace('function show(state){',"function show(state){if(state!=='audit-offline')auditOffline=false;if(state.startsWith('audit-')){auditReview(state);return;}if(state==='confirm'){openGenerationSheet();return;}if(state.startsWith('update-')){updateReview(state);return;}")
 s=s.replace("||'saved';","||'audit-home';")
 s=s.replace("let source=diarySource.replace('RICE_ASSET_TOKEN',riceAsset);","let source=diarySourceNow();")
@@ -16,7 +16,7 @@ s=s.replace('const ds=document.querySelector(".scroll");if(', 'const ds=document
 # Add only the transition updates for this change; keep earlier modules untouched.
 s=s.replace('<summary>Sơ đồ chuyển màn · Nháp</summary>', '<summary>Sơ đồ chuyển màn · Nháp</summary><p>Nhật ký → Vuốt một món → Xác nhận phía trên danh sách → Chỉ xóa món đó → Nếu đợt rỗng, giảm một đợt.</p><p>Nhật ký / AI / Sổ tay → Chi tiết combo dùng chung → Chi tiết món → Quay lại combo → Quay lại đúng ngữ cảnh.</p><p>AI → Xác nhận điều kiện và quyền nhật ký → Nhiều kết quả → Chọn món cùng loại + ngày ăn → Đã ăn → Một đợt trong Nhật ký.</p>')
 s=s.replace('dữ liệu mẫu; định lượng chờ xác minh','dữ liệu mẫu; chờ công thức xác minh')
-s+='<style>'+(p/'chat-diary-update.css').read_text(encoding='utf-8')+(p/'audit-ui.css').read_text(encoding='utf-8')+'</style>'
+s+='<style>'+(p/'chat-diary-update.css').read_text(encoding='utf-8')+(p/'audit-ui.css').read_text(encoding='utf-8')+(p/'approved-fixes.css').read_text(encoding='utf-8')+'</style>'
 styles=re.findall(r'<style>[\s\S]*?</style>',s)
 s=''.join(styles)+re.sub(r'<style>[\s\S]*?</style>','',s)
 assert len(s.encode())<1000000,len(s.encode())
@@ -28,5 +28,5 @@ panel='<script>if(new URLSearchParams(location.search).has("panel")){document.qu
 scripts=re.findall(r'<script[^>]*>([\s\S]*?)</script>',s)
 for i,code in enumerate(scripts):
  (p/f'check-update-{i}.js').write_text(code,encoding='utf-8')
- subprocess.run(['C:/Users/nguye/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe','--check',str(p/f'check-update-{i}.js')],check=True)
+ subprocess.run([os.environ.get('NODE_BINARY') or shutil.which('node') or 'node','--check',str(p/f'check-update-{i}.js')],check=True)
 print('Updated fragment',len(s.encode()),'bytes')

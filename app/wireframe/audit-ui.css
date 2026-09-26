@@ -31,7 +31,7 @@
 #sm-draft .audit-overlay section{width:100%;background:#FFFCF0;border-radius:22px;padding:22px;max-height:90%;overflow:auto}
 #sm-draft .audit-overlay button{display:block;width:100%;margin-top:12px;border:0;border-radius:16px;background:#CFE6AF;min-height:44px}
 #sm-draft .record-history-row .record-edit{position:absolute;right:4px;top:1px;min-height:36px;z-index:2;padding:4px 10px;border:0;background:transparent;font-size:12px;color:#39452D}
-#sm-draft .record-history-row.swiped .record-edit{right:66px}
+#sm-draft .record-history-row.swiped .record-edit{right:4px}
 #sm-draft .record-history-row .record-duration{padding-top:20px}
 #sm-draft .record-history-row .record-delete{background:#FFA5AF}
 #sm-draft .record-history-row .original-trash{flex-shrink:0}

@@ -62,3 +62,10 @@ node_modules/
 build/
 dist/
 .DS_Store
+
+# Rebuildable wireframe previews
+app/wireframe/smartmeal-latest*.html
+app/wireframe/smartmeal-record*.html
+app/wireframe/smartmeal-complete*.html
+app/wireframe/smartmeal-update*.html
+app/wireframe/check-update-*.js
