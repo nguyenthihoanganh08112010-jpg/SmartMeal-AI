@@ -1,0 +1,45 @@
+check-approved-fixes.cjs
+PASS All approved minute boundaries use Ho Chi Minh time
+PASS Generation A stays breakfast when confirmation B is evening
+PASS Confirmation next day does not change generation slot or selected eating date
+PASS Snack remains snack regardless of generation time
+PASS Missing generation metadata or missing resolver cannot invent a main-meal category
+PASS Three same-generation dishes stay one occasion; final deletion still decrements once
+PASS Streak calendar has actual dates, never fills unearned or future squares
+PASS Qualifying activity adds one checked day, duplicate entry does not add another
+8 approved-fix model tests passed. Browser checks are recorded separately.
+Exit: 0
+
+check-meal-update.cjs
+PASS Delete middle dish only; occasion and sibling IDs survive
+PASS Delete final dish removes empty occasion and decrements exactly once
+PASS Delete final snack changes snack only
+PASS One save of three selected dishes creates one occasion with stable unique IDs
+PASS Repeated save token does not duplicate
+PASS Mixed main and snack blocked; unknown meal type blocked
+PASS Combo and component overlap blocked; nonoverlapping combo saved once
+PASS Time boundaries T and T+10; above T+10 excluded
+PASS G/B conflict and ties retained; no fabricated G
+PASS G/B stronger combo wins despite lower I; I does not invent tie-break
+PASS Permission OFF default, toggles OFF again, consumed once
+11 model tests passed. Browser/Figma/native tests are separate.
+Exit: 0
+
+check-record.cjs
+Passed: duration, idempotent save, edit/date migration, deletion, rolling window, account age, distinct IDs, evidence gate.
+Exit: 0
+
+check-audit.cjs
+PASS Hanoi midnight boundary
+PASS Streak only after complete profile; once per day; missed day resets
+PASS A8 3 records provides statistics only, never trend
+PASS A8 two full eligible weeks compare independently
+PASS A8 incomplete field does not block other fields
+PASS A8 uneven dates and duplicate IDs cannot create eligibility
+PASS Duration group boundaries and approved shape groups
+PASS Saved combo does not auto-save parts; duplicate recipe no copy
+PASS Recipe update cancel retains old; appearance controls image identity
+PASS Goal history only actual changes
+PASS Invalid calendar date is rejected
+11 audit model tests passed; native services and Figma not covered.
+Exit: 0

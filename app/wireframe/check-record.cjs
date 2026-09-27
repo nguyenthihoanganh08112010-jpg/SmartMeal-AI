@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const m=require('./record-model.js');
+for(const v of ['',null,' ',0,-2,'abc',Infinity])assert.equal(m.duration(v),false);
+for(const v of [1,.5,'2.5'])assert.equal(m.duration(v),true);
+let rs=m.save([],{id:'a',date:'2026-09-20',time:'12:00',duration:5});
+rs=m.save(rs,{id:'a',date:'2026-09-20',time:'12:00',duration:6});
+assert.equal(m.count(rs,'2026-09-20'),1);
+rs=m.save(rs,{...rs[0],date:'2026-09-19'});
+assert.equal(m.count(rs,'2026-09-20'),0);assert.equal(m.count(rs,'2026-09-19'),1);
+assert.equal(m.remove(rs,'a').length,0);
+rs=[{id:'a',date:'2026-09-14'},{id:'b',date:'2026-09-20'},{id:'c',date:'2026-09-19'},{id:'old',date:'2026-09-13'},{id:'future',date:'2026-09-21'}];
+assert.equal(m.eligibility(rs,'2026-09-20','2026-09-13',true).statisticsOK,true);
+assert.equal(m.eligibility(rs,'2026-09-20','2026-09-14',true).trendOK,false);
+assert.equal(m.eligibility(rs,'2026-09-20','2026-09-13',false).trendOK,false);
+assert.equal(m.eligibility([...rs,rs[0]],'2026-09-20','2026-09-13',true).records.length,3);
+assert.throws(()=>m.save([],{id:'a',date:'2026-09-20',time:'12:00',duration:''}));
+console.log('Passed: duration, idempotent save, edit/date migration, deletion, rolling window, account age, distinct IDs, evidence gate.');

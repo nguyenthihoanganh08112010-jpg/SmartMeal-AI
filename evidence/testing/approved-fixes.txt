@@ -1,0 +1,9 @@
+PASS All approved minute boundaries use Ho Chi Minh time
+PASS Generation A stays breakfast when confirmation B is evening
+PASS Confirmation next day does not change generation slot or selected eating date
+PASS Snack remains snack regardless of generation time
+PASS Missing generation metadata or missing resolver cannot invent a main-meal category
+PASS Three same-generation dishes stay one occasion; final deletion still decrements once
+PASS Streak calendar has actual dates, never fills unearned or future squares
+PASS Qualifying activity adds one checked day, duplicate entry does not add another
+8 approved-fix model tests passed. Browser checks are recorded separately.

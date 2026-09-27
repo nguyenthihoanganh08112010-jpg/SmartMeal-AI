@@ -1,0 +1,38 @@
+#sm-draft .sm-ai{background:linear-gradient(125deg,#e8ffd4 0%,#fff9d4 65%,#FFFCF0 100%)}
+#sm-draft .sm-ai[aria-hidden=true]{visibility:hidden}
+#sm-draft .sm-ai>header{border:0;background:transparent;min-height:74px}
+#sm-draft .sm-ai>header .sm-identity{background:#ffffff88;border-radius:0 28px 28px 0;padding:7px 0}
+#sm-draft .sm-history{padding:14px}
+#sm-draft .sm-welcome{position:relative;margin-top:90px;min-height:0;border:0;border-radius:28px;padding:20px 15px;background:#fff}
+#sm-draft .sm-welcome-top{min-height:120px;padding-right:74px}
+#sm-draft .sm-welcome-top strong{font-size:23px;color:#39452D}
+#sm-draft .sm-welcome-top p{font-size:13px;line-height:1.6;color:#83776b}
+#sm-draft .pending-mascot{position:absolute;right:5px;top:-25px;width:84px;height:99px;min-height:0;display:flex;align-items:center;justify-content:center;border:1px dashed #a49a8f;background:transparent;color:#847767;font-size:11px;text-align:center;transform:none}
+#sm-draft .welcome-heading{font-weight:700;color:#39452D;margin:10px 0}
+#sm-draft .sm-welcome .welcome-row{display:flex;align-items:center;gap:9px;padding:11px 13px;min-height:46px;margin:9px 0;border:0;border-radius:30px;text-align:left;font-size:13px;color:#583b25;background:#fafafa}
+#sm-draft .sm-welcome .wr-0{background:linear-gradient(90deg,#f8e9d8,#fbf3dd);color:#cb5919}
+#sm-draft .sm-welcome .wr-1{background:linear-gradient(90deg,#d2efcb,#eaf6e7)}
+#sm-draft .sm-welcome .wr-2{background:#f2ede9}
+#sm-draft .hash-badge{display:flex;align-items:center;justify-content:center;width:20px;height:20px;flex-shrink:0;border-radius:50%;background:#ad9482;color:white;font-weight:700}
+#sm-draft .wr-0 .hash-badge{background:#ff772e}#sm-draft .wr-1 .hash-badge{background:#65b84d}
+#sm-draft .welcome-arrow{margin-left:auto;color:#b6b8b9;font-size:22px}
+#sm-draft .sm-compose .digestive-permission{width:44px;min-width:44px;min-height:44px;border:0;background:transparent;padding:10px}
+#sm-draft .digestive-permission span{display:block;width:21px;height:21px;border:2px solid #8b8177;border-radius:50%;background:transparent}
+#sm-draft .digestive-permission[aria-pressed=true] span{background:#6cad48;border-color:#4c7f36}
+#sm-draft .send-pending{font-size:11px;border:1px dashed #999;padding:2px}
+#sm-draft .journal-switch{display:flex;align-items:center;gap:8px;min-height:44px;padding:8px;background:#FFFCF0}
+#sm-draft .journal-switch input,#sm-draft .eaten-choice input{flex:none;width:20px;height:20px}
+#sm-draft .sm-fields label>input:not([type=checkbox]),#sm-draft .sm-fields label>select{display:block;width:100%;padding:10px;margin:6px 0;border:1px solid #bbb;background:white;border-radius:8px}
+#sm-draft .sm-overlay{z-index:200}#sm-draft .sm-dialog{width:100%;height:66.667%;border-radius:20px 20px 0 0}
+#sm-draft .sm-page{z-index:50;background:#FFFCF0}#sm-draft .recipe-shell{position:absolute;inset:0;background:#FFFCF0;display:flex;flex-direction:column;overflow:hidden}#sm-draft .recipe-content{overflow:auto;min-height:0}
+#sm-draft .recommendations{margin:14px 0 20px 35px;font-size:12px}#sm-draft .recommendations h3{font-size:16px}
+#sm-draft .recommendation{padding:12px;margin:10px 0;background:white;border:1px solid #dbe1cc;border-radius:18px;overflow:hidden}
+#sm-draft .recommendation-image{width:100%;height:115px;border:1px dashed #b5bda5;background:#FFFCF0;border-radius:12px;color:#79816d}
+#sm-draft .recommendation-title{display:flex;justify-content:space-between;width:100%;border:0;text-align:left;padding:10px 0;font-weight:700;background:white}
+#sm-draft .recommendation-assessment{margin:0 0 5px;color:#59624f;font-size:12px}
+#sm-draft .eaten-choice{display:flex;gap:8px;align-items:center;min-height:44px;border-top:1px solid #eee}
+#sm-draft .eaten-save{background:#FFF0B0;padding:12px;border-radius:14px}
+#sm-draft .eaten-save input{width:100%;display:block;padding:10px;margin:5px 0;background:white}
+#sm-draft .eaten-save button{width:100%;background:#CFE6AF;border-radius:12px;border:0}
+#sm-draft #eaten-status{line-height:1.5}#sm-draft .sample-label{font-size:11px}
+@media(max-width:350px){#sm-draft .sm-welcome-top{padding-right:65px}#sm-draft .pending-mascot{width:68px}#sm-draft .sm-compose{gap:2px}#sm-draft .sm-compose button{padding:6px}#sm-draft .recommendations{margin-left:18px}}
