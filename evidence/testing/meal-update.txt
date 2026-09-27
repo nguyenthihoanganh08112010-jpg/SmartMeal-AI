@@ -1,0 +1,12 @@
+PASS Delete middle dish only; occasion and sibling IDs survive
+PASS Delete final dish removes empty occasion and decrements exactly once
+PASS Delete final snack changes snack only
+PASS One save of three selected dishes creates one occasion with stable unique IDs
+PASS Repeated save token does not duplicate
+PASS Mixed main and snack blocked; unknown meal type blocked
+PASS Combo and component overlap blocked; nonoverlapping combo saved once
+PASS Time boundaries T and T+10; above T+10 excluded
+PASS G/B conflict and ties retained; no fabricated G
+PASS G/B stronger combo wins despite lower I; I does not invent tie-break
+PASS Permission OFF default, toggles OFF again, consumed once
+11 model tests passed. Browser/Figma/native tests are separate.

@@ -1,0 +1,30 @@
+.category-icon,.trash,.ai-image{background-image:none;display:inline-flex;align-items:center;justify-content:center}
+.ms-emoji{width:30px;height:30px;object-fit:contain;background:transparent;border:0}
+.icon-pending{border:0;padding:0;background:transparent}
+.icon-pending .ms-emoji{width:23px;height:23px}
+.ai-image{width:34px;height:28px}
+.rice-icon{width:34px;height:34px;object-fit:contain;image-rendering:pixelated}
+.rabbit-slot{position:absolute;top:-27px;left:calc(50% - 32px);width:64px;height:53px;display:flex;align-items:center;justify-content:center;border:1px dashed #b3aaa2;font-size:10px;color:#766454;background:transparent}
+.phone{height:800px;width:390px;max-width:100%}
+.phone.full{height:800px;min-height:800px}.phone.full .scroll{overflow:auto}
+.review{font-size:11px;margin:8px auto}.review label{margin:3px 0}.review>b{display:none}#annotation{display:none}
+body:has(.review){display:flex;flex-direction:column;height:800px}
+.phone{margin:0 auto;border:0;height:754px}
+@media(max-width:350px){.day .date{width:30px;height:30px}}
+
+.trash{background-size:384px 682.8px;background-position:-319px -267px;width:33px;height:43px}.occasion{margin-bottom:5px}.modal-layer .modal{position:relative;z-index:1}
+/* Shared SmartMeal palette. Original geometry and pink-red trash asset remain. */
+:root{--sm-green:#CFE6AF;--sm-yellow:#FFF0B0;--sm-cream:#FFFCF0;--sm-ink:#39452D}
+body,.phone,.scroll{background:var(--sm-cream);color:var(--sm-ink)}
+.calendar{background:var(--sm-green)}
+.cal-head strong,.cal-head button,.day{color:var(--sm-ink)}
+.day.current{background:#ffffff80}.day .date{border-color:#ffffff80;outline-color:#ffffff80}.day.selected .date{background:var(--sm-yellow);border-color:var(--sm-yellow)}
+.summary,.history{background:#fff;border-color:#39452D0d;box-shadow:0 3px 14px #39452D08}
+.stat.main b,.stat.snack b,.ring b,.food,.meal-categories button{color:var(--sm-ink)}
+.main .swatch{background:var(--sm-green)}.snack .swatch{background:var(--sm-yellow)}
+.sample-note,.nutrient-row div,.meal-title small,.occasion-meta,.food small,.combo-parts,.empty{color:#637052}
+.thumbnail{background:var(--sm-cream);color:#637052;border-color:#aab69b}.meal-title strong{text-decoration-color:var(--sm-green)}
+.meal-categories{background:var(--sm-cream)}.meal-categories button{background:#fff}.meal-categories button.selected{background:var(--sm-green)}
+.nav{background:var(--sm-cream)}.pill{background:#fff;border-color:#fff}.nav button{color:#637052}.nav [aria-current=page]{background:var(--sm-green);color:var(--sm-ink)}.nav .ai{background:var(--sm-yellow);color:var(--sm-ink)}
+.modal-layer{background:#39452D77}.modal{background:var(--sm-cream);color:var(--sm-ink);border-color:#39452D18}.modal button{background:var(--sm-green);color:var(--sm-ink);border-color:transparent}
+body:has(.review){height:100vh;overflow:hidden}.review{flex-shrink:0}body:has(.review)>#app{flex:1;min-height:0}#app>.phone{height:100%;min-height:0}

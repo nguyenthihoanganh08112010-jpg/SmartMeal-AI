@@ -1,0 +1,12 @@
+PASS Hanoi midnight boundary
+PASS Streak only after complete profile; once per day; missed day resets
+PASS A8 3 records provides statistics only, never trend
+PASS A8 two full eligible weeks compare independently
+PASS A8 incomplete field does not block other fields
+PASS A8 uneven dates and duplicate IDs cannot create eligibility
+PASS Duration group boundaries and approved shape groups
+PASS Saved combo does not auto-save parts; duplicate recipe no copy
+PASS Recipe update cancel retains old; appearance controls image identity
+PASS Goal history only actual changes
+PASS Invalid calendar date is rejected
+11 audit model tests passed; native services and Figma not covered.
