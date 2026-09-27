@@ -29,3 +29,7 @@
 - Recorded the user's freeze of the current wireframe baseline and added a detailed Vietnamese UX/UI handoff report with editable Markdown, HTML reading edition, source/component map, interaction/data tables and 53 preview-state links.
 - Preserved app source and PRD; distinguished pending artwork/services and documented source-review concerns without treating them as approved design behavior.
 - Added report-specific validation results; prior app test evidence remains dated to its actual execution.
+
+## 2026-09-27 · Photoshop visual flow map
+- Added a layered PSD screen-flow handoff, preview images, source captures and Photoshop editing guide.
+- Preserved the frozen application and PRD. Verified PSD structure and composite; native Photoshop editing remains NOT VERIFIED.

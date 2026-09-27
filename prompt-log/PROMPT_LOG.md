@@ -69,3 +69,13 @@ Area:
 - Review: recorded a source-level search-grid wrapper concern and a focus-trap verification need without silently changing the frozen design. Existing application test results are explicitly dated, not claimed as rerun in this report task.
 - Tests/evidence: report builder checked local links, unique anchors, UTF-8, image alt text and 53 source-derived state links; browser rendered the reading edition and its table of contents. See report QA record for scope and NOT VERIFIED items.
 - Commit: the documentation commit containing this entry; publication uses the previously authorized GitHub workflow and PR #1.
+
+## SM-PROMPT-005 · Visual screen map for Photoshop
+
+- Date: 2026-09-27.
+- Request: a screen-image-centered UX/UI flow map, editable in Photoshop, based on the frozen wireframe.
+- Work: captured real local prototype states, composed 10 flow lanes and 52 screen placements, exported a layered PSD with separate screen images, 162 text layers and arrow layers; added visual previews and editing instructions.
+- Files: docs/ux-ui/visual-map/*; docs/ux-ui/capture-frame.html; docs/testing/2026-09-27-visual-map.md; Prompt Log and CHANGELOG_AI.
+- Results: one 4200 × 15820 RGB PSD; 370 layers / 63 groups. No app or PRD edits. Screens remain bitmap; annotations carry editable text metadata. Native Photoshop verification is NOT VERIFIED.
+- Tests/evidence: PSD round-trip; Pillow composite decode; visual preview checks; actual local deletion-result screenshots; manifest hashes and verification.json. No new claim of full application regression testing.
+- Commit: the documentation/export commit containing this entry. PSD delivery is local; no claim of GitHub upload without verified publication.
