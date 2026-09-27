@@ -19,3 +19,7 @@
 - Preserved immutable AI generation metadata and classified main meals at approved local 10:00/15:00 boundaries; snacks stay separate.
 - Moved entire digestive-history foreground with swipe; rounded original trash action; cancellation restores position, editing retained.
 - Added actual model/browser evidence, compared unaffected screens, documented remaining placeholder assets. No PRD changes.
+
+## 2026-09-27 — SM-PROMPT-003
+
+- Reran four model suites and build/syntax checks before GitHub delivery; all executed checks passed. No additional UI changes.

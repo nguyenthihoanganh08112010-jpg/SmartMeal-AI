@@ -46,3 +46,15 @@ Area:
 
 ### Status
 -
+
+## SM-PROMPT-003 · Final recheck and GitHub delivery
+
+- Date: 2026-09-27
+- Request: continue, recheck/fix if necessary, and publish to GitHub.
+- Work: reran all four model suites and rebuilt the final preview with syntax validation. No implementation failure found in this rerun.
+- Files: evidence/testing/2026-09-27-recheck.txt, evidence/testing/2026-09-27-build.txt, Prompt Log and CHANGELOG_AI.
+- Results: PASS for executed suites/build; UI evidence remains the actual previous pass, not a claimed new UI run.
+- Evidence: logs named above; prior EV-01 through EV-12 retained.
+- Commits: implementation cfc5ee9; this recheck is recorded in the commit containing this entry.
+- GitHub: local Git has no usable noninteractive credentials; publishing through the authorized GitHub connector. Remote commit identity may differ while source tree is verified identical.
+- PRD unchanged. Final illustration/content placeholders remain unapproved.
