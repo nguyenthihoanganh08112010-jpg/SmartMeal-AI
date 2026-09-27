@@ -23,3 +23,9 @@
 ## 2026-09-27 — SM-PROMPT-003
 
 - Reran four model suites and build/syntax checks before GitHub delivery; all executed checks passed. No additional UI changes.
+
+## 2026-09-27 — SM-PROMPT-004
+
+- Recorded the user's freeze of the current wireframe baseline and added a detailed Vietnamese UX/UI handoff report with editable Markdown, HTML reading edition, source/component map, interaction/data tables and 53 preview-state links.
+- Preserved app source and PRD; distinguished pending artwork/services and documented source-review concerns without treating them as approved design behavior.
+- Added report-specific validation results; prior app test evidence remains dated to its actual execution.

@@ -58,3 +58,14 @@ Area:
 - Commits: implementation cfc5ee9; this recheck is recorded in the commit containing this entry.
 - GitHub: local Git has no usable noninteractive credentials; publishing through the authorized GitHub connector. Remote commit identity may differ while source tree is verified identical.
 - PRD unchanged. Final illustration/content placeholders remain unapproved.
+
+## SM-PROMPT-004 · Frozen wireframe UX/UI handoff
+
+- Date: 2026-09-27.
+- Request: freeze the current wireframe and create a detailed per-screen UX/UI and interaction report so others can edit it easily.
+- Work: documented the frozen GitHub revision d66f16f, screen IDs, anatomy, gestures, states, data contracts, shared components, asset replacement, source ownership and editing/test workflow in Vietnamese. Added a printable HTML reading edition and 53 source-derived preview-state links.
+- Files: docs/ux-ui/SMARTMEAL_UX_UI_HANDOFF.md and .html; STATE_INDEX.md and .html; build-report.py; docs/testing/2026-09-27-handoff-report.md; evidence/testing/2026-09-27-report-check.json; README; this log and CHANGELOG_AI.
+- Result: documentation-only handoff; no application source or PRD changes. Approval recorded for the wireframe baseline, not pending artwork, persona identity/content, production services or Figma synchronization.
+- Review: recorded a source-level search-grid wrapper concern and a focus-trap verification need without silently changing the frozen design. Existing application test results are explicitly dated, not claimed as rerun in this report task.
+- Tests/evidence: report builder checked local links, unique anchors, UTF-8, image alt text and 53 source-derived state links; browser rendered the reading edition and its table of contents. See report QA record for scope and NOT VERIFIED items.
+- Commit: the documentation commit containing this entry; publication uses the previously authorized GitHub workflow and PR #1.
