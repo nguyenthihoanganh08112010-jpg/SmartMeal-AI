@@ -1,0 +1,8726 @@
+{
+  "width": 5100,
+  "height": 15635,
+  "groups": [
+    {
+      "name": "05 · Nhật ký / xóa từng món",
+      "ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "notes": [
+        "Vuốt từng món → xác nhận D02",
+        "Xóa chỉ món đang chọn; Hủy quay lại D01",
+        "Giữ các món khác và số đợt",
+        "Món cuối: bỏ đợt rỗng, giảm đúng một đợt"
+      ],
+      "y": 180,
+      "height": 2150
+    },
+    {
+      "name": "06 · Ghi lại / nhập và lưu",
+      "ids": [
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07"
+      ],
+      "notes": [
+        "Biểu mẫu đủ tất cả trường, chưa chọn sẵn",
+        "Nhập một phần; không tự điền trường tùy chọn",
+        "Thời lượng lỗi: không cho lưu",
+        "Hợp lệ → Lưu → phân tích R06",
+        "Đã hiểu → màn Ghi lại",
+        "Thiếu tùy chọn: vẫn phân tích phần có dữ liệu"
+      ],
+      "y": 2405,
+      "height": 2390
+    },
+    {
+      "name": "07 · Ghi lại / lịch sử và chỉnh sửa",
+      "ids": [
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ],
+      "notes": [
+        "Lịch sử đủ các nhóm ngày → chọn bản ghi",
+        "Quay lại Lịch sử, không tạo bản ghi mới",
+        "Toàn bộ dòng cùng dịch chuyển để lộ Xóa",
+        "Hủy giữ dữ liệu; Xóa cập nhật đếm ngày",
+        "Chỉnh sửa giữ ID, không tính một lần mới",
+        "Chưa có bản ghi: không suy diễn bằng 0"
+      ],
+      "y": 4870,
+      "height": 2390
+    },
+    {
+      "name": "10 · AI / mở lại và Hồ sơ AI",
+      "ids": [
+        "I06",
+        "I07",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "notes": [
+        "Tiếp tục / Bắt đầu mới / đóng về Hồ sơ",
+        "Dữ liệu đã lưu độc lập vẫn giữ",
+        "Vuốt chỉ xem thử, không tự lưu",
+        "Dấu tích vẫn ở nhân vật đã lưu",
+        "Lưu ở lại trang; đồng bộ avatar",
+        "Ba lựa chọn thoát khi chưa lưu"
+      ],
+      "y": 7335,
+      "height": 1970
+    },
+    {
+      "name": "09 · Chỉ cập nhật I04 / toàn bộ nội dung",
+      "ids": [
+        "I04"
+      ],
+      "notes": [
+        "Ảnh → chi tiết dùng chung; tiêu đề → thu/mở. Đã ăn → Nhật ký; Sổ tay độc lập."
+      ],
+      "y": 9380,
+      "height": 6100
+    }
+  ],
+  "screens": [
+    {
+      "id": "D01",
+      "title": "Nhật ký",
+      "height": 1860,
+      "layers": 94
+    },
+    {
+      "id": "D02",
+      "title": "Nhật ký",
+      "height": 1860,
+      "layers": 102
+    },
+    {
+      "id": "D03",
+      "title": "Nhật ký",
+      "height": 1720,
+      "layers": 89
+    },
+    {
+      "id": "D04",
+      "title": "Nhật ký",
+      "height": 850,
+      "layers": 54
+    },
+    {
+      "id": "R02",
+      "title": "Phân",
+      "height": 2100,
+      "layers": 102
+    },
+    {
+      "id": "R03",
+      "title": "Phân",
+      "height": 2100,
+      "layers": 103
+    },
+    {
+      "id": "R04",
+      "title": "Phân",
+      "height": 2100,
+      "layers": 104
+    },
+    {
+      "id": "R05",
+      "title": "Phân",
+      "height": 2100,
+      "layers": 107
+    },
+    {
+      "id": "R06",
+      "title": "Phân tích",
+      "height": 1470,
+      "layers": 50
+    },
+    {
+      "id": "R07",
+      "title": "Phân tích",
+      "height": 1470,
+      "layers": 50
+    },
+    {
+      "id": "R08",
+      "title": "Lịch sử",
+      "height": 1100,
+      "layers": 47
+    },
+    {
+      "id": "R09",
+      "title": "Phân tích",
+      "height": 1470,
+      "layers": 50
+    },
+    {
+      "id": "R10",
+      "title": "Lịch sử",
+      "height": 1100,
+      "layers": 50
+    },
+    {
+      "id": "R11",
+      "title": "Lịch sử",
+      "height": 1100,
+      "layers": 58
+    },
+    {
+      "id": "R12",
+      "title": "Phân",
+      "height": 2100,
+      "layers": 107
+    },
+    {
+      "id": "R13",
+      "title": "Lịch sử",
+      "height": 700,
+      "layers": 11
+    },
+    {
+      "id": "I06",
+      "title": "Mở lại AI",
+      "height": 1000,
+      "layers": 35
+    },
+    {
+      "id": "I07",
+      "title": "Mở lại AI",
+      "height": 1000,
+      "layers": 33
+    },
+    {
+      "id": "P01",
+      "title": "Hồ sơ AI",
+      "height": 1680,
+      "layers": 41
+    },
+    {
+      "id": "P02",
+      "title": "Hồ sơ AI",
+      "height": 1680,
+      "layers": 41
+    },
+    {
+      "id": "P03",
+      "title": "Hồ sơ AI",
+      "height": 1680,
+      "layers": 41
+    },
+    {
+      "id": "P04",
+      "title": "Hồ sơ AI",
+      "height": 1680,
+      "layers": 51
+    },
+    {
+      "id": "I04",
+      "title": "Nhiều kết quả AI",
+      "height": 5810,
+      "layers": 144
+    }
+  ],
+  "textChecks": [
+    {
+      "screen": "D01",
+      "name": "Tiêu đề",
+      "text": "Nhật ký",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "D01",
+      "name": "Tuần trước",
+      "text": "‹",
+      "x": 24,
+      "y": 141,
+      "w": 42,
+      "h": 54
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026",
+      "x": 91,
+      "y": 146,
+      "w": 390,
+      "h": 40
+    },
+    {
+      "screen": "D01",
+      "name": "Tuần sau",
+      "text": "›",
+      "x": 473,
+      "y": 141,
+      "w": 32,
+      "h": 54
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T2",
+      "text": "T2",
+      "x": 35,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 14",
+      "text": "14",
+      "x": 40,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T3",
+      "text": "T3",
+      "x": 103,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 15",
+      "text": "15",
+      "x": 108,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T4",
+      "text": "T4",
+      "x": 171,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 16",
+      "text": "16",
+      "x": 176,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T5",
+      "text": "T5",
+      "x": 239,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 17",
+      "text": "17",
+      "x": 244,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T6",
+      "text": "T6",
+      "x": 307,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 18",
+      "text": "18",
+      "x": 312,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T7",
+      "text": "T7",
+      "x": 375,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 19",
+      "text": "19",
+      "x": 380,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ CN",
+      "text": "CN",
+      "x": 443,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày 20",
+      "text": "20",
+      "x": 448,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D01",
+      "name": "Tổng đợt",
+      "text": "3",
+      "x": 91,
+      "y": 357,
+      "w": 76,
+      "h": 70
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn tổng",
+      "text": "đợt ăn",
+      "x": 87,
+      "y": 414,
+      "w": 86,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Đếm bữa chính",
+      "text": "Bữa chính   2",
+      "x": 210,
+      "y": 345,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D01",
+      "name": "Đếm ăn nhẹ",
+      "text": "Ăn nhẹ       1",
+      "x": 210,
+      "y": 401,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D01",
+      "name": "Dữ liệu mẫu",
+      "text": "Dữ liệu minh họa",
+      "x": 24,
+      "y": 508,
+      "w": 460,
+      "h": 29
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm chất",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?",
+      "x": 24,
+      "y": 548,
+      "w": 465,
+      "h": 40
+    },
+    {
+      "screen": "D01",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 37,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 37,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 192,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 192,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 347,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 347,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 24,
+      "y": 742,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ nguồn · Bữa sáng",
+      "text": "07:30 · 1 đợt",
+      "x": 270,
+      "y": 746,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 829,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu",
+      "x": 160,
+      "y": 814,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D01",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 855,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D01",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 826,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 24,
+      "y": 954,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ nguồn · Bữa trưa",
+      "text": "12:15 · 1 đợt",
+      "x": 270,
+      "y": 958,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món gà · mẫu",
+      "x": 160,
+      "y": 1026,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D01",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1067,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D01",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1038,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món rau · mẫu",
+      "x": 160,
+      "y": 1166,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D01",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1207,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D01",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1178,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1321,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu",
+      "x": 160,
+      "y": 1306,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D01",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1347,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D01",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1318,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 24,
+      "y": 1446,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ nguồn · Ăn nhẹ",
+      "text": "15:00 · 1 đợt",
+      "x": 270,
+      "y": 1450,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1533,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Combo B · mẫu",
+      "x": 160,
+      "y": 1518,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D01",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1559,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D01",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1530,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 38,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 158,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn · Bữa tối",
+      "text": "Bữa tối",
+      "x": 278,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 398,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Tiêu đề",
+      "text": "Nhật ký",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "D02",
+      "name": "Tuần trước",
+      "text": "‹",
+      "x": 24,
+      "y": 141,
+      "w": 42,
+      "h": 54
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026",
+      "x": 91,
+      "y": 146,
+      "w": 390,
+      "h": 40
+    },
+    {
+      "screen": "D02",
+      "name": "Tuần sau",
+      "text": "›",
+      "x": 473,
+      "y": 141,
+      "w": 32,
+      "h": 54
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T2",
+      "text": "T2",
+      "x": 35,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 14",
+      "text": "14",
+      "x": 40,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T3",
+      "text": "T3",
+      "x": 103,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 15",
+      "text": "15",
+      "x": 108,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T4",
+      "text": "T4",
+      "x": 171,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 16",
+      "text": "16",
+      "x": 176,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T5",
+      "text": "T5",
+      "x": 239,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 17",
+      "text": "17",
+      "x": 244,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T6",
+      "text": "T6",
+      "x": 307,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 18",
+      "text": "18",
+      "x": 312,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T7",
+      "text": "T7",
+      "x": 375,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 19",
+      "text": "19",
+      "x": 380,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ CN",
+      "text": "CN",
+      "x": 443,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày 20",
+      "text": "20",
+      "x": 448,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D02",
+      "name": "Tổng đợt",
+      "text": "3",
+      "x": 91,
+      "y": 357,
+      "w": 76,
+      "h": 70
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn tổng",
+      "text": "đợt ăn",
+      "x": 87,
+      "y": 414,
+      "w": 86,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Đếm bữa chính",
+      "text": "Bữa chính   2",
+      "x": 210,
+      "y": 345,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D02",
+      "name": "Đếm ăn nhẹ",
+      "text": "Ăn nhẹ       1",
+      "x": 210,
+      "y": 401,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D02",
+      "name": "Dữ liệu mẫu",
+      "text": "Dữ liệu minh họa",
+      "x": 24,
+      "y": 508,
+      "w": 460,
+      "h": 29
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm chất",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?",
+      "x": 24,
+      "y": 548,
+      "w": 465,
+      "h": 40
+    },
+    {
+      "screen": "D02",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 37,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 37,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 192,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 192,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 347,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 347,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 24,
+      "y": 742,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ nguồn · Bữa sáng",
+      "text": "07:30 · 1 đợt",
+      "x": 270,
+      "y": 746,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 829,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu",
+      "x": 160,
+      "y": 814,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 855,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D02",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 826,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 24,
+      "y": 954,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ nguồn · Bữa trưa",
+      "text": "12:15 · 1 đợt",
+      "x": 270,
+      "y": 958,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món gà · mẫu",
+      "x": 160,
+      "y": 1026,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1067,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D02",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1038,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món rau · mẫu",
+      "x": 160,
+      "y": 1166,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1207,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D02",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1178,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1321,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu",
+      "x": 160,
+      "y": 1306,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1347,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D02",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1318,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 24,
+      "y": 1446,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ nguồn · Ăn nhẹ",
+      "text": "15:00 · 1 đợt",
+      "x": 270,
+      "y": 1450,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1533,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Combo B · mẫu",
+      "x": 160,
+      "y": 1518,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1559,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D02",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1530,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 38,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 158,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn · Bữa tối",
+      "text": "Bữa tối",
+      "x": 278,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 398,
+      "y": 1687,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D02",
+      "name": "Tiêu đề hộp thoại",
+      "text": "Xóa món đã ăn?",
+      "x": 50,
+      "y": 592,
+      "w": 420,
+      "h": 42
+    },
+    {
+      "screen": "D02",
+      "name": "Nội dung hộp thoại",
+      "text": "Chỉ xóa Món rau đang chọn. Các món khác và Sổ tay được giữ nguyên.",
+      "x": 50,
+      "y": 640,
+      "w": 420,
+      "h": 60
+    },
+    {
+      "screen": "D02",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 68,
+      "y": 737,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "D02",
+      "name": "Nút · chữ Hủy",
+      "text": "Hủy",
+      "x": 68,
+      "y": 802,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "D03",
+      "name": "Tiêu đề",
+      "text": "Nhật ký",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "D03",
+      "name": "Tuần trước",
+      "text": "‹",
+      "x": 24,
+      "y": 141,
+      "w": 42,
+      "h": 54
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026",
+      "x": 91,
+      "y": 146,
+      "w": 390,
+      "h": 40
+    },
+    {
+      "screen": "D03",
+      "name": "Tuần sau",
+      "text": "›",
+      "x": 473,
+      "y": 141,
+      "w": 32,
+      "h": 54
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T2",
+      "text": "T2",
+      "x": 35,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 14",
+      "text": "14",
+      "x": 40,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T3",
+      "text": "T3",
+      "x": 103,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 15",
+      "text": "15",
+      "x": 108,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T4",
+      "text": "T4",
+      "x": 171,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 16",
+      "text": "16",
+      "x": 176,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T5",
+      "text": "T5",
+      "x": 239,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 17",
+      "text": "17",
+      "x": 244,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T6",
+      "text": "T6",
+      "x": 307,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 18",
+      "text": "18",
+      "x": 312,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T7",
+      "text": "T7",
+      "x": 375,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 19",
+      "text": "19",
+      "x": 380,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ CN",
+      "text": "CN",
+      "x": 443,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày 20",
+      "text": "20",
+      "x": 448,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D03",
+      "name": "Tổng đợt",
+      "text": "3",
+      "x": 91,
+      "y": 357,
+      "w": 76,
+      "h": 70
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn tổng",
+      "text": "đợt ăn",
+      "x": 87,
+      "y": 414,
+      "w": 86,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Đếm bữa chính",
+      "text": "Bữa chính   2",
+      "x": 210,
+      "y": 345,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D03",
+      "name": "Đếm ăn nhẹ",
+      "text": "Ăn nhẹ       1",
+      "x": 210,
+      "y": 401,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D03",
+      "name": "Dữ liệu mẫu",
+      "text": "Dữ liệu minh họa",
+      "x": 24,
+      "y": 508,
+      "w": 460,
+      "h": 29
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm chất",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?",
+      "x": 24,
+      "y": 548,
+      "w": 465,
+      "h": 40
+    },
+    {
+      "screen": "D03",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 37,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 37,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 192,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 192,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Cột thông tin",
+      "text": "[Nhóm chất]",
+      "x": 347,
+      "y": 630,
+      "w": 140,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng",
+      "text": "Chưa có dữ liệu\nxác minh",
+      "x": 347,
+      "y": 658,
+      "w": 142,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 24,
+      "y": 742,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ nguồn · Bữa sáng",
+      "text": "07:30 · 1 đợt",
+      "x": 270,
+      "y": 746,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 829,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu",
+      "x": 160,
+      "y": 814,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D03",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 855,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D03",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 826,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 24,
+      "y": 954,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ nguồn · Bữa trưa",
+      "text": "12:15 · 1 đợt",
+      "x": 270,
+      "y": 958,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món gà · mẫu",
+      "x": 160,
+      "y": 1026,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D03",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1067,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D03",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1038,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1181,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu",
+      "x": 160,
+      "y": 1166,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D03",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1207,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D03",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1178,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 24,
+      "y": 1306,
+      "w": 260,
+      "h": 40
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ nguồn · Ăn nhẹ",
+      "text": "15:00 · 1 đợt",
+      "x": 270,
+      "y": 1310,
+      "w": 230,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món",
+      "x": 48,
+      "y": 1393,
+      "w": 86,
+      "h": 29
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Combo B · mẫu",
+      "x": 160,
+      "y": 1378,
+      "w": 277,
+      "h": 36
+    },
+    {
+      "screen": "D03",
+      "name": "Mô tả bản ghi",
+      "text": "Đã xác nhận ăn · mẫu",
+      "x": 160,
+      "y": 1419,
+      "w": 275,
+      "h": 31
+    },
+    {
+      "screen": "D03",
+      "name": "Mở chi tiết",
+      "text": "›",
+      "x": 462,
+      "y": 1390,
+      "w": 28,
+      "h": 49
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 38,
+      "y": 1547,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 158,
+      "y": 1547,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn · Bữa tối",
+      "text": "Bữa tối",
+      "x": 278,
+      "y": 1547,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 398,
+      "y": 1547,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Tiêu đề",
+      "text": "Nhật ký",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "D04",
+      "name": "Tuần trước",
+      "text": "‹",
+      "x": 24,
+      "y": 141,
+      "w": 42,
+      "h": 54
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026",
+      "x": 91,
+      "y": 146,
+      "w": 390,
+      "h": 40
+    },
+    {
+      "screen": "D04",
+      "name": "Tuần sau",
+      "text": "›",
+      "x": 473,
+      "y": 141,
+      "w": 32,
+      "h": 54
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T2",
+      "text": "T2",
+      "x": 35,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 14",
+      "text": "14",
+      "x": 40,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T3",
+      "text": "T3",
+      "x": 103,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 15",
+      "text": "15",
+      "x": 108,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T4",
+      "text": "T4",
+      "x": 171,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 16",
+      "text": "16",
+      "x": 176,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T5",
+      "text": "T5",
+      "x": 239,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 17",
+      "text": "17",
+      "x": 244,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T6",
+      "text": "T6",
+      "x": 307,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 18",
+      "text": "18",
+      "x": 312,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T7",
+      "text": "T7",
+      "x": 375,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 19",
+      "text": "19",
+      "x": 380,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ CN",
+      "text": "CN",
+      "x": 443,
+      "y": 197,
+      "w": 55,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày 20",
+      "text": "20",
+      "x": 448,
+      "y": 242,
+      "w": 40,
+      "h": 33
+    },
+    {
+      "screen": "D04",
+      "name": "Tổng đợt",
+      "text": "0",
+      "x": 91,
+      "y": 357,
+      "w": 76,
+      "h": 70
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn tổng",
+      "text": "đợt ăn",
+      "x": 87,
+      "y": 414,
+      "w": 86,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Đếm bữa chính",
+      "text": "Bữa chính   0",
+      "x": 210,
+      "y": 345,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D04",
+      "name": "Đếm ăn nhẹ",
+      "text": "Ăn nhẹ       0",
+      "x": 210,
+      "y": 401,
+      "w": 250,
+      "h": 39
+    },
+    {
+      "screen": "D04",
+      "name": "Dữ liệu mẫu",
+      "text": "Dữ liệu minh họa",
+      "x": 24,
+      "y": 508,
+      "w": 460,
+      "h": 29
+    },
+    {
+      "screen": "D04",
+      "name": "Tên tài sản chờ",
+      "text": "Chưa ghi nhận bữa ăn",
+      "x": 34,
+      "y": 617,
+      "w": 452,
+      "h": 29
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn · Bữa sáng",
+      "text": "Bữa sáng",
+      "x": 38,
+      "y": 677,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn · Bữa trưa",
+      "text": "Bữa trưa",
+      "x": 158,
+      "y": 677,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn · Bữa tối",
+      "text": "Bữa tối",
+      "x": 278,
+      "y": 677,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn · Ăn nhẹ",
+      "text": "Ăn nhẹ",
+      "x": 398,
+      "y": 677,
+      "w": 90,
+      "h": 32
+    },
+    {
+      "screen": "R02",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R02",
+      "name": "Tiêu đề",
+      "text": "Phân",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R02",
+      "name": "Trạng thái",
+      "text": "Ghi nhận mới · dữ liệu minh họa",
+      "x": 24,
+      "y": 151,
+      "w": 472,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *",
+      "x": 24,
+      "y": 191,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "",
+      "x": 324,
+      "y": 200,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận",
+      "x": 24,
+      "y": 267,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026",
+      "x": 324,
+      "y": 276,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận",
+      "x": 24,
+      "y": 343,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45",
+      "x": 324,
+      "y": 352,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng",
+      "x": 24,
+      "y": 491,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng",
+      "x": 34,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm",
+      "x": 195.33333333333334,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 356.6666666666667,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn",
+      "x": 34,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm",
+      "x": 195.33333333333334,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn",
+      "x": 356.6666666666667,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 836,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước",
+      "x": 34,
+      "y": 895,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc",
+      "x": 24,
+      "y": 972,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Trắng hoặc xám",
+      "text": "Trắng hoặc xám",
+      "x": 34,
+      "y": 1033,
+      "w": 89,
+      "h": 52
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng",
+      "x": 155,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt",
+      "x": 276,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu",
+      "x": 397,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm",
+      "x": 34,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá",
+      "x": 155,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đen",
+      "text": "Đen",
+      "x": 276,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm",
+      "x": 397,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ",
+      "x": 34,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm",
+      "x": 155,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân",
+      "x": 24,
+      "y": 1345,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Ít",
+      "text": "Ít",
+      "x": 34,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 195.33333333333334,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều",
+      "x": 356.6666666666667,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 24,
+      "y": 1486,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru",
+      "x": 34,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 276,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Khó",
+      "text": "Khó",
+      "x": 34,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết",
+      "x": 276,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính",
+      "x": 24,
+      "y": 1700,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch",
+      "x": 34,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ",
+      "x": 195.33333333333334,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bám vào bồn cầu",
+      "text": "Bám vào bồn cầu",
+      "x": 356.6666666666667,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R02",
+      "name": "Quy tắc tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn.",
+      "x": 24,
+      "y": 1906,
+      "w": 472,
+      "h": 32
+    },
+    {
+      "screen": "R02",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 42,
+      "y": 2041,
+      "w": 186,
+      "h": 36
+    },
+    {
+      "screen": "R02",
+      "name": "Nút · chữ Lưu",
+      "text": "Lưu",
+      "x": 288,
+      "y": 2041,
+      "w": 194,
+      "h": 36
+    },
+    {
+      "screen": "R03",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R03",
+      "name": "Tiêu đề",
+      "text": "Phân",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R03",
+      "name": "Trạng thái",
+      "text": "Ghi nhận mới · dữ liệu minh họa",
+      "x": 24,
+      "y": 151,
+      "w": 472,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *",
+      "x": 24,
+      "y": 191,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "",
+      "x": 324,
+      "y": 200,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận",
+      "x": 24,
+      "y": 267,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026",
+      "x": 324,
+      "y": 276,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận",
+      "x": 24,
+      "y": 343,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45",
+      "x": 324,
+      "y": 352,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng",
+      "x": 24,
+      "y": 491,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng",
+      "x": 34,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm",
+      "x": 195.33333333333334,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 356.6666666666667,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn",
+      "x": 34,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm",
+      "x": 195.33333333333334,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn",
+      "x": 356.6666666666667,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 836,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước",
+      "x": 34,
+      "y": 895,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc",
+      "x": 24,
+      "y": 972,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Trắng hoặc xám",
+      "text": "Trắng hoặc xám",
+      "x": 34,
+      "y": 1033,
+      "w": 89,
+      "h": 52
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng",
+      "x": 155,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt",
+      "x": 276,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu",
+      "x": 397,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm",
+      "x": 34,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá",
+      "x": 155,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đen",
+      "text": "Đen",
+      "x": 276,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm",
+      "x": 397,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ",
+      "x": 34,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm",
+      "x": 155,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân",
+      "x": 24,
+      "y": 1345,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Ít",
+      "text": "Ít",
+      "x": 34,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 195.33333333333334,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều",
+      "x": 356.6666666666667,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 24,
+      "y": 1486,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru",
+      "x": 34,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 276,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Khó",
+      "text": "Khó",
+      "x": 34,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết",
+      "x": 276,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính",
+      "x": 24,
+      "y": 1700,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch",
+      "x": 34,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ",
+      "x": 195.33333333333334,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bám vào bồn cầu",
+      "text": "Bám vào bồn cầu",
+      "x": 356.6666666666667,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R03",
+      "name": "Quy tắc tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn.",
+      "x": 24,
+      "y": 1906,
+      "w": 472,
+      "h": 32
+    },
+    {
+      "screen": "R03",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 42,
+      "y": 2041,
+      "w": 186,
+      "h": 36
+    },
+    {
+      "screen": "R03",
+      "name": "Nút · chữ Lưu",
+      "text": "Lưu",
+      "x": 288,
+      "y": 2041,
+      "w": 194,
+      "h": 36
+    },
+    {
+      "screen": "R04",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R04",
+      "name": "Tiêu đề",
+      "text": "Phân",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R04",
+      "name": "Trạng thái",
+      "text": "Ghi nhận mới · dữ liệu minh họa",
+      "x": 24,
+      "y": 151,
+      "w": 472,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *",
+      "x": 24,
+      "y": 191,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "0 phút",
+      "x": 324,
+      "y": 200,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận",
+      "x": 24,
+      "y": 267,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026",
+      "x": 324,
+      "y": 276,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận",
+      "x": 24,
+      "y": 343,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45",
+      "x": 324,
+      "y": 352,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R04",
+      "name": "Lỗi thời lượng",
+      "text": "Nhập thời lượng lớn hơn 0, đơn vị phút.",
+      "x": 38,
+      "y": 423,
+      "w": 445,
+      "h": 32
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng",
+      "x": 24,
+      "y": 491,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng",
+      "x": 34,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm",
+      "x": 195.33333333333334,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 356.6666666666667,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn",
+      "x": 34,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm",
+      "x": 195.33333333333334,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn",
+      "x": 356.6666666666667,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 836,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước",
+      "x": 34,
+      "y": 895,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc",
+      "x": 24,
+      "y": 972,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Trắng hoặc xám",
+      "text": "Trắng hoặc xám",
+      "x": 34,
+      "y": 1033,
+      "w": 89,
+      "h": 52
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng",
+      "x": 155,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt",
+      "x": 276,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu",
+      "x": 397,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm",
+      "x": 34,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá",
+      "x": 155,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đen",
+      "text": "Đen",
+      "x": 276,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm",
+      "x": 397,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ",
+      "x": 34,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm",
+      "x": 155,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân",
+      "x": 24,
+      "y": 1345,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Ít",
+      "text": "Ít",
+      "x": 34,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 195.33333333333334,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều",
+      "x": 356.6666666666667,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 24,
+      "y": 1486,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru",
+      "x": 34,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 276,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Khó",
+      "text": "Khó",
+      "x": 34,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết",
+      "x": 276,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính",
+      "x": 24,
+      "y": 1700,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch",
+      "x": 34,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ",
+      "x": 195.33333333333334,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bám vào bồn cầu",
+      "text": "Bám vào bồn cầu",
+      "x": 356.6666666666667,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R04",
+      "name": "Quy tắc tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn.",
+      "x": 24,
+      "y": 1906,
+      "w": 472,
+      "h": 32
+    },
+    {
+      "screen": "R04",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 42,
+      "y": 2041,
+      "w": 186,
+      "h": 36
+    },
+    {
+      "screen": "R04",
+      "name": "Nút · chữ Lưu",
+      "text": "Lưu",
+      "x": 288,
+      "y": 2041,
+      "w": 194,
+      "h": 36
+    },
+    {
+      "screen": "R05",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R05",
+      "name": "Tiêu đề",
+      "text": "Phân",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R05",
+      "name": "Trạng thái",
+      "text": "Ghi nhận mới · dữ liệu minh họa",
+      "x": 24,
+      "y": 151,
+      "w": 472,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *",
+      "x": 24,
+      "y": 191,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "4 phút",
+      "x": 324,
+      "y": 200,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận",
+      "x": 24,
+      "y": 267,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026",
+      "x": 324,
+      "y": 276,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận",
+      "x": 24,
+      "y": 343,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45",
+      "x": 324,
+      "y": 352,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng",
+      "x": 24,
+      "y": 491,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng",
+      "x": 34,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm",
+      "x": 195.33333333333334,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 356.6666666666667,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn",
+      "x": 34,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm",
+      "x": 195.33333333333334,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn",
+      "x": 356.6666666666667,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 836,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước",
+      "x": 34,
+      "y": 895,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc",
+      "x": 24,
+      "y": 972,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Trắng hoặc xám",
+      "text": "Trắng hoặc xám",
+      "x": 34,
+      "y": 1033,
+      "w": 89,
+      "h": 52
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng",
+      "x": 155,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt",
+      "x": 276,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu",
+      "x": 397,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm",
+      "x": 34,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá",
+      "x": 155,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đen",
+      "text": "Đen",
+      "x": 276,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm",
+      "x": 397,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ",
+      "x": 34,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm",
+      "x": 155,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân",
+      "x": 24,
+      "y": 1345,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Ít",
+      "text": "Ít",
+      "x": 34,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 195.33333333333334,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều",
+      "x": 356.6666666666667,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 24,
+      "y": 1486,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru",
+      "x": 34,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 276,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Khó",
+      "text": "Khó",
+      "x": 34,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết",
+      "x": 276,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính",
+      "x": 24,
+      "y": 1700,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch",
+      "x": 34,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ",
+      "x": 195.33333333333334,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bám vào bồn cầu",
+      "text": "Bám vào bồn cầu",
+      "x": 356.6666666666667,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R05",
+      "name": "Quy tắc tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn.",
+      "x": 24,
+      "y": 1906,
+      "w": 472,
+      "h": 32
+    },
+    {
+      "screen": "R05",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 42,
+      "y": 2041,
+      "w": 186,
+      "h": 36
+    },
+    {
+      "screen": "R05",
+      "name": "Nút · chữ Lưu",
+      "text": "Lưu",
+      "x": 288,
+      "y": 2041,
+      "w": 194,
+      "h": 36
+    },
+    {
+      "screen": "R06",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R06",
+      "name": "Tiêu đề",
+      "text": "Phân tích",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R06",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 14:45",
+      "x": 43,
+      "y": 172,
+      "w": 430,
+      "h": 33
+    },
+    {
+      "screen": "R06",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận",
+      "x": 43,
+      "y": 217,
+      "w": 430,
+      "h": 42
+    },
+    {
+      "screen": "R06",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 4 phút\nHình dạng: Thỏi dài mịn\nCảm giác: Trơn tru",
+      "x": 43,
+      "y": 266,
+      "w": 430,
+      "h": 85
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 477.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng",
+      "x": 146,
+      "y": 446,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "Thỏi dài mịn",
+      "x": 146,
+      "y": 482,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 517,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 628.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc",
+      "x": 146,
+      "y": 597,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "Nâu",
+      "x": 146,
+      "y": 633,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 668,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 779.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng đi tiêu",
+      "x": 146,
+      "y": 748,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "4 phút",
+      "x": 146,
+      "y": 784,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 819,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 930.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính",
+      "x": 146,
+      "y": 899,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "Rất sạch",
+      "x": 146,
+      "y": 935,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 970,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1081.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân",
+      "x": 146,
+      "y": 1050,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "Bình thường",
+      "x": 146,
+      "y": 1086,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 1121,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1232.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 146,
+      "y": 1201,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R06",
+      "name": "Quan sát đã lưu",
+      "text": "Trơn tru",
+      "x": 146,
+      "y": 1237,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 1272,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R06",
+      "name": "Nút · chữ Đã hiểu",
+      "text": "Đã hiểu",
+      "x": 42,
+      "y": 1411,
+      "w": 440,
+      "h": 36
+    },
+    {
+      "screen": "R07",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R07",
+      "name": "Tiêu đề",
+      "text": "Phân tích",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R07",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 06:45",
+      "x": 43,
+      "y": 172,
+      "w": 430,
+      "h": 33
+    },
+    {
+      "screen": "R07",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận",
+      "x": 43,
+      "y": 217,
+      "w": 430,
+      "h": 42
+    },
+    {
+      "screen": "R07",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 8 phút\nHình dạng: Thỏi dài nứt nẻ\nCảm giác: Chưa có dữ liệu",
+      "x": 43,
+      "y": 266,
+      "w": 430,
+      "h": 85
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 477.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng",
+      "x": 146,
+      "y": 446,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 146,
+      "y": 482,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 517,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 628.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc",
+      "x": 146,
+      "y": 597,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "Vàng",
+      "x": 146,
+      "y": 633,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 668,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 779.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng đi tiêu",
+      "x": 146,
+      "y": 748,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "8 phút",
+      "x": 146,
+      "y": 784,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 819,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 930.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính",
+      "x": 146,
+      "y": 899,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 935,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 970,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1081.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân",
+      "x": 146,
+      "y": 1050,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 1086,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 1121,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1232.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 146,
+      "y": 1201,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R07",
+      "name": "Quan sát đã lưu",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 1237,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải chưa duyệt",
+      "text": "Chưa có dữ liệu",
+      "x": 146,
+      "y": 1272,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R07",
+      "name": "Nút · chữ Đã hiểu",
+      "text": "Đã hiểu",
+      "x": 42,
+      "y": 1411,
+      "w": 440,
+      "h": 36
+    },
+    {
+      "screen": "R08",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R08",
+      "name": "Tiêu đề",
+      "text": "Lịch sử",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R08",
+      "name": "Thêm bản ghi",
+      "text": "+",
+      "x": 453,
+      "y": 25,
+      "w": 45,
+      "h": 58
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay",
+      "x": 24,
+      "y": 153,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R08",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 245,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 133,
+      "y": 218,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ ghi nhận",
+      "text": "14:45",
+      "x": 133,
+      "y": 256,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "4 phút",
+      "x": 280,
+      "y": 259,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 300,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 244,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R08",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 410,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 133,
+      "y": 383,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ ghi nhận",
+      "text": "06:45",
+      "x": 133,
+      "y": 421,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "8 phút",
+      "x": 280,
+      "y": 424,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 465,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 409,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua",
+      "x": 24,
+      "y": 527,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R08",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 619,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 133,
+      "y": 592,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ ghi nhận",
+      "text": "20:25",
+      "x": 133,
+      "y": 630,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "5 phút",
+      "x": 280,
+      "y": 633,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 674,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 618,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026",
+      "x": 24,
+      "y": 736,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R08",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 828,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm",
+      "x": 133,
+      "y": 801,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ ghi nhận",
+      "text": "11:14",
+      "x": 133,
+      "y": 839,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận",
+      "x": 280,
+      "y": 842,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 883,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R08",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 827,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R09",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R09",
+      "name": "Tiêu đề",
+      "text": "Phân tích",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R09",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 14:45",
+      "x": 43,
+      "y": 172,
+      "w": 430,
+      "h": 33
+    },
+    {
+      "screen": "R09",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận",
+      "x": 43,
+      "y": 217,
+      "w": 430,
+      "h": 42
+    },
+    {
+      "screen": "R09",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 4 phút\nHình dạng: Thỏi dài mịn\nCảm giác: Trơn tru",
+      "x": 43,
+      "y": 266,
+      "w": 430,
+      "h": 85
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 477.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng",
+      "x": 146,
+      "y": 446,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "Thỏi dài mịn",
+      "x": 146,
+      "y": 482,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 517,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 628.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc",
+      "x": 146,
+      "y": 597,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "Nâu",
+      "x": 146,
+      "y": 633,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 668,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 779.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng đi tiêu",
+      "x": 146,
+      "y": 748,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "4 phút",
+      "x": 146,
+      "y": 784,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 819,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 930.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính",
+      "x": 146,
+      "y": 899,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "Rất sạch",
+      "x": 146,
+      "y": 935,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 970,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1081.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân",
+      "x": 146,
+      "y": 1050,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "Bình thường",
+      "x": 146,
+      "y": 1086,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 1121,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên tài sản chờ",
+      "text": "Chờ hình",
+      "x": 48,
+      "y": 1232.5,
+      "w": 72,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 146,
+      "y": 1201,
+      "w": 334,
+      "h": 37
+    },
+    {
+      "screen": "R09",
+      "name": "Quan sát đã lưu",
+      "text": "Trơn tru",
+      "x": 146,
+      "y": 1237,
+      "w": 333,
+      "h": 35
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải chưa duyệt",
+      "text": "[Diễn giải đã kiểm chứng — chờ]",
+      "x": 146,
+      "y": 1272,
+      "w": 335,
+      "h": 29
+    },
+    {
+      "screen": "R09",
+      "name": "Nút · chữ Quay lại Lịch sử",
+      "text": "Quay lại Lịch sử",
+      "x": 42,
+      "y": 1411,
+      "w": 440,
+      "h": 36
+    },
+    {
+      "screen": "R10",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R10",
+      "name": "Tiêu đề",
+      "text": "Lịch sử",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R10",
+      "name": "Thêm bản ghi",
+      "text": "+",
+      "x": 453,
+      "y": 25,
+      "w": 45,
+      "h": 58
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay",
+      "x": 24,
+      "y": 153,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R10",
+      "name": "Xóa",
+      "text": "Xóa",
+      "x": 434,
+      "y": 286,
+      "w": 60,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": -35,
+      "y": 245,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 50,
+      "y": 218,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ ghi nhận",
+      "text": "14:45",
+      "x": 50,
+      "y": 256,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "4 phút",
+      "x": 197,
+      "y": 259,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 64,
+      "y": 300,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 382,
+      "y": 244,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R10",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 410,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 133,
+      "y": 383,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ ghi nhận",
+      "text": "06:45",
+      "x": 133,
+      "y": 421,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "8 phút",
+      "x": 280,
+      "y": 424,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 465,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 409,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua",
+      "x": 24,
+      "y": 527,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R10",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 619,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 133,
+      "y": 592,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ ghi nhận",
+      "text": "20:25",
+      "x": 133,
+      "y": 630,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "5 phút",
+      "x": 280,
+      "y": 633,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 674,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 618,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026",
+      "x": 24,
+      "y": 736,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R10",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 828,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm",
+      "x": 133,
+      "y": 801,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ ghi nhận",
+      "text": "11:14",
+      "x": 133,
+      "y": 839,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận",
+      "x": 280,
+      "y": 842,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 883,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R10",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 827,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R11",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R11",
+      "name": "Tiêu đề",
+      "text": "Lịch sử",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R11",
+      "name": "Thêm bản ghi",
+      "text": "+",
+      "x": 453,
+      "y": 25,
+      "w": 45,
+      "h": 58
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay",
+      "x": 24,
+      "y": 153,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R11",
+      "name": "Xóa",
+      "text": "Xóa",
+      "x": 434,
+      "y": 286,
+      "w": 60,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": -35,
+      "y": 245,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 50,
+      "y": 218,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ ghi nhận",
+      "text": "14:45",
+      "x": 50,
+      "y": 256,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "4 phút",
+      "x": 197,
+      "y": 259,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 64,
+      "y": 300,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 382,
+      "y": 244,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R11",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 410,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 133,
+      "y": 383,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ ghi nhận",
+      "text": "06:45",
+      "x": 133,
+      "y": 421,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "8 phút",
+      "x": 280,
+      "y": 424,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 465,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 409,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua",
+      "x": 24,
+      "y": 527,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R11",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 619,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn",
+      "x": 133,
+      "y": 592,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ ghi nhận",
+      "text": "20:25",
+      "x": 133,
+      "y": 630,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "5 phút",
+      "x": 280,
+      "y": 633,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 674,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 618,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026",
+      "x": 24,
+      "y": 736,
+      "w": 472,
+      "h": 39
+    },
+    {
+      "screen": "R11",
+      "name": "Tên tài sản chờ",
+      "text": "Hình gốc",
+      "x": 48,
+      "y": 828,
+      "w": 59,
+      "h": 49
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm",
+      "x": 133,
+      "y": 801,
+      "w": 255,
+      "h": 37
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ ghi nhận",
+      "text": "11:14",
+      "x": 133,
+      "y": 839,
+      "w": 128,
+      "h": 35
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận",
+      "x": 280,
+      "y": 842,
+      "w": 145,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Nhãn · Sửa",
+      "text": "Sửa",
+      "x": 147,
+      "y": 883,
+      "w": 56,
+      "h": 32
+    },
+    {
+      "screen": "R11",
+      "name": "Mở phân tích",
+      "text": "›",
+      "x": 465,
+      "y": 827,
+      "w": 25,
+      "h": 46
+    },
+    {
+      "screen": "R11",
+      "name": "Tiêu đề hộp thoại",
+      "text": "Xóa bản ghi?",
+      "x": 50,
+      "y": 429,
+      "w": 420,
+      "h": 42
+    },
+    {
+      "screen": "R11",
+      "name": "Nội dung hộp thoại",
+      "text": "Xóa bản ghi đang chọn và cập nhật số lần đi tiêu, lịch sử, lịch Home.",
+      "x": 50,
+      "y": 477,
+      "w": 420,
+      "h": 60
+    },
+    {
+      "screen": "R11",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 68,
+      "y": 574,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "R11",
+      "name": "Nút · chữ Hủy",
+      "text": "Hủy",
+      "x": 68,
+      "y": 639,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "R12",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R12",
+      "name": "Tiêu đề",
+      "text": "Phân",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R12",
+      "name": "Trạng thái",
+      "text": "Đang sửa bản ghi · giữ nguyên ID",
+      "x": 24,
+      "y": 151,
+      "w": 472,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *",
+      "x": 24,
+      "y": 191,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "4 phút",
+      "x": 324,
+      "y": 200,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận",
+      "x": 24,
+      "y": 267,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026",
+      "x": 324,
+      "y": 276,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận",
+      "x": 24,
+      "y": 343,
+      "w": 285,
+      "h": 36
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45",
+      "x": 324,
+      "y": 352,
+      "w": 164,
+      "h": 35
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng",
+      "x": 24,
+      "y": 491,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng",
+      "x": 34,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm",
+      "x": 195.33333333333334,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 558,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ",
+      "x": 356.6666666666667,
+      "y": 617,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn",
+      "x": 34,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm",
+      "x": 195.33333333333334,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 697,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn",
+      "x": 356.6666666666667,
+      "y": 756,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 836,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước",
+      "x": 34,
+      "y": 895,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc",
+      "x": 24,
+      "y": 972,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Trắng hoặc xám",
+      "text": "Trắng hoặc xám",
+      "x": 34,
+      "y": 1033,
+      "w": 89,
+      "h": 52
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng",
+      "x": 155,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt",
+      "x": 276,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu",
+      "x": 397,
+      "y": 1033,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm",
+      "x": 34,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá",
+      "x": 155,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đen",
+      "text": "Đen",
+      "x": 276,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm",
+      "x": 397,
+      "y": 1136,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ",
+      "x": 34,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm",
+      "x": 155,
+      "y": 1239,
+      "w": 89,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân",
+      "x": 24,
+      "y": 1345,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Ít",
+      "text": "Ít",
+      "x": 34,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 195.33333333333334,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều",
+      "x": 356.6666666666667,
+      "y": 1406,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài",
+      "x": 24,
+      "y": 1486,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru",
+      "x": 34,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường",
+      "x": 276,
+      "y": 1547,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Khó",
+      "text": "Khó",
+      "x": 34,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết",
+      "x": 276,
+      "y": 1622,
+      "w": 210,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính",
+      "x": 24,
+      "y": 1700,
+      "w": 472,
+      "h": 40
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 42,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch",
+      "x": 34,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 203.33333333333334,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ",
+      "x": 195.33333333333334,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Chờ hình",
+      "text": "Chờ hình gốc",
+      "x": 364.6666666666667,
+      "y": 1767,
+      "w": 113.33333333333334,
+      "h": 27
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bám vào bồn cầu",
+      "text": "Bám vào bồn cầu",
+      "x": 356.6666666666667,
+      "y": 1829,
+      "w": 129.33333333333334,
+      "h": 31
+    },
+    {
+      "screen": "R12",
+      "name": "Quy tắc tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn.",
+      "x": 24,
+      "y": 1906,
+      "w": 472,
+      "h": 32
+    },
+    {
+      "screen": "R12",
+      "name": "Nút · chữ Xóa",
+      "text": "Xóa",
+      "x": 42,
+      "y": 2041,
+      "w": 186,
+      "h": 36
+    },
+    {
+      "screen": "R12",
+      "name": "Nút · chữ Lưu",
+      "text": "Lưu",
+      "x": 288,
+      "y": 2041,
+      "w": 194,
+      "h": 36
+    },
+    {
+      "screen": "R13",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 24,
+      "w": 42,
+      "h": 65
+    },
+    {
+      "screen": "R13",
+      "name": "Tiêu đề",
+      "text": "Lịch sử",
+      "x": 80,
+      "y": 34,
+      "w": 365,
+      "h": 44
+    },
+    {
+      "screen": "R13",
+      "name": "Thêm bản ghi",
+      "text": "+",
+      "x": 453,
+      "y": 25,
+      "w": 45,
+      "h": 58
+    },
+    {
+      "screen": "R13",
+      "name": "Tên tài sản chờ",
+      "text": "Chưa có bản ghi",
+      "x": 34,
+      "y": 286,
+      "w": 452,
+      "h": 29
+    },
+    {
+      "screen": "R13",
+      "name": "Trạng thái trống",
+      "text": "Không có dữ liệu không có nghĩa là đã ghi nhận 0 lần.",
+      "x": 38,
+      "y": 477,
+      "w": 444,
+      "h": 60
+    },
+    {
+      "screen": "I06",
+      "name": "Lời chào",
+      "text": "Xin chào!",
+      "x": 43,
+      "y": 191,
+      "w": 420,
+      "h": 49
+    },
+    {
+      "screen": "I06",
+      "name": "Giới thiệu",
+      "text": "Tôi có thể giúp bạn tìm món và combo theo nguyên liệu, thời gian và mục tiêu của bạn.",
+      "x": 43,
+      "y": 249,
+      "w": 425,
+      "h": 65
+    },
+    {
+      "screen": "I06",
+      "name": "Hỏi bắt đầu",
+      "text": "Bạn muốn bắt đầu từ đâu?",
+      "x": 43,
+      "y": 352,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "I06",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 418,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I06",
+      "name": "Gợi ý",
+      "text": "Gợi ý bữa ăn theo nguyên liệu tôi có",
+      "x": 91,
+      "y": 416,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I06",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 416,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I06",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 490,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I06",
+      "name": "Gợi ý",
+      "text": "Tôi muốn tìm món phù hợp với mục tiêu",
+      "x": 91,
+      "y": 488,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I06",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 488,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I06",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 562,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I06",
+      "name": "Gợi ý",
+      "text": "Giúp tôi chọn một combo bữa ăn",
+      "x": 91,
+      "y": 560,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I06",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 560,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I06",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 634,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I06",
+      "name": "Gợi ý",
+      "text": "Đăng xuất",
+      "x": 91,
+      "y": 632,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I06",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 632,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I06",
+      "name": "Tiêu đề hộp thoại",
+      "text": "Tiếp tục hay bắt đầu mới?",
+      "x": 50,
+      "y": 392,
+      "w": 420,
+      "h": 42
+    },
+    {
+      "screen": "I06",
+      "name": "Nội dung hộp thoại",
+      "text": "Bạn có thể tiếp tục cuộc trò chuyện hiện có.",
+      "x": 50,
+      "y": 440,
+      "w": 420,
+      "h": 35
+    },
+    {
+      "screen": "I06",
+      "name": "Nút · chữ Tiếp tục",
+      "text": "Tiếp tục",
+      "x": 68,
+      "y": 537,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "I06",
+      "name": "Nút · chữ Bắt đầu mới",
+      "text": "Bắt đầu mới",
+      "x": 68,
+      "y": 602,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "I06",
+      "name": "Nút · chữ Đóng và về Hồ sơ",
+      "text": "Đóng và về Hồ sơ",
+      "x": 68,
+      "y": 667,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "I07",
+      "name": "Lời chào",
+      "text": "Xin chào!",
+      "x": 43,
+      "y": 191,
+      "w": 420,
+      "h": 49
+    },
+    {
+      "screen": "I07",
+      "name": "Giới thiệu",
+      "text": "Tôi có thể giúp bạn tìm món và combo theo nguyên liệu, thời gian và mục tiêu của bạn.",
+      "x": 43,
+      "y": 249,
+      "w": 425,
+      "h": 65
+    },
+    {
+      "screen": "I07",
+      "name": "Hỏi bắt đầu",
+      "text": "Bạn muốn bắt đầu từ đâu?",
+      "x": 43,
+      "y": 352,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "I07",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 418,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I07",
+      "name": "Gợi ý",
+      "text": "Gợi ý bữa ăn theo nguyên liệu tôi có",
+      "x": 91,
+      "y": 416,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I07",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 416,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I07",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 490,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I07",
+      "name": "Gợi ý",
+      "text": "Tôi muốn tìm món phù hợp với mục tiêu",
+      "x": 91,
+      "y": 488,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I07",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 488,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I07",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 562,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I07",
+      "name": "Gợi ý",
+      "text": "Giúp tôi chọn một combo bữa ăn",
+      "x": 91,
+      "y": 560,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I07",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 560,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I07",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 634,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I07",
+      "name": "Gợi ý",
+      "text": "Đăng xuất",
+      "x": 91,
+      "y": 632,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I07",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 632,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I07",
+      "name": "Tiêu đề hộp thoại",
+      "text": "Xác nhận bắt đầu mới",
+      "x": 50,
+      "y": 392,
+      "w": 420,
+      "h": 42
+    },
+    {
+      "screen": "I07",
+      "name": "Nội dung hộp thoại",
+      "text": "Thay thế hội thoại và xóa kết quả chưa lưu. Dữ liệu đã lưu độc lập vẫn giữ.",
+      "x": 50,
+      "y": 440,
+      "w": 420,
+      "h": 60
+    },
+    {
+      "screen": "I07",
+      "name": "Nút · chữ Xác nhận bắt đầu mới",
+      "text": "Xác nhận bắt đầu mới",
+      "x": 68,
+      "y": 537,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "I07",
+      "name": "Nút · chữ Hủy",
+      "text": "Hủy",
+      "x": 68,
+      "y": 602,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "P01",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 27,
+      "w": 40,
+      "h": 61
+    },
+    {
+      "screen": "P01",
+      "name": "Tiêu đề",
+      "text": "Hồ sơ AI",
+      "x": 155,
+      "y": 38,
+      "w": 250,
+      "h": 45
+    },
+    {
+      "screen": "P01",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 451,
+      "y": 40,
+      "w": 60,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Tên tài sản chờ",
+      "text": "Chân dung A\nChờ duyệt riêng",
+      "x": 90,
+      "y": 374.5,
+      "w": 340,
+      "h": 49
+    },
+    {
+      "screen": "P01",
+      "name": "Trạng thái lưu",
+      "text": "Đang sử dụng",
+      "x": 118,
+      "y": 702,
+      "w": 350,
+      "h": 33
+    },
+    {
+      "screen": "P01",
+      "name": "Tên",
+      "text": "Tên",
+      "x": 43,
+      "y": 787,
+      "w": 132,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị tên",
+      "text": "[Nhân vật A]",
+      "x": 203,
+      "y": 789,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P01",
+      "name": "Giới thiệu",
+      "text": "Giới thiệu",
+      "x": 43,
+      "y": 843,
+      "w": 140,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Chờ giới thiệu",
+      "text": "Chưa thiết lập",
+      "x": 203,
+      "y": 845,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P01",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật",
+      "x": 43,
+      "y": 981,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P01",
+      "name": "Chưa thiết lập 1",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1021,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P01",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại",
+      "x": 43,
+      "y": 1151,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P01",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1192,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời",
+      "x": 43,
+      "y": 1354,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Lựa chọn chờ duyệt]",
+      "x": 43,
+      "y": 1389,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc",
+      "x": 43,
+      "y": 1437,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Danh sách chờ duyệt]",
+      "x": 43,
+      "y": 1472,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc",
+      "x": 43,
+      "y": 1520,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Giá trị chờ duyệt]",
+      "x": 43,
+      "y": 1555,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P02",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 27,
+      "w": 40,
+      "h": 61
+    },
+    {
+      "screen": "P02",
+      "name": "Tiêu đề",
+      "text": "Hồ sơ AI",
+      "x": 155,
+      "y": 38,
+      "w": 250,
+      "h": 45
+    },
+    {
+      "screen": "P02",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 451,
+      "y": 40,
+      "w": 60,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Tên tài sản chờ",
+      "text": "Chân dung B\nChờ duyệt riêng",
+      "x": 90,
+      "y": 374.5,
+      "w": 340,
+      "h": 49
+    },
+    {
+      "screen": "P02",
+      "name": "Trạng thái lưu",
+      "text": "Đang xem thử · chưa lưu",
+      "x": 118,
+      "y": 702,
+      "w": 350,
+      "h": 33
+    },
+    {
+      "screen": "P02",
+      "name": "Tên",
+      "text": "Tên",
+      "x": 43,
+      "y": 787,
+      "w": 132,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị tên",
+      "text": "[Nhân vật B]",
+      "x": 203,
+      "y": 789,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P02",
+      "name": "Giới thiệu",
+      "text": "Giới thiệu",
+      "x": 43,
+      "y": 843,
+      "w": 140,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Chờ giới thiệu",
+      "text": "Chưa thiết lập",
+      "x": 203,
+      "y": 845,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P02",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật",
+      "x": 43,
+      "y": 981,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P02",
+      "name": "Chưa thiết lập 1",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1021,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P02",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại",
+      "x": 43,
+      "y": 1151,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P02",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1192,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời",
+      "x": 43,
+      "y": 1354,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Lựa chọn chờ duyệt]",
+      "x": 43,
+      "y": 1389,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc",
+      "x": 43,
+      "y": 1437,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Danh sách chờ duyệt]",
+      "x": 43,
+      "y": 1472,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc",
+      "x": 43,
+      "y": 1520,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Giá trị chờ duyệt]",
+      "x": 43,
+      "y": 1555,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P03",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 27,
+      "w": 40,
+      "h": 61
+    },
+    {
+      "screen": "P03",
+      "name": "Tiêu đề",
+      "text": "Hồ sơ AI",
+      "x": 155,
+      "y": 38,
+      "w": 250,
+      "h": 45
+    },
+    {
+      "screen": "P03",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 451,
+      "y": 40,
+      "w": 60,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Tên tài sản chờ",
+      "text": "Chân dung B\nChờ duyệt riêng",
+      "x": 90,
+      "y": 374.5,
+      "w": 340,
+      "h": 49
+    },
+    {
+      "screen": "P03",
+      "name": "Trạng thái lưu",
+      "text": "Đã lưu lựa chọn",
+      "x": 118,
+      "y": 702,
+      "w": 350,
+      "h": 33
+    },
+    {
+      "screen": "P03",
+      "name": "Tên",
+      "text": "Tên",
+      "x": 43,
+      "y": 787,
+      "w": 132,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị tên",
+      "text": "[Nhân vật B]",
+      "x": 203,
+      "y": 789,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P03",
+      "name": "Giới thiệu",
+      "text": "Giới thiệu",
+      "x": 43,
+      "y": 843,
+      "w": 140,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Chờ giới thiệu",
+      "text": "Chưa thiết lập",
+      "x": 203,
+      "y": 845,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P03",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật",
+      "x": 43,
+      "y": 981,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P03",
+      "name": "Chưa thiết lập 1",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1021,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P03",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại",
+      "x": 43,
+      "y": 1151,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P03",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1192,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời",
+      "x": 43,
+      "y": 1354,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Lựa chọn chờ duyệt]",
+      "x": 43,
+      "y": 1389,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc",
+      "x": 43,
+      "y": 1437,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Danh sách chờ duyệt]",
+      "x": 43,
+      "y": 1472,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc",
+      "x": 43,
+      "y": 1520,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Giá trị chờ duyệt]",
+      "x": 43,
+      "y": 1555,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P04",
+      "name": "Quay lại",
+      "text": "‹",
+      "x": 24,
+      "y": 27,
+      "w": 40,
+      "h": 61
+    },
+    {
+      "screen": "P04",
+      "name": "Tiêu đề",
+      "text": "Hồ sơ AI",
+      "x": 155,
+      "y": 38,
+      "w": 250,
+      "h": 45
+    },
+    {
+      "screen": "P04",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 451,
+      "y": 40,
+      "w": 60,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Tên tài sản chờ",
+      "text": "Chân dung B\nChờ duyệt riêng",
+      "x": 90,
+      "y": 374.5,
+      "w": 340,
+      "h": 49
+    },
+    {
+      "screen": "P04",
+      "name": "Trạng thái lưu",
+      "text": "Đang xem thử · chưa lưu",
+      "x": 118,
+      "y": 702,
+      "w": 350,
+      "h": 33
+    },
+    {
+      "screen": "P04",
+      "name": "Tên",
+      "text": "Tên",
+      "x": 43,
+      "y": 787,
+      "w": 132,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị tên",
+      "text": "[Nhân vật B]",
+      "x": 203,
+      "y": 789,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P04",
+      "name": "Giới thiệu",
+      "text": "Giới thiệu",
+      "x": 43,
+      "y": 843,
+      "w": 140,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Chờ giới thiệu",
+      "text": "Chưa thiết lập",
+      "x": 203,
+      "y": 845,
+      "w": 275,
+      "h": 35
+    },
+    {
+      "screen": "P04",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật",
+      "x": 43,
+      "y": 981,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P04",
+      "name": "Chưa thiết lập 1",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1021,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P04",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại",
+      "x": 43,
+      "y": 1151,
+      "w": 420,
+      "h": 39
+    },
+    {
+      "screen": "P04",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập",
+      "x": 43,
+      "y": 1192,
+      "w": 420,
+      "h": 32
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời",
+      "x": 43,
+      "y": 1354,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Lựa chọn chờ duyệt]",
+      "x": 43,
+      "y": 1389,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc",
+      "x": 43,
+      "y": 1437,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Danh sách chờ duyệt]",
+      "x": 43,
+      "y": 1472,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc",
+      "x": 43,
+      "y": 1520,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chưa duyệt",
+      "text": "[Giá trị chờ duyệt]",
+      "x": 43,
+      "y": 1555,
+      "w": 425,
+      "h": 33
+    },
+    {
+      "screen": "P04",
+      "name": "Tiêu đề hộp thoại",
+      "text": "Lưu thay đổi?",
+      "x": 50,
+      "y": 592,
+      "w": 420,
+      "h": 42
+    },
+    {
+      "screen": "P04",
+      "name": "Nội dung hộp thoại",
+      "text": "Bạn đang xem thử một nhân vật khác.",
+      "x": 50,
+      "y": 640,
+      "w": 420,
+      "h": 35
+    },
+    {
+      "screen": "P04",
+      "name": "Nút · chữ Lưu thay đổi",
+      "text": "Lưu thay đổi",
+      "x": 68,
+      "y": 737,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "P04",
+      "name": "Nút · chữ Không lưu",
+      "text": "Không lưu",
+      "x": 68,
+      "y": 802,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "P04",
+      "name": "Nút · chữ Tiếp tục chỉnh sửa",
+      "text": "Tiếp tục chỉnh sửa",
+      "x": 68,
+      "y": 867,
+      "w": 388,
+      "h": 36
+    },
+    {
+      "screen": "I04",
+      "name": "Lời chào",
+      "text": "Xin chào!",
+      "x": 43,
+      "y": 187,
+      "w": 420,
+      "h": 49
+    },
+    {
+      "screen": "I04",
+      "name": "Giới thiệu",
+      "text": "Tôi có thể giúp bạn tìm món và combo theo nguyên liệu, thời gian và mục tiêu của bạn.",
+      "x": 43,
+      "y": 245,
+      "w": 425,
+      "h": 65
+    },
+    {
+      "screen": "I04",
+      "name": "Hỏi bắt đầu",
+      "text": "Bạn muốn bắt đầu từ đâu?",
+      "x": 43,
+      "y": 348,
+      "w": 425,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 414,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Gợi ý",
+      "text": "Gợi ý bữa ăn theo nguyên liệu tôi có",
+      "x": 91,
+      "y": 412,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 412,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 486,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Gợi ý",
+      "text": "Tôi muốn tìm món phù hợp với mục tiêu",
+      "x": 91,
+      "y": 484,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 484,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 558,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Gợi ý",
+      "text": "Giúp tôi chọn một combo bữa ăn",
+      "x": 91,
+      "y": 556,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 556,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Dấu gợi ý",
+      "text": "#",
+      "x": 57,
+      "y": 630,
+      "w": 25,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Gợi ý",
+      "text": "Đăng xuất",
+      "x": 91,
+      "y": 628,
+      "w": 343,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Mũi tên",
+      "text": "→",
+      "x": 442,
+      "y": 628,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Yêu cầu mẫu",
+      "text": "Gợi ý món và combo trong 30 phút.",
+      "x": 128,
+      "y": 767,
+      "w": 345,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Giờ mẫu",
+      "text": "12:10 · mẫu",
+      "x": 370,
+      "y": 812,
+      "w": 120,
+      "h": 28
+    },
+    {
+      "screen": "I04",
+      "name": "Phản hồi mẫu",
+      "text": "Kết quả minh họa",
+      "x": 43,
+      "y": 883,
+      "w": 430,
+      "h": 40
+    },
+    {
+      "screen": "I04",
+      "name": "Quyền hiện tại",
+      "text": "Không sử dụng nhật ký tiêu hóa cho yêu cầu này.",
+      "x": 43,
+      "y": 926,
+      "w": 430,
+      "h": 62
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · ▷ Phát giọng đọc",
+      "text": "▷ Phát giọng đọc",
+      "x": 57,
+      "y": 992,
+      "w": 198,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Ngưỡng và bằng chứng",
+      "text": "T = 30 phút · Chưa có dữ liệu dinh dưỡng đã xác minh. Chưa chấm G hoặc chọn món thắng; giữ cùng nhóm chờ đánh giá G/I/B.",
+      "x": 43,
+      "y": 1089,
+      "w": 430,
+      "h": 89
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm thời gian",
+      "text": "Các lựa chọn trong thời gian",
+      "x": 24,
+      "y": 1244,
+      "w": 470,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món gà · mẫu",
+      "x": 44,
+      "y": 1493,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 1493,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 1538,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 20 phút · Bữa chính",
+      "text": "20 phút · Bữa chính",
+      "x": 58,
+      "y": 1581,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 1637,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Nguyên liệu chính: Gà · mẫu",
+      "x": 44,
+      "y": 1676,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 1721,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 1758,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 1864,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 1862,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món rau · mẫu",
+      "x": 44,
+      "y": 2147,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 2147,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 2192,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 15 phút · Bữa chính",
+      "text": "15 phút · Bữa chính",
+      "x": 58,
+      "y": 2235,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 2291,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Nguyên liệu chính: Rau · mẫu",
+      "x": 44,
+      "y": 2330,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 2375,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 2412,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 2518,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 2516,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món · chờ",
+      "x": 112,
+      "y": 2684,
+      "w": 296,
+      "h": 29
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món cơm · mẫu",
+      "x": 44,
+      "y": 2801,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 2801,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 2846,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 25 phút · Bữa chính",
+      "text": "25 phút · Bữa chính",
+      "x": 58,
+      "y": 2889,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 2945,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Nguyên liệu chính: Gạo · mẫu",
+      "x": 44,
+      "y": 2984,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 3029,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 3066,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 3172,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 3170,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh cả bữa · chờ",
+      "x": 112,
+      "y": 3338,
+      "w": 296,
+      "h": 29
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Combo A · mẫu",
+      "x": 44,
+      "y": 3455,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 3455,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 3500,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 30 phút · Bữa chính",
+      "text": "30 phút · Bữa chính",
+      "x": 58,
+      "y": 3543,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 3599,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Các món: Gà, rau, cơm · mẫu",
+      "x": 44,
+      "y": 3638,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 3683,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 3720,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 3826,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 3824,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh món · chờ",
+      "x": 112,
+      "y": 3992,
+      "w": 296,
+      "h": 29
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món táo · mẫu",
+      "x": 44,
+      "y": 4109,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 4109,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 4154,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 5 phút · Ăn nhẹ",
+      "text": "5 phút · Ăn nhẹ",
+      "x": 58,
+      "y": 4197,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 4253,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Nguyên liệu chính: Táo · mẫu",
+      "x": 44,
+      "y": 4292,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 4337,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 4374,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 4480,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 4478,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Dự phòng",
+      "text": "Dự phòng · vượt 5 phút",
+      "x": 24,
+      "y": 4569,
+      "w": 470,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Tên tài sản chờ",
+      "text": "Ảnh cả bữa · chờ",
+      "x": 112,
+      "y": 4701,
+      "w": 296,
+      "h": 29
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Combo B · mẫu",
+      "x": 44,
+      "y": 4818,
+      "w": 400,
+      "h": 41
+    },
+    {
+      "screen": "I04",
+      "name": "Thu gọn",
+      "text": "^",
+      "x": 453,
+      "y": 4818,
+      "w": 27,
+      "h": 39
+    },
+    {
+      "screen": "I04",
+      "name": "Đánh giá nhóm",
+      "text": "Cùng nhóm chờ đánh giá G/I/B",
+      "x": 44,
+      "y": 4863,
+      "w": 432,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · 35 phút · Bữa chính",
+      "text": "35 phút · Bữa chính",
+      "x": 58,
+      "y": 4906,
+      "w": 298,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Thông tin mở rộng",
+      "text": "[Tóm tắt có bằng chứng]",
+      "x": 44,
+      "y": 4962,
+      "w": 431,
+      "h": 33
+    },
+    {
+      "screen": "I04",
+      "name": "Nguyên liệu hoặc thành phần",
+      "text": "Các món: Cá, rau, cơm · mẫu",
+      "x": 44,
+      "y": 5001,
+      "w": 430,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm",
+      "x": 44,
+      "y": 5046,
+      "w": 430,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]",
+      "x": 44,
+      "y": 5083,
+      "w": 430,
+      "h": 77
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn",
+      "x": 86,
+      "y": 5189,
+      "w": 233,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay",
+      "x": 330,
+      "y": 5187,
+      "w": 138,
+      "h": 32
+    },
+    {
+      "screen": "I04",
+      "name": "Ngày ăn",
+      "text": "Ngày ăn",
+      "x": 44,
+      "y": 5295,
+      "w": 180,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Ngày mẫu",
+      "text": "20/09/2026",
+      "x": 252,
+      "y": 5300,
+      "w": 205,
+      "h": 35
+    },
+    {
+      "screen": "I04",
+      "name": "Nút · chữ Đã ăn",
+      "text": "Đã ăn",
+      "x": 62,
+      "y": 5378,
+      "w": 395,
+      "h": 36
+    },
+    {
+      "screen": "I04",
+      "name": "Lưu có chọn lọc",
+      "text": "Chỉ ghi các món đã chọn. Bữa chính và Ăn nhẹ cần lưu riêng; không tạo đợt trùng khi bấm lặp.",
+      "x": 28,
+      "y": 5470,
+      "w": 466,
+      "h": 54
+    },
+    {
+      "screen": "I04",
+      "name": "Quyền nhật ký tắt",
+      "text": "○",
+      "x": 34,
+      "y": 5729,
+      "w": 43,
+      "h": 52
+    },
+    {
+      "screen": "I04",
+      "name": "Ô nhập",
+      "text": "Nhắn với AI",
+      "x": 89,
+      "y": 5737,
+      "w": 267,
+      "h": 37
+    },
+    {
+      "screen": "I04",
+      "name": "Gửi",
+      "text": "↑",
+      "x": 463,
+      "y": 5731,
+      "w": 28,
+      "h": 48
+    },
+    {
+      "screen": "__meta",
+      "name": "SỬA TỰ ĐỘNG · 02.10.2026",
+      "text": "SỬA TỰ ĐỘNG · 02.10.2026",
+      "x": 0,
+      "y": 0,
+      "w": 4900,
+      "h": 66
+    },
+    {
+      "screen": "__meta",
+      "name": "Bản cập nhật riêng · Toàn bộ nội dung hiển thị · Giữ nguyên File gốc bên trái",
+      "text": "Bản cập nhật riêng · Toàn bộ nội dung hiển thị · Giữ nguyên File gốc bên trái",
+      "x": 0,
+      "y": 0,
+      "w": 4900,
+      "h": 42
+    },
+    {
+      "screen": "__meta",
+      "name": "05 · Nhật ký / xóa từng món",
+      "text": "05 · Nhật ký / xóa từng món",
+      "x": 0,
+      "y": 0,
+      "w": 4950,
+      "h": 50
+    },
+    {
+      "screen": "__meta",
+      "name": "D01 / Nhật ký",
+      "text": "D01 / Nhật ký",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Vuốt từng món → xác nhận D02",
+      "text": "Vuốt từng món → xác nhận D02",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "D02 / Nhật ký",
+      "text": "D02 / Nhật ký",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Xóa chỉ món đang chọn; Hủy quay lại D01",
+      "text": "Xóa chỉ món đang chọn; Hủy quay lại D01",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "D03 / Nhật ký",
+      "text": "D03 / Nhật ký",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Giữ các món khác và số đợt",
+      "text": "Giữ các món khác và số đợt",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "D04 / Nhật ký",
+      "text": "D04 / Nhật ký",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Món cuối: bỏ đợt rỗng, giảm đúng một đợt",
+      "text": "Món cuối: bỏ đợt rỗng, giảm đúng một đợt",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "Vuốt món → Xóa",
+      "text": "Vuốt món → Xóa",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Xác nhận",
+      "text": "Xác nhận",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "06 · Ghi lại / nhập và lưu",
+      "text": "06 · Ghi lại / nhập và lưu",
+      "x": 0,
+      "y": 0,
+      "w": 4950,
+      "h": 50
+    },
+    {
+      "screen": "__meta",
+      "name": "R02 / Phân",
+      "text": "R02 / Phân",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Biểu mẫu đủ tất cả trường, chưa chọn sẵn",
+      "text": "Biểu mẫu đủ tất cả trường, chưa chọn sẵn",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R03 / Phân",
+      "text": "R03 / Phân",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Nhập một phần; không tự điền trường tùy chọn",
+      "text": "Nhập một phần; không tự điền trường tùy chọn",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R04 / Phân",
+      "text": "R04 / Phân",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Thời lượng lỗi: không cho lưu",
+      "text": "Thời lượng lỗi: không cho lưu",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R05 / Phân",
+      "text": "R05 / Phân",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Hợp lệ → Lưu → phân tích R06",
+      "text": "Hợp lệ → Lưu → phân tích R06",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R06 / Phân tích",
+      "text": "R06 / Phân tích",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Đã hiểu → màn Ghi lại",
+      "text": "Đã hiểu → màn Ghi lại",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R07 / Phân tích",
+      "text": "R07 / Phân tích",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Thiếu tùy chọn: vẫn phân tích phần có dữ liệu",
+      "text": "Thiếu tùy chọn: vẫn phân tích phần có dữ liệu",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "Nhập thông tin",
+      "text": "Nhập thông tin",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Lưu chưa hợp lệ",
+      "text": "Lưu chưa hợp lệ",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Sửa thời lượng",
+      "text": "Sửa thời lượng",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "07 · Ghi lại / lịch sử và chỉnh sửa",
+      "text": "07 · Ghi lại / lịch sử và chỉnh sửa",
+      "x": 0,
+      "y": 0,
+      "w": 4950,
+      "h": 50
+    },
+    {
+      "screen": "__meta",
+      "name": "R08 / Lịch sử",
+      "text": "R08 / Lịch sử",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Lịch sử đủ các nhóm ngày → chọn bản ghi",
+      "text": "Lịch sử đủ các nhóm ngày → chọn bản ghi",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R09 / Phân tích",
+      "text": "R09 / Phân tích",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Quay lại Lịch sử, không tạo bản ghi mới",
+      "text": "Quay lại Lịch sử, không tạo bản ghi mới",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R10 / Lịch sử",
+      "text": "R10 / Lịch sử",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Toàn bộ dòng cùng dịch chuyển để lộ Xóa",
+      "text": "Toàn bộ dòng cùng dịch chuyển để lộ Xóa",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R11 / Lịch sử",
+      "text": "R11 / Lịch sử",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Hủy giữ dữ liệu; Xóa cập nhật đếm ngày",
+      "text": "Hủy giữ dữ liệu; Xóa cập nhật đếm ngày",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R12 / Phân",
+      "text": "R12 / Phân",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Chỉnh sửa giữ ID, không tính một lần mới",
+      "text": "Chỉnh sửa giữ ID, không tính một lần mới",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "R13 / Lịch sử",
+      "text": "R13 / Lịch sử",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Chưa có bản ghi: không suy diễn bằng 0",
+      "text": "Chưa có bản ghi: không suy diễn bằng 0",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "Chạm bản ghi",
+      "text": "Chạm bản ghi",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Chạm Xóa",
+      "text": "Chạm Xóa",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "10 · AI / mở lại và Hồ sơ AI",
+      "text": "10 · AI / mở lại và Hồ sơ AI",
+      "x": 0,
+      "y": 0,
+      "w": 4950,
+      "h": 50
+    },
+    {
+      "screen": "__meta",
+      "name": "I06 / Mở lại AI",
+      "text": "I06 / Mở lại AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Tiếp tục / Bắt đầu mới / đóng về Hồ sơ",
+      "text": "Tiếp tục / Bắt đầu mới / đóng về Hồ sơ",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "I07 / Mở lại AI",
+      "text": "I07 / Mở lại AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Dữ liệu đã lưu độc lập vẫn giữ",
+      "text": "Dữ liệu đã lưu độc lập vẫn giữ",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "P01 / Hồ sơ AI",
+      "text": "P01 / Hồ sơ AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Vuốt chỉ xem thử, không tự lưu",
+      "text": "Vuốt chỉ xem thử, không tự lưu",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "P02 / Hồ sơ AI",
+      "text": "P02 / Hồ sơ AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Dấu tích vẫn ở nhân vật đã lưu",
+      "text": "Dấu tích vẫn ở nhân vật đã lưu",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "P03 / Hồ sơ AI",
+      "text": "P03 / Hồ sơ AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Lưu ở lại trang; đồng bộ avatar",
+      "text": "Lưu ở lại trang; đồng bộ avatar",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "P04 / Hồ sơ AI",
+      "text": "P04 / Hồ sơ AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Ba lựa chọn thoát khi chưa lưu",
+      "text": "Ba lựa chọn thoát khi chưa lưu",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 36
+    },
+    {
+      "screen": "__meta",
+      "name": "Bắt đầu mới",
+      "text": "Bắt đầu mới",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Vuốt ngang",
+      "text": "Vuốt ngang",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "Lưu",
+      "text": "Lưu",
+      "x": 0,
+      "y": 0,
+      "w": 235,
+      "h": 35
+    },
+    {
+      "screen": "__meta",
+      "name": "09 · Chỉ cập nhật I04 / toàn bộ nội dung",
+      "text": "09 · Chỉ cập nhật I04 / toàn bộ nội dung",
+      "x": 0,
+      "y": 0,
+      "w": 4950,
+      "h": 50
+    },
+    {
+      "screen": "__meta",
+      "name": "I04 / Nhiều kết quả AI",
+      "text": "I04 / Nhiều kết quả AI",
+      "x": 0,
+      "y": 0,
+      "w": 720,
+      "h": 39
+    },
+    {
+      "screen": "__meta",
+      "name": "Ảnh → chi tiết dùng chung; tiêu đề → thu/mở. Đã ăn → Nhật ký; Sổ tay độc lập.",
+      "text": "Ảnh → chi tiết dùng chung; tiêu đề → thu/mở. Đã ăn → Nhật ký; Sổ tay độc lập.",
+      "x": 0,
+      "y": 0,
+      "w": 700,
+      "h": 62
+    }
+  ]
+}
