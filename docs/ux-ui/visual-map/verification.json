@@ -1,0 +1,18 @@
+{
+  "createdAt": "2026-09-27T12:05:38.640Z",
+  "width": 4200,
+  "height": 15820,
+  "bytes": 61374078,
+  "screens": 52,
+  "layers": 370,
+  "textLayers": 162,
+  "groups": 63,
+  "checks": {
+    "psdRoundTrip": "PASS",
+    "screenSources": "PASS",
+    "editableTextMetadata": "PASS",
+    "nativePhotoshopOpen": "NOT VERIFIED",
+    "liveInteractionInPSD": "NOT APPLICABLE"
+  },
+  "sha256": "0533932835d590229975b72ca1984abed80f99c491e03f201a90233632612b32"
+}

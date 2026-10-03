@@ -1,0 +1,49 @@
+{
+  "path": "docs\\ux-ui\\visual-map\\SmartMeal-UX-UI-Flow-Map.psd",
+  "bytes": 290776393,
+  "sha256": "c23417dfa52d7b6b5322c88d75b5b8743c7c8208f7921df62554ad833511ce1c",
+  "assetCrops": {
+    "nav-source": [
+      116,
+      6810,
+      574,
+      6884
+    ],
+    "ai-header": [
+      100,
+      14772,
+      588,
+      14882
+    ],
+    "ai-avatar": [
+      183,
+      14786,
+      259,
+      14861
+    ],
+    "food-chicken": [
+      175,
+      6180,
+      338,
+      6310
+    ],
+    "food-veg": [
+      405,
+      6405,
+      558,
+      6520
+    ],
+    "food-bowl": [
+      170,
+      6630,
+      337,
+      6770
+    ],
+    "food-berry": [
+      425,
+      6635,
+      560,
+      6770
+    ]
+  }
+}

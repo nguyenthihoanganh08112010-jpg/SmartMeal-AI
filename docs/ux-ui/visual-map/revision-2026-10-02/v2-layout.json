@@ -1,0 +1,3731 @@
+{
+  "width": 5200,
+  "height": 15520,
+  "groups": [
+    {
+      "name": "05 · Nhật ký / xóa từng món",
+      "ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "notes": [
+        "Vuốt từng món → xác nhận D02",
+        "Xóa chỉ món đang chọn; Hủy quay lại D01",
+        "Giữ các món khác và số đợt",
+        "Món cuối: bỏ đợt rỗng, giảm đúng một đợt"
+      ],
+      "y": 180,
+      "height": 2060
+    },
+    {
+      "name": "06 · Ghi lại / nhập và lưu",
+      "ids": [
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07"
+      ],
+      "notes": [
+        "Biểu mẫu đủ trường, chưa chọn sẵn",
+        "Nhập một phần; không tự điền tùy chọn",
+        "Thời lượng lỗi: không cho lưu",
+        "Hợp lệ → Lưu → phân tích R06",
+        "Đã hiểu → màn Ghi lại",
+        "Thiếu tùy chọn: vẫn phân tích phần có dữ liệu"
+      ],
+      "y": 2320,
+      "height": 2450
+    },
+    {
+      "name": "07 · Ghi lại / lịch sử và chỉnh sửa",
+      "ids": [
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13"
+      ],
+      "notes": [
+        "Lịch sử đủ nhóm ngày → chọn bản ghi",
+        "Quay lại Lịch sử, không tạo bản ghi mới",
+        "Toàn bộ dòng dịch chuyển để lộ Xóa",
+        "Hủy giữ dữ liệu; Xóa cập nhật đếm",
+        "Chỉnh sửa giữ ID, không tính lần mới",
+        "Chưa có bản ghi: không suy diễn bằng 0"
+      ],
+      "y": 4850,
+      "height": 2450
+    },
+    {
+      "name": "10 · AI / mở lại và Hồ sơ AI",
+      "ids": [
+        "I06",
+        "I07",
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "notes": [
+        "Tiếp tục / Bắt đầu mới / đóng về Hồ sơ",
+        "Dữ liệu đã lưu độc lập vẫn giữ",
+        "Vuốt chỉ xem thử, không tự lưu",
+        "Dấu tích vẫn ở nhân vật đã lưu",
+        "Lưu ở lại trang; đồng bộ avatar",
+        "Ba lựa chọn khi chưa lưu"
+      ],
+      "y": 7380,
+      "height": 2000
+    },
+    {
+      "name": "09 · AI / nhiều kết quả (I04)",
+      "ids": [
+        "I04"
+      ],
+      "notes": [
+        "Thẻ độc lập, mở rộng/ảnh → C01/C02; Đã ăn chỉ lưu lựa chọn vào D01."
+      ],
+      "y": 9460,
+      "height": 5900
+    }
+  ],
+  "screens": [
+    {
+      "id": "D01",
+      "title": "Nhật ký",
+      "height": 1760
+    },
+    {
+      "id": "D02",
+      "title": "Nhật ký",
+      "height": 1560
+    },
+    {
+      "id": "D03",
+      "title": "Nhật ký",
+      "height": 1620
+    },
+    {
+      "id": "D04",
+      "title": "Nhật ký",
+      "height": 900
+    },
+    {
+      "id": "R02",
+      "title": "Phân",
+      "height": 2150
+    },
+    {
+      "id": "R03",
+      "title": "Phân",
+      "height": 2150
+    },
+    {
+      "id": "R04",
+      "title": "Phân",
+      "height": 2150
+    },
+    {
+      "id": "R05",
+      "title": "Phân",
+      "height": 2150
+    },
+    {
+      "id": "R06",
+      "title": "Phân tích",
+      "height": 1500
+    },
+    {
+      "id": "R07",
+      "title": "Phân tích",
+      "height": 1500
+    },
+    {
+      "id": "R08",
+      "title": "Lịch sử",
+      "height": 1240
+    },
+    {
+      "id": "R09",
+      "title": "Phân tích",
+      "height": 1500
+    },
+    {
+      "id": "R10",
+      "title": "Lịch sử",
+      "height": 1240
+    },
+    {
+      "id": "R11",
+      "title": "Lịch sử",
+      "height": 1240
+    },
+    {
+      "id": "R12",
+      "title": "Phân",
+      "height": 2150
+    },
+    {
+      "id": "R13",
+      "title": "Lịch sử",
+      "height": 760
+    },
+    {
+      "id": "I06",
+      "title": "Mở lại AI",
+      "height": 1180
+    },
+    {
+      "id": "I07",
+      "title": "Mở lại AI",
+      "height": 1180
+    },
+    {
+      "id": "P01",
+      "title": "Hồ sơ AI",
+      "height": 1700
+    },
+    {
+      "id": "P02",
+      "title": "Hồ sơ AI",
+      "height": 1700
+    },
+    {
+      "id": "P03",
+      "title": "Hồ sơ AI",
+      "height": 1700
+    },
+    {
+      "id": "P04",
+      "title": "Hồ sơ AI",
+      "height": 1700
+    },
+    {
+      "id": "I04",
+      "title": "Nhiều kết quả AI",
+      "height": 5600
+    }
+  ],
+  "textChecks": [
+    {
+      "screen": "D01",
+      "name": "Tiêu đề màn",
+      "text": "Nhật ký"
+    },
+    {
+      "screen": "D01",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T2",
+      "text": "T2"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 14",
+      "text": "14"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T3",
+      "text": "T3"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 15",
+      "text": "15"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T4",
+      "text": "T4"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 16",
+      "text": "16"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T5",
+      "text": "T5"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 17",
+      "text": "17"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T6",
+      "text": "T6"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 18",
+      "text": "18"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ T7",
+      "text": "T7"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 19",
+      "text": "19"
+    },
+    {
+      "screen": "D01",
+      "name": "Thứ CN",
+      "text": "CN"
+    },
+    {
+      "screen": "D01",
+      "name": "Số ngày 20",
+      "text": "20"
+    },
+    {
+      "screen": "D01",
+      "name": "Số đợt",
+      "text": "3"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhãn đợt",
+      "text": "đợt ăn"
+    },
+    {
+      "screen": "D01",
+      "name": "Bữa chính",
+      "text": "Bữa chính   2"
+    },
+    {
+      "screen": "D01",
+      "name": "Ăn nhẹ",
+      "text": "Ăn nhẹ       1"
+    },
+    {
+      "screen": "D01",
+      "name": "Ghi chú mẫu",
+      "text": "Dữ liệu minh họa"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm chất tiêu đề",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm chất 0",
+      "text": "Tinh bột"
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng 0",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm chất 1",
+      "text": "Đạm"
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng 1",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm chất 2",
+      "text": "Rau"
+    },
+    {
+      "screen": "D01",
+      "name": "Bằng chứng 2",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm bữa · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ · Bữa sáng",
+      "text": "07:30 · 1 đợt"
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm bữa · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ · Bữa trưa",
+      "text": "12:15 · 1 đợt"
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món gà · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món rau · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Nhóm bữa · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D01",
+      "name": "Giờ · Ăn nhẹ",
+      "text": "15:00 · 1 đợt"
+    },
+    {
+      "screen": "D01",
+      "name": "Tên món",
+      "text": "Combo B · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D01",
+      "name": "Chữ pill · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D01",
+      "name": "Chữ pill · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D01",
+      "name": "Chữ pill · Bữa tối",
+      "text": "Bữa tối"
+    },
+    {
+      "screen": "D01",
+      "name": "Chữ pill · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D02",
+      "name": "Tiêu đề màn",
+      "text": "Nhật ký"
+    },
+    {
+      "screen": "D02",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T2",
+      "text": "T2"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 14",
+      "text": "14"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T3",
+      "text": "T3"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 15",
+      "text": "15"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T4",
+      "text": "T4"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 16",
+      "text": "16"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T5",
+      "text": "T5"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 17",
+      "text": "17"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T6",
+      "text": "T6"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 18",
+      "text": "18"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ T7",
+      "text": "T7"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 19",
+      "text": "19"
+    },
+    {
+      "screen": "D02",
+      "name": "Thứ CN",
+      "text": "CN"
+    },
+    {
+      "screen": "D02",
+      "name": "Số ngày 20",
+      "text": "20"
+    },
+    {
+      "screen": "D02",
+      "name": "Số đợt",
+      "text": "3"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhãn đợt",
+      "text": "đợt ăn"
+    },
+    {
+      "screen": "D02",
+      "name": "Bữa chính",
+      "text": "Bữa chính   2"
+    },
+    {
+      "screen": "D02",
+      "name": "Ăn nhẹ",
+      "text": "Ăn nhẹ       1"
+    },
+    {
+      "screen": "D02",
+      "name": "Ghi chú mẫu",
+      "text": "Dữ liệu minh họa"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm chất tiêu đề",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm chất 0",
+      "text": "Tinh bột"
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng 0",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm chất 1",
+      "text": "Đạm"
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng 1",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm chất 2",
+      "text": "Rau"
+    },
+    {
+      "screen": "D02",
+      "name": "Bằng chứng 2",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm bữa · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ · Bữa sáng",
+      "text": "07:30 · 1 đợt"
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm bữa · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ · Bữa trưa",
+      "text": "12:15 · 1 đợt"
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món gà · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món rau · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Nhóm bữa · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D02",
+      "name": "Giờ · Ăn nhẹ",
+      "text": "15:00 · 1 đợt"
+    },
+    {
+      "screen": "D02",
+      "name": "Tên món",
+      "text": "Combo B · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ pill · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ pill · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ pill · Bữa tối",
+      "text": "Bữa tối"
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ pill · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D02",
+      "name": "Tiêu đề hộp",
+      "text": "Xóa món đã ăn?"
+    },
+    {
+      "screen": "D02",
+      "name": "Nội dung hộp",
+      "text": "Chỉ xóa Món rau đang chọn. Các món khác và Sổ tay được giữ nguyên."
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "D02",
+      "name": "Chữ nút · Hủy",
+      "text": "Hủy"
+    },
+    {
+      "screen": "D03",
+      "name": "Tiêu đề màn",
+      "text": "Nhật ký"
+    },
+    {
+      "screen": "D03",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T2",
+      "text": "T2"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 14",
+      "text": "14"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T3",
+      "text": "T3"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 15",
+      "text": "15"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T4",
+      "text": "T4"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 16",
+      "text": "16"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T5",
+      "text": "T5"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 17",
+      "text": "17"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T6",
+      "text": "T6"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 18",
+      "text": "18"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ T7",
+      "text": "T7"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 19",
+      "text": "19"
+    },
+    {
+      "screen": "D03",
+      "name": "Thứ CN",
+      "text": "CN"
+    },
+    {
+      "screen": "D03",
+      "name": "Số ngày 20",
+      "text": "20"
+    },
+    {
+      "screen": "D03",
+      "name": "Số đợt",
+      "text": "3"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhãn đợt",
+      "text": "đợt ăn"
+    },
+    {
+      "screen": "D03",
+      "name": "Bữa chính",
+      "text": "Bữa chính   2"
+    },
+    {
+      "screen": "D03",
+      "name": "Ăn nhẹ",
+      "text": "Ăn nhẹ       1"
+    },
+    {
+      "screen": "D03",
+      "name": "Ghi chú mẫu",
+      "text": "Dữ liệu minh họa"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm chất tiêu đề",
+      "text": "Các món đã ăn cung cấp nhóm chất nào?"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm chất 0",
+      "text": "Tinh bột"
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng 0",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm chất 1",
+      "text": "Đạm"
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng 1",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm chất 2",
+      "text": "Rau"
+    },
+    {
+      "screen": "D03",
+      "name": "Bằng chứng 2",
+      "text": "Chưa có dữ liệu\nxác minh"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm bữa · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ · Bữa sáng",
+      "text": "07:30 · 1 đợt"
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món trứng · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm bữa · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ · Bữa trưa",
+      "text": "12:15 · 1 đợt"
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món gà · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Món cơm · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Nhóm bữa · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D03",
+      "name": "Giờ · Ăn nhẹ",
+      "text": "15:00 · 1 đợt"
+    },
+    {
+      "screen": "D03",
+      "name": "Tên món",
+      "text": "Combo B · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Trạng thái món",
+      "text": "Đã xác nhận ăn · mẫu"
+    },
+    {
+      "screen": "D03",
+      "name": "Chữ pill · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D03",
+      "name": "Chữ pill · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D03",
+      "name": "Chữ pill · Bữa tối",
+      "text": "Bữa tối"
+    },
+    {
+      "screen": "D03",
+      "name": "Chữ pill · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "D04",
+      "name": "Tiêu đề màn",
+      "text": "Nhật ký"
+    },
+    {
+      "screen": "D04",
+      "name": "Ngày đang xem",
+      "text": "20 tháng 9, 2026"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T2",
+      "text": "T2"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 14",
+      "text": "14"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T3",
+      "text": "T3"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 15",
+      "text": "15"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T4",
+      "text": "T4"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 16",
+      "text": "16"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T5",
+      "text": "T5"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 17",
+      "text": "17"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T6",
+      "text": "T6"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 18",
+      "text": "18"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ T7",
+      "text": "T7"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 19",
+      "text": "19"
+    },
+    {
+      "screen": "D04",
+      "name": "Thứ CN",
+      "text": "CN"
+    },
+    {
+      "screen": "D04",
+      "name": "Số ngày 20",
+      "text": "20"
+    },
+    {
+      "screen": "D04",
+      "name": "Số đợt",
+      "text": "0"
+    },
+    {
+      "screen": "D04",
+      "name": "Nhãn đợt",
+      "text": "đợt ăn"
+    },
+    {
+      "screen": "D04",
+      "name": "Bữa chính",
+      "text": "Bữa chính   0"
+    },
+    {
+      "screen": "D04",
+      "name": "Ăn nhẹ",
+      "text": "Ăn nhẹ       0"
+    },
+    {
+      "screen": "D04",
+      "name": "Ghi chú mẫu",
+      "text": "Dữ liệu minh họa"
+    },
+    {
+      "screen": "D04",
+      "name": "Chữ pill · Bữa sáng",
+      "text": "Bữa sáng"
+    },
+    {
+      "screen": "D04",
+      "name": "Chữ pill · Bữa trưa",
+      "text": "Bữa trưa"
+    },
+    {
+      "screen": "D04",
+      "name": "Chữ pill · Bữa tối",
+      "text": "Bữa tối"
+    },
+    {
+      "screen": "D04",
+      "name": "Chữ pill · Ăn nhẹ",
+      "text": "Ăn nhẹ"
+    },
+    {
+      "screen": "R02",
+      "name": "Tiêu đề màn",
+      "text": "Phân"
+    },
+    {
+      "screen": "R02",
+      "name": "Phụ đề",
+      "text": "Nhập / chưa phê duyệt · dữ liệu mẫu"
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": ""
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "R02",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45"
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước"
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Trắng xám",
+      "text": "Trắng xám"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đen",
+      "text": "Đen"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm"
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Ít",
+      "text": "Ít"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều"
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Khó",
+      "text": "Khó"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết"
+    },
+    {
+      "screen": "R02",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ"
+    },
+    {
+      "screen": "R02",
+      "name": "Giá trị · Bám bồn cầu",
+      "text": "Bám bồn cầu"
+    },
+    {
+      "screen": "R02",
+      "name": "Ghi chú tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn."
+    },
+    {
+      "screen": "R02",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R02",
+      "name": "Chữ nút · Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "R03",
+      "name": "Tiêu đề màn",
+      "text": "Phân"
+    },
+    {
+      "screen": "R03",
+      "name": "Phụ đề",
+      "text": "Nhập / chưa phê duyệt · dữ liệu mẫu"
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": ""
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "R03",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45"
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước"
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Trắng xám",
+      "text": "Trắng xám"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đen",
+      "text": "Đen"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm"
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Ít",
+      "text": "Ít"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều"
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Khó",
+      "text": "Khó"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết"
+    },
+    {
+      "screen": "R03",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ"
+    },
+    {
+      "screen": "R03",
+      "name": "Giá trị · Bám bồn cầu",
+      "text": "Bám bồn cầu"
+    },
+    {
+      "screen": "R03",
+      "name": "Ghi chú tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn."
+    },
+    {
+      "screen": "R03",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R03",
+      "name": "Chữ nút · Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "R04",
+      "name": "Tiêu đề màn",
+      "text": "Phân"
+    },
+    {
+      "screen": "R04",
+      "name": "Phụ đề",
+      "text": "Nhập / chưa phê duyệt · dữ liệu mẫu"
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "0 phút"
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "R04",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45"
+    },
+    {
+      "screen": "R04",
+      "name": "Lỗi thời lượng",
+      "text": "Nhập thời lượng lớn hơn 0, đơn vị phút."
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước"
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Trắng xám",
+      "text": "Trắng xám"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đen",
+      "text": "Đen"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm"
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Ít",
+      "text": "Ít"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều"
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Khó",
+      "text": "Khó"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết"
+    },
+    {
+      "screen": "R04",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ"
+    },
+    {
+      "screen": "R04",
+      "name": "Giá trị · Bám bồn cầu",
+      "text": "Bám bồn cầu"
+    },
+    {
+      "screen": "R04",
+      "name": "Ghi chú tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn."
+    },
+    {
+      "screen": "R04",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R04",
+      "name": "Chữ nút · Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "R05",
+      "name": "Tiêu đề màn",
+      "text": "Phân"
+    },
+    {
+      "screen": "R05",
+      "name": "Phụ đề",
+      "text": "Nhập / chưa phê duyệt · dữ liệu mẫu"
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "R05",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45"
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước"
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Trắng xám",
+      "text": "Trắng xám"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đen",
+      "text": "Đen"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm"
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Ít",
+      "text": "Ít"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều"
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Khó",
+      "text": "Khó"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết"
+    },
+    {
+      "screen": "R05",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ"
+    },
+    {
+      "screen": "R05",
+      "name": "Giá trị · Bám bồn cầu",
+      "text": "Bám bồn cầu"
+    },
+    {
+      "screen": "R05",
+      "name": "Ghi chú tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn."
+    },
+    {
+      "screen": "R05",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R05",
+      "name": "Chữ nút · Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "R06",
+      "name": "Tiêu đề màn",
+      "text": "Phân tích"
+    },
+    {
+      "screen": "R06",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 14:45"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận"
+    },
+    {
+      "screen": "R06",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 4 phút\nHình dạng: Thỏi dài mịn\nCảm giác: Trơn tru"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác"
+    },
+    {
+      "screen": "R06",
+      "name": "Giá trị",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R06",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R06",
+      "name": "Chữ nút · Đã hiểu",
+      "text": "Đã hiểu"
+    },
+    {
+      "screen": "R07",
+      "name": "Tiêu đề màn",
+      "text": "Phân tích"
+    },
+    {
+      "screen": "R07",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 06:45"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận"
+    },
+    {
+      "screen": "R07",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 8 phút\nHình dạng: Thỏi dài nứt nẻ\nCảm giác: Chưa có dữ liệu"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "8 phút"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "Chưa có dữ liệu"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "Chưa có dữ liệu"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác"
+    },
+    {
+      "screen": "R07",
+      "name": "Giá trị",
+      "text": "Chưa có dữ liệu"
+    },
+    {
+      "screen": "R07",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R07",
+      "name": "Chữ nút · Đã hiểu",
+      "text": "Đã hiểu"
+    },
+    {
+      "screen": "R08",
+      "name": "Tiêu đề màn",
+      "text": "Lịch sử"
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay"
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ",
+      "text": "14:45"
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R08",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ",
+      "text": "06:45"
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "8 phút"
+    },
+    {
+      "screen": "R08",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua"
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ",
+      "text": "20:25"
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "5 phút"
+    },
+    {
+      "screen": "R08",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R08",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026"
+    },
+    {
+      "screen": "R08",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R08",
+      "name": "Giờ",
+      "text": "11:14"
+    },
+    {
+      "screen": "R08",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận"
+    },
+    {
+      "screen": "R08",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R09",
+      "name": "Tiêu đề màn",
+      "text": "Phân tích"
+    },
+    {
+      "screen": "R09",
+      "name": "Ngày giờ",
+      "text": "20/09/2026 · 14:45"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên phần",
+      "text": "Thông tin đã ghi nhận"
+    },
+    {
+      "screen": "R09",
+      "name": "Tóm tắt",
+      "text": "Thời lượng: 4 phút\nHình dạng: Thỏi dài mịn\nCảm giác: Trơn tru"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Thời lượng"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Tên đặc điểm",
+      "text": "Cảm giác"
+    },
+    {
+      "screen": "R09",
+      "name": "Giá trị",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R09",
+      "name": "Diễn giải",
+      "text": "[Diễn giải đã kiểm chứng — chờ]"
+    },
+    {
+      "screen": "R09",
+      "name": "Chữ nút · Quay lại Lịch sử",
+      "text": "Quay lại Lịch sử"
+    },
+    {
+      "screen": "R10",
+      "name": "Tiêu đề màn",
+      "text": "Lịch sử"
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay"
+    },
+    {
+      "screen": "R10",
+      "name": "Chữ xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ",
+      "text": "14:45"
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R10",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ",
+      "text": "06:45"
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "8 phút"
+    },
+    {
+      "screen": "R10",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua"
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ",
+      "text": "20:25"
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "5 phút"
+    },
+    {
+      "screen": "R10",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R10",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026"
+    },
+    {
+      "screen": "R10",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R10",
+      "name": "Giờ",
+      "text": "11:14"
+    },
+    {
+      "screen": "R10",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận"
+    },
+    {
+      "screen": "R10",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R11",
+      "name": "Tiêu đề màn",
+      "text": "Lịch sử"
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "Hôm nay"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ",
+      "text": "14:45"
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ",
+      "text": "06:45"
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "8 phút"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "Hôm qua"
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ",
+      "text": "20:25"
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "5 phút"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R11",
+      "name": "Nhóm ngày",
+      "text": "22/08/2026"
+    },
+    {
+      "screen": "R11",
+      "name": "Tên hình dạng",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R11",
+      "name": "Giờ",
+      "text": "11:14"
+    },
+    {
+      "screen": "R11",
+      "name": "Thời lượng",
+      "text": "Chưa ghi nhận"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ pill · Sửa",
+      "text": "Sửa"
+    },
+    {
+      "screen": "R11",
+      "name": "Tiêu đề",
+      "text": "Xóa bản ghi?"
+    },
+    {
+      "screen": "R11",
+      "name": "Nội dung",
+      "text": "Xóa bản ghi đang chọn và cập nhật số lần đi tiêu, lịch sử, lịch Home."
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R11",
+      "name": "Chữ nút · Hủy",
+      "text": "Hủy"
+    },
+    {
+      "screen": "R12",
+      "name": "Tiêu đề màn",
+      "text": "Phân"
+    },
+    {
+      "screen": "R12",
+      "name": "Phụ đề",
+      "text": "Nhập / chưa phê duyệt · dữ liệu mẫu"
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Thời lượng đi tiêu *",
+      "text": "Thời lượng đi tiêu *"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Thời lượng đi tiêu *",
+      "text": "4 phút"
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Ngày ghi nhận",
+      "text": "Ngày ghi nhận"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Ngày ghi nhận",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "R12",
+      "name": "Nhãn Giờ ghi nhận",
+      "text": "Giờ ghi nhận"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị Giờ ghi nhận",
+      "text": "14:45"
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Hình dạng",
+      "text": "Hình dạng"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Cục nhỏ cứng",
+      "text": "Cục nhỏ cứng"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài lồi lõm",
+      "text": "Thỏi dài lồi lõm"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài nứt nẻ",
+      "text": "Thỏi dài nứt nẻ"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Thỏi dài mịn",
+      "text": "Thỏi dài mịn"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Hạt mềm",
+      "text": "Hạt mềm"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dạng bùn",
+      "text": "Dạng bùn"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dạng nước",
+      "text": "Dạng nước"
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Màu sắc",
+      "text": "Màu sắc"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Trắng xám",
+      "text": "Trắng xám"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Vàng",
+      "text": "Vàng"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu nhạt",
+      "text": "Nâu nhạt"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu",
+      "text": "Nâu"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nâu đậm",
+      "text": "Nâu đậm"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Xanh lá",
+      "text": "Xanh lá"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đen",
+      "text": "Đen"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Rất đậm",
+      "text": "Rất đậm"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đỏ",
+      "text": "Đỏ"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Đỏ sẫm",
+      "text": "Đỏ sẫm"
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Lượng phân",
+      "text": "Lượng phân"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Ít",
+      "text": "Ít"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Nhiều",
+      "text": "Nhiều"
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Cảm giác khi đi ngoài",
+      "text": "Cảm giác khi đi ngoài"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Trơn tru",
+      "text": "Trơn tru"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bình thường",
+      "text": "Bình thường"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Khó",
+      "text": "Khó"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Chưa hết",
+      "text": "Chưa hết"
+    },
+    {
+      "screen": "R12",
+      "name": "Trường · Độ dính",
+      "text": "Độ dính"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Rất sạch",
+      "text": "Rất sạch"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Dính nhẹ",
+      "text": "Dính nhẹ"
+    },
+    {
+      "screen": "R12",
+      "name": "Giá trị · Bám bồn cầu",
+      "text": "Bám bồn cầu"
+    },
+    {
+      "screen": "R12",
+      "name": "Ghi chú tùy chọn",
+      "text": "Các đặc điểm có thể bỏ trống. Không tự chọn giá trị thay bạn."
+    },
+    {
+      "screen": "R12",
+      "name": "Chữ nút · Xóa",
+      "text": "Xóa"
+    },
+    {
+      "screen": "R12",
+      "name": "Chữ nút · Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "R13",
+      "name": "Tiêu đề màn",
+      "text": "Lịch sử"
+    },
+    {
+      "screen": "R13",
+      "name": "Ghi chú trống",
+      "text": "Không có dữ liệu không có nghĩa là đã ghi nhận 0 lần."
+    },
+    {
+      "screen": "I06",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "I06",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "I06",
+      "name": "Xin chào!",
+      "text": "Xin chào!"
+    },
+    {
+      "screen": "I06",
+      "name": "Giới thiệu",
+      "text": "Tôi có thể giúp bạn tìm món và combo theo nguyên liệu, thời gian và mục tiêu của bạn."
+    },
+    {
+      "screen": "I06",
+      "name": "Câu hỏi bắt đầu",
+      "text": "Bạn muốn bắt đầu từ đâu?"
+    },
+    {
+      "screen": "I06",
+      "name": "Số #0",
+      "text": "#"
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ gợi ý 0",
+      "text": "Gợi ý bữa ăn theo nguyên liệu tôi có"
+    },
+    {
+      "screen": "I06",
+      "name": "Số #1",
+      "text": "#"
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ gợi ý 1",
+      "text": "Tôi muốn tìm món phù hợp với mục tiêu"
+    },
+    {
+      "screen": "I06",
+      "name": "Số #2",
+      "text": "#"
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ gợi ý 2",
+      "text": "Giúp tôi chọn một combo bữa ăn"
+    },
+    {
+      "screen": "I06",
+      "name": "Số #3",
+      "text": "#"
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ gợi ý 3",
+      "text": "Đăng xuất"
+    },
+    {
+      "screen": "I06",
+      "name": "Tiêu đề",
+      "text": "Tiếp tục hay bắt đầu mới?"
+    },
+    {
+      "screen": "I06",
+      "name": "Nội dung",
+      "text": "Bạn có thể tiếp tục cuộc trò chuyện hiện có."
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ nút · Tiếp tục",
+      "text": "Tiếp tục"
+    },
+    {
+      "screen": "I06",
+      "name": "Chữ nút · Bắt đầu mới",
+      "text": "Bắt đầu mới"
+    },
+    {
+      "screen": "I07",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "I07",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "I07",
+      "name": "Xin chào!",
+      "text": "Xin chào!"
+    },
+    {
+      "screen": "I07",
+      "name": "Giới thiệu",
+      "text": "Tôi có thể giúp bạn tìm món và combo theo nguyên liệu, thời gian và mục tiêu của bạn."
+    },
+    {
+      "screen": "I07",
+      "name": "Câu hỏi bắt đầu",
+      "text": "Bạn muốn bắt đầu từ đâu?"
+    },
+    {
+      "screen": "I07",
+      "name": "Số #0",
+      "text": "#"
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ gợi ý 0",
+      "text": "Gợi ý bữa ăn theo nguyên liệu tôi có"
+    },
+    {
+      "screen": "I07",
+      "name": "Số #1",
+      "text": "#"
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ gợi ý 1",
+      "text": "Tôi muốn tìm món phù hợp với mục tiêu"
+    },
+    {
+      "screen": "I07",
+      "name": "Số #2",
+      "text": "#"
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ gợi ý 2",
+      "text": "Giúp tôi chọn một combo bữa ăn"
+    },
+    {
+      "screen": "I07",
+      "name": "Số #3",
+      "text": "#"
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ gợi ý 3",
+      "text": "Đăng xuất"
+    },
+    {
+      "screen": "I07",
+      "name": "Tiêu đề",
+      "text": "Xác nhận bắt đầu mới"
+    },
+    {
+      "screen": "I07",
+      "name": "Nội dung",
+      "text": "Thay thế hội thoại và xóa kết quả chưa lưu. Dữ liệu đã lưu độc lập vẫn giữ."
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ nút · Xác nhận bắt đầu mới",
+      "text": "Xác nhận bắt đầu mới"
+    },
+    {
+      "screen": "I07",
+      "name": "Chữ nút · Hủy",
+      "text": "Hủy"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "P01",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "P01",
+      "name": "Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "P01",
+      "name": "Trạng thái lưu",
+      "text": "Đang sử dụng"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên nhãn",
+      "text": "Tên"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên giá trị",
+      "text": "[Nhân vật A]"
+    },
+    {
+      "screen": "P01",
+      "name": "Giới thiệu nhãn",
+      "text": "Giới thiệu"
+    },
+    {
+      "screen": "P01",
+      "name": "Giới thiệu giá trị",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P01",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật"
+    },
+    {
+      "screen": "P01",
+      "name": "Chưa thiết lập",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P01",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại"
+    },
+    {
+      "screen": "P01",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời"
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chờ",
+      "text": "[Lựa chọn chờ duyệt]"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc"
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chờ",
+      "text": "[Danh sách chờ duyệt]"
+    },
+    {
+      "screen": "P01",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc"
+    },
+    {
+      "screen": "P01",
+      "name": "Giá trị chờ",
+      "text": "[Giá trị chờ duyệt]"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "P02",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "P02",
+      "name": "Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "P02",
+      "name": "Trạng thái lưu",
+      "text": "Đang xem thử · chưa lưu"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên nhãn",
+      "text": "Tên"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên giá trị",
+      "text": "[Nhân vật B]"
+    },
+    {
+      "screen": "P02",
+      "name": "Giới thiệu nhãn",
+      "text": "Giới thiệu"
+    },
+    {
+      "screen": "P02",
+      "name": "Giới thiệu giá trị",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P02",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật"
+    },
+    {
+      "screen": "P02",
+      "name": "Chưa thiết lập",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P02",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại"
+    },
+    {
+      "screen": "P02",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời"
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chờ",
+      "text": "[Lựa chọn chờ duyệt]"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc"
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chờ",
+      "text": "[Danh sách chờ duyệt]"
+    },
+    {
+      "screen": "P02",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc"
+    },
+    {
+      "screen": "P02",
+      "name": "Giá trị chờ",
+      "text": "[Giá trị chờ duyệt]"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "P03",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "P03",
+      "name": "Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "P03",
+      "name": "Trạng thái lưu",
+      "text": "Đã lưu lựa chọn"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên nhãn",
+      "text": "Tên"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên giá trị",
+      "text": "[Nhân vật B]"
+    },
+    {
+      "screen": "P03",
+      "name": "Giới thiệu nhãn",
+      "text": "Giới thiệu"
+    },
+    {
+      "screen": "P03",
+      "name": "Giới thiệu giá trị",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P03",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật"
+    },
+    {
+      "screen": "P03",
+      "name": "Chưa thiết lập",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P03",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại"
+    },
+    {
+      "screen": "P03",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời"
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chờ",
+      "text": "[Lựa chọn chờ duyệt]"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc"
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chờ",
+      "text": "[Danh sách chờ duyệt]"
+    },
+    {
+      "screen": "P03",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc"
+    },
+    {
+      "screen": "P03",
+      "name": "Giá trị chờ",
+      "text": "[Giá trị chờ duyệt]"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "P04",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "P04",
+      "name": "Lưu",
+      "text": "Lưu"
+    },
+    {
+      "screen": "P04",
+      "name": "Trạng thái lưu",
+      "text": "Đang xem thử · chưa lưu"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên nhãn",
+      "text": "Tên"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên giá trị",
+      "text": "[Nhân vật B]"
+    },
+    {
+      "screen": "P04",
+      "name": "Giới thiệu nhãn",
+      "text": "Giới thiệu"
+    },
+    {
+      "screen": "P04",
+      "name": "Giới thiệu giá trị",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P04",
+      "name": "Thiết lập nhân vật",
+      "text": "Thiết lập nhân vật"
+    },
+    {
+      "screen": "P04",
+      "name": "Chưa thiết lập",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P04",
+      "name": "Phong cách đối thoại",
+      "text": "Phong cách đối thoại"
+    },
+    {
+      "screen": "P04",
+      "name": "Chưa thiết lập 2",
+      "text": "Chưa thiết lập"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Độ dài trả lời"
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chờ",
+      "text": "[Lựa chọn chờ duyệt]"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Giọng đọc"
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chờ",
+      "text": "[Danh sách chờ duyệt]"
+    },
+    {
+      "screen": "P04",
+      "name": "Tên thiết lập",
+      "text": "Tốc độ đọc"
+    },
+    {
+      "screen": "P04",
+      "name": "Giá trị chờ",
+      "text": "[Giá trị chờ duyệt]"
+    },
+    {
+      "screen": "P04",
+      "name": "Tiêu đề",
+      "text": "Lưu thay đổi?"
+    },
+    {
+      "screen": "P04",
+      "name": "Nội dung",
+      "text": "Bạn đang xem thử một nhân vật khác."
+    },
+    {
+      "screen": "P04",
+      "name": "Chữ nút · Lưu thay đổi",
+      "text": "Lưu thay đổi"
+    },
+    {
+      "screen": "P04",
+      "name": "Chữ nút · Không lưu",
+      "text": "Không lưu"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên AI",
+      "text": "HIN"
+    },
+    {
+      "screen": "I04",
+      "name": "Phong cách",
+      "text": "Phong cách cún con"
+    },
+    {
+      "screen": "I04",
+      "name": "Yêu cầu mẫu",
+      "text": "Gợi ý món và combo trong 30 phút."
+    },
+    {
+      "screen": "I04",
+      "name": "Giờ mẫu",
+      "text": "12:10 · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Phản hồi",
+      "text": "Kết quả minh họa"
+    },
+    {
+      "screen": "I04",
+      "name": "Giới hạn",
+      "text": "Không sử dụng nhật ký tiêu hóa cho yêu cầu này."
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · ▷ Phát giọng đọc",
+      "text": "▷ Phát giọng đọc"
+    },
+    {
+      "screen": "I04",
+      "name": "Bằng chứng",
+      "text": "T = 30 phút · Chưa có dữ liệu dinh dưỡng đã xác minh. Giữ cùng nhóm chờ đánh giá G/I/B."
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm thời gian",
+      "text": "Các lựa chọn trong thời gian"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món gà · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 20 phút · Bữa chính",
+      "text": "20 phút · Bữa chính"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Nguyên liệu: Gà · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món rau · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 15 phút · Bữa chính",
+      "text": "15 phút · Bữa chính"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Nguyên liệu: Rau · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món cơm · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 25 phút · Bữa chính",
+      "text": "25 phút · Bữa chính"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Nguyên liệu: Gạo · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Combo A · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 30 phút · Bữa chính",
+      "text": "30 phút · Bữa chính"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Các món: Gà, rau, cơm · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Món táo · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 5 phút · Ăn nhẹ",
+      "text": "5 phút · Ăn nhẹ"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Nguyên liệu: Táo · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm dự phòng",
+      "text": "Dự phòng · vượt 5 phút"
+    },
+    {
+      "screen": "I04",
+      "name": "Tên kết quả",
+      "text": "Combo B · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhóm đánh giá",
+      "text": "Cùng nhóm chờ đánh giá G/I/B"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · 35 phút · Bữa chính",
+      "text": "35 phút · Bữa chính"
+    },
+    {
+      "screen": "I04",
+      "name": "Tóm tắt",
+      "text": "[Tóm tắt có bằng chứng]"
+    },
+    {
+      "screen": "I04",
+      "name": "Thành phần",
+      "text": "Các món: Cá, rau, cơm · mẫu"
+    },
+    {
+      "screen": "I04",
+      "name": "Cách làm",
+      "text": "Cách làm"
+    },
+    {
+      "screen": "I04",
+      "name": "Các bước",
+      "text": "1. [Bước nấu đã xác minh]\n2. [Bước tiếp theo]\n[Gia vị và thay thế đã xác minh]"
+    },
+    {
+      "screen": "I04",
+      "name": "Nhãn chọn",
+      "text": "Chọn món đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ pill · Lưu vào Sổ tay",
+      "text": "Lưu vào Sổ tay"
+    },
+    {
+      "screen": "I04",
+      "name": "Ngày ăn nhãn",
+      "text": "Ngày ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Ngày mẫu",
+      "text": "20/09/2026"
+    },
+    {
+      "screen": "I04",
+      "name": "Chữ nút · Đã ăn",
+      "text": "Đã ăn"
+    },
+    {
+      "screen": "I04",
+      "name": "Lưu có chọn lọc",
+      "text": "Chỉ ghi các món đã chọn. Bữa chính và Ăn nhẹ lưu riêng; không tạo đợt trùng."
+    },
+    {
+      "screen": "I04",
+      "name": "Placeholder nhập",
+      "text": "Nhắn với AI"
+    }
+  ]
+}
