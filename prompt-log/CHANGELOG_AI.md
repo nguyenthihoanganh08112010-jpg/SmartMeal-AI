@@ -33,3 +33,9 @@
 ## 2026-09-27 · Photoshop visual flow map
 - Added a layered PSD screen-flow handoff, preview images, source captures and Photoshop editing guide.
 - Preserved the frozen application and PRD. Verified PSD structure and composite; native Photoshop editing remains NOT VERIFIED.
+
+## 2026-10-03 · Mobile app PRD v1.1 implementation in progress
+- Added Expo Android/iOS/web source and five user-selected AI personas, using regular rice artwork in the persona roster.
+- Added meal timestamp, per-dish deletion, digestive/A8 and G/B domain rules, account-isolated Supabase schema and provider adapters.
+- Added honest PSD/PRD audit, identified visual gaps, and corrected initial notebook/welcome layouts and bottom confirmation-sheet placement.
+- Preserved source PSD and PRD. Cloud/native deployment and full visual fidelity remain unverified/incomplete.

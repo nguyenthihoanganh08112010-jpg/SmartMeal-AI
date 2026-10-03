@@ -1,0 +1,41 @@
+Starting Metro Bundler
+
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:27360) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Web Bundled 46099ms index.ts (405 modules)
+
+› Assets (15):
+assets\food-berry.fb040762aac78ba3c3f7bbef478dd567.png (30KB)
+assets\food-bowl.3d641818cb67e5bbe44e625af69cc0f1.png (37KB)
+assets\food-chicken.88fb286379da8f46071bae3cdee30d05.png (35KB)
+assets\food-veg.88b88ad9fe50eec4c6f6c17ae3760600.png (21KB)
+assets\nav-0.d69b7f012bfc076be75a9df55682218a.png (1.8KB)
+assets\nav-1.cba3952d1039a7137fa40fd97299d830.png (1.8KB)
+assets\nav-2.2fc8a281c159847e18e585d984484c40.png (3KB)
+assets\nav-3.408ad2d348984e3dbb04849ec2a254fa.png (1.9KB)
+assets\nav-4.838a3beb618396625c62de76f981bf5e.png (7.1KB)
+assets\personas\anh.f65f3fbc2040704a9adb1eabcd0afef4.png (60KB)
+assets\personas\didi.c4e08efd17e4cdc4fe913f1f931c12b8.png (61KB)
+assets\personas\hin.bff11316c7896653a7e4edb4a1dbb00d.png (63KB)
+assets\personas\lin.eab590ae4a459c2bec9eddbb261e496a.png (52KB)
+assets\personas\rice.05ef4e9d4fa23eb254c3404a356a56d0.png (35KB)
+assets\trash.ef07e89e5088b9e76a4725321bf40fe1.png (3.4KB)
+
+› web bundles (1):
+_expo/static/js/web/index-883a2526d9853c19dc35d1ffd4421efb.js (962KB)
+
+› Files (2):
+index.html (1.2KB)
+metadata.json (49B)
+
+Exported: dist

@@ -79,3 +79,14 @@ Area:
 - Results: one 4200 × 15820 RGB PSD; 370 layers / 63 groups. No app or PRD edits. Screens remain bitmap; annotations carry editable text metadata. Native Photoshop verification is NOT VERIFIED.
 - Tests/evidence: PSD round-trip; Pillow composite decode; visual preview checks; actual local deletion-result screenshots; manifest hashes and verification.json. No new claim of full application regression testing.
 - Commit: the documentation/export commit containing this entry. PSD delivery is local; no claim of GitHub upload without verified publication.
+
+## 2026-10-03 · MOBILE-PRD11-001 · Native application foundation and honest visual audit
+- User request: build the app from official PRD v1.1, existing PSD and supplied chibi character boards; roster HIN/LIN/Đi Đi/Anh/regular Hạt Cơm; inspect whether UI matches PSD and which PRD updates are implemented.
+- Approvals: Expo + Supabase + server-side OpenAI; bottom confirmation sheet 2/3 overrides PRD centered wording. No service registration, deployment or purchase authorized/performed.
+- Implementation: app/mobile Expo TypeScript project; shared business rules and reusable detail routes; demo-only local persistence; Supabase Auth/RPC adapters, RLS migrations, private image storage, authenticated conversation/generation/transcription functions; source portrait crops; notebook/welcome fidelity corrections.
+- Files: app/mobile/**; docs/technical/mobile-implementation-2026-10-03.md; docs/technical/mobile-prd-visual-audit-2026-10-03.md; evidence/mobile/audit-2026-10-03/**; .gitignore; prompt-log files.
+- Result: runnable development web app, NOT production complete and NOT 100% PSD fidelity. PSD original and official PRD are not modified by this task.
+- Tests: 32 domain tests and PostgreSQL migration/account-isolation test executed; TypeScript and web export executed. Native devices/cloud/SMTP/paid AI NOT VERIFIED. Final raw outputs and visual evidence are stored under evidence/mobile/audit-2026-10-03.
+- Evidence: psd-current-overview.png, source.json, app-notebook-before.jpg, app-notebook-after-390.jpg, app-ai-before.jpg, app-ai-after.jpg, app-ai-bottom-sheet.jpg, test outputs.
+- Remaining: visual/interaction backlog recorded in audit, credentials/deployment, licensed nutrition catalog/goal matrix, final source artwork, legal/SLA and other PRD OPEN items.
+- Commit: recorded by the commit containing this entry.
