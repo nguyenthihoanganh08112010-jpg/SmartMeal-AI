@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "task": "FRESH-WELLNESS-001",
+  "checks": [
+    {"name": "TypeScript strict typecheck", "status": "PASS", "exitCode": 0, "evidence": "typecheck.txt"},
+    {"name": "Domain, candidate gates, PostgreSQL/RLS/migrations", "status": "PASS", "tests": 46, "passed": 46, "failed": 0, "evidence": "tests.txt"},
+    {"name": "Expo web + Android Hermes + iOS Hermes export", "status": "PASS", "exitCode": 0, "evidence": "export.txt", "limit": "Not an APK/IPA, installation or device test"},
+    {"name": "Visual review and browser interactions", "status": "NOT VERIFIED", "reason": "Browser denied localhost:8772; a second attempt after user authorization was blocked by a saved permission setting. No workaround attempted."},
+    {"name": "Native device microphone, TTS, keyboard, gestures, accessibility", "status": "NOT VERIFIED", "reason": "No installed-device test executed"},
+    {"name": "Live Supabase/SMTP/OpenAI generation and private image storage", "status": "NOT VERIFIED", "reason": "Credentials, deployment and licensed production catalog not provided"}
+  ],
+  "screenshots": [],
+  "sourcePsdModifiedByThisTask": false,
+  "officialPrdModifiedByThisTask": false
+}
