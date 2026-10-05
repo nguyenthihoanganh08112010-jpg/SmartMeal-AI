@@ -1,6 +1,6 @@
-# SmartMeal — ứng dụng đang triển khai
+# SmartMeal — Fresh Intelligent Wellness
 
-Ứng dụng Expo/React Native dùng chung cho Android, iOS và web. Đây **chưa phải bản production hoàn tất hoặc bản khớp PSD 100%**. Xem báo cáo đối chiếu trong `docs/technical/mobile-prd-visual-audit-2026-10-03.md`.
+Ứng dụng Expo/React Native dùng chung cho Android, iOS và web. Bản 05/10/2026 triển khai **giao diện mới theo văn bản BUILD SMARTMEAL AI**, không dùng PSD cũ làm mục tiêu thiết kế. Đây **chưa phải bản production hoàn tất**. Xem `docs/technical/fresh-wellness-2026-10-05.md` ở gốc repository.
 
 ## Chạy thử
 
@@ -19,7 +19,7 @@ Chọn **Trải nghiệm bằng dữ liệu mẫu** nếu chưa có Supabase. Đ
 ## Kết nối dịch vụ đã được người dùng duyệt
 
 1. Người sở hữu tạo Supabase project. Không có project nào được tự tạo hoặc mua trong tác vụ này.
-2. Áp dụng hai tệp trong `supabase/migrations/` trên môi trường thử nghiệm trước. Cơ sở dữ liệu sử dụng RLS; API client không được ghi trực tiếp bảng. Hàm lưu kiểm tra phiên bản để tránh ghi đè từ thiết bị khác.
+2. Áp dụng ba tệp trong `supabase/migrations/` theo thứ tự tên trên môi trường thử nghiệm trước. Cơ sở dữ liệu sử dụng RLS; API client không được ghi trực tiếp bảng. Hàm lưu kiểm tra phiên bản để tránh ghi đè từ thiết bị khác. Migration mới kiểm tra combo tối đa 6 món và trường số hợp lệ.
 3. Bật xác minh email. Cấu hình email xác minh/khôi phục có mã OTP và nhà cung cấp SMTP phù hợp. Không tắt xác minh chỉ để thử nghiệm dễ hơn.
 4. Tạo `.env.local` (không commit):
 
@@ -39,8 +39,10 @@ Tài liệu: [Supabase Expo](https://supabase.com/docs/guides/getting-started/qu
 - `App.tsx`: điều hướng và các flow hiện tại; đang tiếp tục tách màn hình thành module.
 - `src/domain.ts`: quy tắc ngày, phân bữa, đợt ăn, tiêu hóa, A8 và nhóm G/B.
 - `src/service.ts`: Supabase Auth/RPC/functions; phiên native dùng SecureStore, phiên web giữ trong bộ nhớ.
-- `src/Notebook.tsx`, `src/Welcome.tsx`, `src/ui.tsx`: thành phần giao diện tái sử dụng.
-- `src/personas.ts`: HIN, LIN, Đi Đi, Anh, Hạt Cơm **thường**. Chỉ đổi cách trò chuyện; không đổi tiêu chuẩn chọn món.
+- `src/Fresh.tsx`, `src/FreshNotebook.tsx`, `src/FreshWelcome.tsx`, `src/ui.tsx`: hệ thống giao diện mới. Các tệp Notebook/Welcome cũ không còn được App import.
+- `src/RecipeDetail.tsx`, `src/RecommendationCard.tsx`, `src/DigestiveTrends.tsx`: chi tiết dùng chung, kết quả AI và phân tích dữ liệu.
+- `src/content.ts`: adapter nội dung kiểm chứng; không dùng placeholder làm kiến thức dinh dưỡng.
+- `src/personas.ts`: HIN, LIN, Đi Đi, Anh Anh, Hạt Cơm **thường**. Chỉ đổi cách trò chuyện; không đổi tiêu chuẩn chọn món.
 - `assets/personas/provenance.json`: nguồn và tọa độ cắt hình người dùng cung cấp.
 - `tests/`: kiểm thử dữ liệu và SQL/RLS bằng PostgreSQL PGlite cục bộ.
 
@@ -48,12 +50,12 @@ Tài liệu: [Supabase Expo](https://supabase.com/docs/guides/getting-started/qu
 
 - Chưa triển khai Supabase thật; email, RLS trên cloud, OpenAI, ảnh và phiên âm thật chưa được xác minh.
 - Chưa build/cài Android/iOS trên thiết bị; web build không chứng minh native build thành công.
-- Chưa đủ đối chiếu pixel với PSD: Home, form, biểu đồ, chi tiết, tài khoản, carousel còn công việc.
-- Minh họa Home/form và nội dung giáo dục/guide còn placeholder. Không coi chữ hoặc số calo trong ảnh tham chiếu là nguồn đã kiểm chứng.
-- Goal matrix, recipe licensing, một số quy tắc combo/evidence, chính sách trẻ vị thành niên và thời hạn xóa dữ liệu vẫn theo mục OPEN của PRD. Không phát hành production trước khi xử lý các mục này.
-- Chưa có cache sức khỏe offline/đồng bộ nền; mất mạng sẽ báo lỗi và giữ bản nhập đang mở. Chưa có hàng đợi ghi offline.
+- Kiểm tra giao diện trực tiếp bị chặn bởi quyền trình duyệt đã lưu. Chưa công bố đạt yêu cầu thị giác hoặc thao tác native.
+- Minh họa Home và nội dung giáo dục/diễn giải còn placeholder. Không có carousel hướng dẫn cũ. Không coi ảnh mẫu là nguồn dinh dưỡng.
+- Goal matrix, recipe licensing, trường hợp hai combo trùng nhau, chính sách trẻ vị thành niên và thời hạn xóa dữ liệu vẫn OPEN. Không phát hành production trước khi xử lý các mục này.
+- Có cache đọc tách theo tài khoản, không có hàng đợi ghi offline. Mất mạng khi lưu giữ bản nhập; URL ảnh hết hạn cần làm mới trực tuyến. Cache native nằm trong storage riêng của ứng dụng; chưa có lớp mã hóa dữ liệu cache riêng ngoài bảo vệ của hệ điều hành. Phiên xác thực native dùng SecureStore.
 - Hình ảnh minh họa cần quy trình kiểm tra hình đúng món; phiên bản hiện tại chưa có quy trình duyệt/khôi phục lỗi ảnh hoàn chỉnh.
-- Chưa đủ tính năng TTS (tạm dừng/tiếp tục, danh sách giọng), popup streak hằng ngày và nhắc mục tiêu sau 7 ngày.
-- Yêu cầu xóa tài khoản có hàm lưu yêu cầu, nhưng UI/pháp lý/SLA và quá trình xử lý chưa hoàn thiện.
+- TTS có mã tạm dừng/tiếp tục theo từ và chọn giọng thiết bị, nhưng chưa thử trên điện thoại. Home có nhắc xem lại mục tiêu sau 7 ngày; chưa có push notification từ xa.
+- Yêu cầu xóa tài khoản có UI và hàm gửi yêu cầu; chưa có worker xác nhận đã xóa/pháp lý/SLA. Không thông báo “đã xóa” khi mới gửi yêu cầu.
 
 Không chứa API secret trong bundle hoặc repo. Không thay đổi PSD gốc hay PRD chính thức.

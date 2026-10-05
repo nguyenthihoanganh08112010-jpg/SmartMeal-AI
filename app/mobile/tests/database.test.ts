@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import {PGlite} from '@electric-sql/pglite';
 test('database migrations, account isolation and optimistic revision',async()=>{
  const db=new PGlite();await db.exec(`create role anon; create role authenticated; create role service_role; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$; grant usage on schema auth to authenticated; create schema storage; create table storage.buckets(id text primary key,name text,public boolean); create table storage.objects(id uuid,bucket_id text,name text); alter table storage.objects enable row level security; create function storage.foldername(text) returns text[] language sql as $$select string_to_array($1,'/')$$;`);
- for(const file of ['202610020001_smartmeal.sql','202610020002_catalog.sql'])await db.exec(await readFile(new URL('../supabase/migrations/'+file,import.meta.url),'utf8'));
+ for(const file of ['202610020001_smartmeal.sql','202610020002_catalog.sql','202610050001_combo_limit.sql'])await db.exec(await readFile(new URL('../supabase/migrations/'+file,import.meta.url),'utf8'));
  const alice='00000000-0000-0000-0000-000000000001',bob='00000000-0000-0000-0000-000000000002';await db.query('insert into auth.users values($1),($2)',[alice,bob]);
  await db.exec(`set role authenticated; set request.jwt.claim.sub='${alice}';`);
  const a:any=(await db.query('select public.smartmeal_load() as result')).rows[0];assert.equal(a.result.data.persona,'hin');assert.equal(a.result.revision,0);
@@ -23,5 +23,10 @@ test('database migrations, account isolation and optimistic revision',async()=>{
  await db.query('select public.smartmeal_save($1,1)',[JSON.stringify(valid)]);
  await assert.rejects(()=>db.query('select public.smartmeal_save($1,2)',[JSON.stringify({...valid,occasions:[{...valid.occasions[0],date:'2026-10-04'}]})]),/không cho sửa/);
  await db.query('select public.smartmeal_save($1,2)',[JSON.stringify({...valid,occasions:[]})]);
+ await db.exec('reset role');
+ await assert.rejects(()=>db.query('insert into public.smartmeal_catalog(payload,provenance) values($1,$2)',[JSON.stringify({kind:'combo',components:['1','2','3','4','5','6','7']}),'{}']),/catalog_combo_limit/);
+ await assert.rejects(()=>db.query('insert into public.smartmeal_catalog(payload,provenance) values($1,$2)',[JSON.stringify({kind:'combo'}),'{}']),/catalog_combo_limit/);
+ await db.query('insert into public.smartmeal_catalog(payload,provenance) values($1,$2)',[JSON.stringify({kind:'combo',components:['1','2','3','4','5','6']}),'{}']);
+ await assert.rejects(()=>db.query("update public.smartmeal_accounts set data=jsonb_set(data,'{records}',$1) where user_id=$2",[JSON.stringify([{id:'bad',date:'2026-10-05',time:'08:00',duration:'Infinity'}]),bob]),/Thời lượng/);
  await db.close();
 });

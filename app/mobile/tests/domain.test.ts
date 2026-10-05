@@ -11,7 +11,7 @@ test('duplicate save operation is idempotent',()=>{const a=saveEaten([],recs,dis
 test('delete middle then last updates count only once',()=>{let a=saveEaten([],recs,dishes,'2026-10-02','op');a=deleteEaten(a,'op:b');assert.deepEqual(a[0].dishes.map(d=>d.id),['op:a','op:c']);a=deleteEaten(a,'op:a');assert.equal(a.length,1);a=deleteEaten(a,'op:c');assert.equal(a.length,0);assert.equal(deleteEaten(a,'op:c').length,0);});
 test('mixed meal types rejected',()=>assert.throws(()=>saveEaten([],[recs[0],{...recs[1],mealType:'Ăn nhẹ'}],dishes,'2026-10-02','op'),/riêng/));
 test('incompatible main slots rejected',()=>assert.throws(()=>saveEaten([],[recs[0],{...recs[1],generatedAt:'2026-10-02T16:00:00+07:00'}],dishes,'2026-10-02','op'),/riêng/));
-test('combo/component overlap blocks instead of double counting',()=>assert.throws(()=>saveEaten([],[recs[0],{...recs[1],recipeId:'combo'}],[...dishes,{...dishes[0],id:'combo',kind:'combo',components:['a','c']}],'2026-10-02','op'),/trùng/));
+test('combo takes precedence over selected component without double counting',()=>{const result=saveEaten([],[recs[0],{...recs[1],recipeId:'combo'}],[...dishes,{...dishes[0],id:'combo',kind:'combo',components:['a','c']}],'2026-10-02','op');assert.equal(result[0].dishes.length,1);assert.equal(result[0].dishes[0].recipeId,'combo');});
 test('image incomplete is not a valid final result',()=>assert.throws(()=>saveEaten([],[{...recs[0],imageReady:false}],dishes,'2026-10-02','op')));
 const record:DigestiveRecord={id:'1',date:'2026-10-02',time:'08:00',duration:3};
 for(const duration of [0,-1,NaN,Infinity])test('invalid duration '+duration,()=>assert.ok(validateRecord({...record,duration})));

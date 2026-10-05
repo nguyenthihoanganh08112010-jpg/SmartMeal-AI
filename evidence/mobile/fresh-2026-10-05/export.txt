@@ -1,0 +1,42 @@
+Starting Metro Bundler
+
+| (node:11112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Web Bundled 1844ms index.ts (172 modules)
+iOS Bundled 8597ms index.ts (687 modules)
+Android Bundled 14917ms index.ts (685 modules)
+
+› Assets (18):
+assets\food-berry.fb040762aac78ba3c3f7bbef478dd567.png (30KB)
+assets\food-berry.png (30KB)
+assets\food-bowl.3d641818cb67e5bbe44e625af69cc0f1.png (37KB)
+assets\food-bowl.png (37KB)
+assets\food-chicken.88fb286379da8f46071bae3cdee30d05.png (35KB)
+assets\food-chicken.png (35KB)
+assets\food-veg.88b88ad9fe50eec4c6f6c17ae3760600.png (21KB)
+assets\food-veg.png (21KB)
+assets\personas\anh.f65f3fbc2040704a9adb1eabcd0afef4.png (60KB)
+assets\personas\anh.png (60KB)
+assets\personas\didi.c4e08efd17e4cdc4fe913f1f931c12b8.png (61KB)
+assets\personas\didi.png (61KB)
+assets\personas\hin.bff11316c7896653a7e4edb4a1dbb00d.png (63KB)
+assets\personas\hin.png (63KB)
+assets\personas\lin.eab590ae4a459c2bec9eddbb261e496a.png (52KB)
+assets\personas\lin.png (52KB)
+assets\personas\rice.05ef4e9d4fa23eb254c3404a356a56d0.png (35KB)
+assets\personas\rice.png (35KB)
+
+› web bundles (1):
+_expo/static/js/web/index-83451e6b1190c7daf46855bec52b8106.js (987KB)
+
+› ios bundles (1):
+_expo/static/js/ios/index-adbd79a8f07af837d741ae39f01aef85.hbc (2.3MB)
+
+› android bundles (1):
+_expo/static/js/android/index-2a02de1bb5c1cb236cec132529a7fc4b.hbc (2.3MB)
+
+› Files (2):
+index.html (1.2KB)
+metadata.json (1.4KB)
+
+Exported: dist

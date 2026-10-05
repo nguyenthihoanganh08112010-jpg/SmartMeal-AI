@@ -1,6 +1,12 @@
 # SmartMeal AI
 
-Editable Vietnamese wireframe/prototype — wireframe baseline frozen by the user on 2026-09-27. Pending artwork/content and production integrations are not approved or completed by that freeze.
+## Ứng dụng mới — 05/10/2026
+
+Bản Expo/React Native trong [app/mobile](app/mobile/README.md) triển khai giao diện **Fresh Intelligent Wellness** theo văn bản BUILD SMARTMEAL AI mới. Giao diện này không sao chép PSD cũ. Xem [phạm vi triển khai, nguồn và phần còn chờ](docs/technical/fresh-wellness-2026-10-05.md).
+
+Chạy từ `app/mobile`: `pnpm install --frozen-lockfile`, `pnpm web --port 8772`. Có chế độ dữ liệu mẫu tách khỏi tài khoản thật. Cần cấu hình Supabase/SMTP/OpenAI và nguồn công thức đã kiểm chứng trước khi dùng dịch vụ thật. Chưa phát hành Android/iOS hoặc xác nhận production hoàn tất.
+
+Các mục dưới đây là tài liệu **wireframe lịch sử**. Bản wireframe được chốt ngày 27/09 không phải chuẩn thị giác cho ứng dụng mới; tài sản và nội dung chưa duyệt không tự trở thành đã duyệt.
 
 ## UX/UI handoff
 

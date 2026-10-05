@@ -90,3 +90,14 @@ Area:
 - Evidence: psd-current-overview.png, source.json, app-notebook-before.jpg, app-notebook-after-390.jpg, app-ai-before.jpg, app-ai-after.jpg, app-ai-bottom-sheet.jpg, test outputs.
 - Remaining: visual/interaction backlog recorded in audit, credentials/deployment, licensed nutrition catalog/goal matrix, final source artwork, legal/SLA and other PRD OPEN items.
 - Commit: recorded by the commit containing this entry.
+
+## 2026-10-05 · FRESH-WELLNESS-001 · New application design and updated product rules
+- Request: create a new app according to the pasted BUILD SMARTMEAL AI specification, using attached PRD v1.2 for behavior; explicitly do not imitate old PSD designs.
+- Work: new Home/pyramid, notebook, AI welcome/composer/cards, shared details and digestive analytics; coherent geometric icons and new palette; goal review cycle, replaceable verified-content adapters, read cache scoped to authenticated account, reader pause/resume, account-deletion request UI, combo priority and six-component cap, catalog gates, version-update adapter and preserved per-generation chat results.
+- Corrections: a time-only request preserves untouched generation conditions; legacy missing duration excluded from averages; unverified source strings never unlock nutrient claims; combo dedup never masks mixed snack/main selection.
+- Files: app/mobile/App.tsx; app/mobile/src new and updated components/domain/service; app/mobile/supabase/functions and new migration; app/mobile/tests; app/mobile/README.md and eas.json; root README; docs/technical/fresh-wellness-2026-10-05.md; evidence/mobile/fresh-2026-10-05; prompt logs.
+- Result: implementation and local multi-platform JavaScript bundles prepared. Not production deployment, not APK/IPA, and not visual acceptance. PSD, official PRD, previous wireframe source and unrelated existing user changes are preserved.
+- Tests actually executed: strict TypeScript PASS; 46 tests PASS including SQL account isolation/revision and new constraints; Expo web + Android/iOS Hermes export PASS. Visual/browser, native-device and live provider checks NOT VERIFIED.
+- Evidence: evidence/mobile/fresh-2026-10-05/results.json, tests.txt, typecheck.txt, export.txt. No invented screenshots. Browser access remained blocked by a saved permission even after user consent.
+- Remaining: production credentials/catalog/goal matrix, reviewed educational/interpretation content, final mascot asset, two-overlapping-combo policy, native/visual testing and specified legal/SLA/configuration OPEN items. See technical report.
+- Commit: the commit containing this entry; GitHub publication is reported only after successful push/PR creation.

@@ -39,3 +39,11 @@
 - Added meal timestamp, per-dish deletion, digestive/A8 and G/B domain rules, account-isolated Supabase schema and provider adapters.
 - Added honest PSD/PRD audit, identified visual gaps, and corrected initial notebook/welcome layouts and bottom confirmation-sheet placement.
 - Preserved source PSD and PRD. Cloud/native deployment and full visual fidelity remain unverified/incomplete.
+
+## 2026-10-05 · Fresh Intelligent Wellness application
+- Replaced the active mobile visual system with an original design per the newly pasted specification; prior PSD fidelity and old Home guide carousel are superseded.
+- Added reusable Home/pyramid, food detail, recommendation, notebook, image-error and digestive-analysis components; roster now names Anh Anh.
+- Implemented combo priority/max-six, goal review, recipe-version updates, evidence gating, account-scoped read cache and TTS controls.
+- Preserved immutable generation-time classification, independent diary deletion, native modal overlays, separate notebook/eaten data and current-request journal permission.
+- Fixed condition-only regeneration and kept earlier recommendation batches in chronological chat context.
+- 46 local tests, strict TypeScript and web/Android/iOS JavaScript exports passed. Browser permission blocked visual QA; devices and live cloud providers remain NOT VERIFIED.
