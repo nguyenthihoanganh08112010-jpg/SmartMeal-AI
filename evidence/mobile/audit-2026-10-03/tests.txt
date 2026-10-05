@@ -1,0 +1,49 @@
+(node:12300) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/database.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ database migrations, account isolation and optimistic revision (9618.3706ms)
+(node:24328) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/domain.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ PRD 1.1 boundary 00:00 (150.7009ms)
+✔ PRD 1.1 boundary 02:29 (1.3625ms)
+✔ PRD 1.1 boundary 02:30 (0.8809ms)
+✔ PRD 1.1 boundary 09:59 (0.6303ms)
+✔ PRD 1.1 boundary 10:00 (0.7581ms)
+✔ PRD 1.1 boundary 15:29 (0.6209ms)
+✔ PRD 1.1 boundary 15:30 (0.6955ms)
+✔ PRD 1.1 boundary 23:59 (0.9258ms)
+✔ snack remains snack at any hour (0.4885ms)
+✔ UTC is interpreted in HCM (1.9559ms)
+✔ invalid generation time cannot be classified (0.8372ms)
+✔ three dishes save one occasion at original time, even on later eaten date (9.187ms)
+✔ duplicate save operation is idempotent (4.5843ms)
+✔ delete middle then last updates count only once (3.1209ms)
+✔ mixed meal types rejected (10.8665ms)
+✔ incompatible main slots rejected (1.2122ms)
+✔ combo/component overlap blocks instead of double counting (0.9621ms)
+✔ image incomplete is not a valid final result (0.2314ms)
+✔ invalid duration 0 (0.3006ms)
+✔ invalid duration -1 (0.0862ms)
+✔ invalid duration NaN (0.0621ms)
+✔ invalid duration Infinity (0.0675ms)
+✔ optional fields may all be missing (0.2203ms)
+✔ invalid actual calendar date rejected (0.1073ms)
+✔ editing record never increments; moving date updates counts (0.3683ms)
+✔ missing not zero (0.0993ms)
+✔ three records and seven days permits current description (0.9ms)
+✔ A8 requires both windows, coverage and per-field counts (1.0788ms)
+✔ optional denominator excludes absent values (1.0008ms)
+✔ one calendar day contributes once and missed days reset (1.8666ms)
+✔ backup time boundaries and missing G (1.1338ms)
+✔ G/B conflict and ties retain same group, no I tie-break (1.0905ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10471.5519

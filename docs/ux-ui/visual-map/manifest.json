@@ -1,0 +1,525 @@
+{
+  "baseline": "d66f16fef3b6de26d97e54716d140358fa2644fb",
+  "screens": [
+    {
+      "id": "A01",
+      "file": "screens/audit-home.png",
+      "sha256": "8e0c2b190d957e15adcca6f4d4b762059d706dc7b2c76a9b07fa64ee4121414b",
+      "x": 100,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Bấm Đăng nhập/Đăng ký → A02. Không hiển thị danh tính giả."
+    },
+    {
+      "id": "A02",
+      "file": "screens/account-entry.png",
+      "sha256": "1c0967b9348169f673668e12c2a0aa2a504ecfdb2cb330abbe15030664993bce",
+      "x": 775,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Đăng nhập → A03. Đăng ký dùng luồng tài khoản hiện có."
+    },
+    {
+      "id": "A03",
+      "file": "screens/account-login.png",
+      "sha256": "d1a36b2077535fd30e829bbe80098559a6e043b7d9a22db2116894168e7726cd",
+      "x": 1450,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Quên mật khẩu → A04. Thành công → H01 hoặc H02 theo hồ sơ."
+    },
+    {
+      "id": "A04",
+      "file": "screens/account-reset.png",
+      "sha256": "ae32e8c2f6e71bd3c445b29dc765ddf29a2b1e5f4b6b9ea08875b84c1a47d2c5",
+      "x": 2125,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Nhập email; gửi liên kết trong luồng mô phỏng. Quay lại → A03."
+    },
+    {
+      "id": "H02",
+      "file": "screens/audit-incomplete.png",
+      "sha256": "32ac946a8063cf81d56892180f5bd85ba169c139beb599e69e5862c0ebdae91d",
+      "x": 2800,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Tiếp tục → biểu mẫu hồ sơ. Đây là bước riêng với đăng nhập."
+    },
+    {
+      "id": "H01",
+      "file": "screens/audit-member.png",
+      "sha256": "89b5f92480d159213084b958b6f66a09646ee3822dab6a4e41d995a2eb057f8b",
+      "x": 3475,
+      "y": 838,
+      "width": 488,
+      "height": 1000,
+      "note": "Avatar/tên → sửa thông tin. Ô đi tiêu → R01."
+    },
+    {
+      "id": "H03",
+      "file": "screens/audit-home.png",
+      "sha256": "8e0c2b190d957e15adcca6f4d4b762059d706dc7b2c76a9b07fa64ee4121414b",
+      "x": 100,
+      "y": 2328,
+      "width": 488,
+      "height": 1000,
+      "note": "Thỏ: nảy → đổi trạng thái → trở về → hiện kiến thức cạnh bên."
+    },
+    {
+      "id": "H04",
+      "file": "screens/home-pyramid.png",
+      "sha256": "cea2e9da61a74f90a29335451034e6e9ac84039b188e5f78ffd3be1ec0321393",
+      "x": 775,
+      "y": 2328,
+      "width": 488,
+      "height": 1000,
+      "note": "Chạm tháp để phóng toàn màn hình. Đóng/Quay lại → H03."
+    },
+    {
+      "id": "H05",
+      "file": "screens/audit-streak.png",
+      "sha256": "e33cff763e1472b29d8977b227086a36acf4408eb0f325f7d49bba95dc3244e4",
+      "x": 1450,
+      "y": 2328,
+      "width": 488,
+      "height": 1000,
+      "note": "Một ngày hợp lệ chỉ cộng một lần; ô có tích màu #CFE6AF."
+    },
+    {
+      "id": "H06",
+      "file": "screens/audit-goal.png",
+      "sha256": "7f1e07a33af860062d5a66a3bb49da93544e62c6aca4116390badad871142d31",
+      "x": 2125,
+      "y": 2328,
+      "width": 488,
+      "height": 1000,
+      "note": "Chỉ các thay đổi thực trong tháng. Quay lại → Hồ sơ."
+    },
+    {
+      "id": "R01",
+      "file": "screens/record.png",
+      "sha256": "7b0d6d7766cd59c4b4ccc1432795810a2aaa8b4e0f75c05dccc6e6df9281dfc3",
+      "x": 2800,
+      "y": 2328,
+      "width": 488,
+      "height": 1000,
+      "note": "Ô đi tiêu trên Home dẫn tới màn này, không mở thẳng biểu mẫu."
+    },
+    {
+      "id": "S01",
+      "file": "screens/saved.png",
+      "sha256": "d387bec3afe5a6b3dbbff9b7cfc946b75ba609d2dc4ad6e771420e61f04614a8",
+      "x": 100,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Lưới hai cột. Chạm món → C01. Chuyển Combo → S02."
+    },
+    {
+      "id": "C01",
+      "file": "screens/saved-detail.png",
+      "sha256": "a562a432af4323a0ca3022cbc59938b4b1428ca379ec2d6b26c0a6e8ba6459d1",
+      "x": 775,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Ảnh, thông tin có bằng chứng, nguyên liệu, gia vị và bước nấu."
+    },
+    {
+      "id": "S02",
+      "file": "screens/saved-combo.png",
+      "sha256": "a176ac4985cf8693a6d3ff2ec08367d7abe0cfbe5afa8ce18493087ae36ea3ce",
+      "x": 1450,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Thẻ ngang. Chạm combo → C02."
+    },
+    {
+      "id": "C02",
+      "file": "screens/saved-combo-detail.png",
+      "sha256": "85f1a7e5ec7523f206246c666e7cc8c0d9aa610699c15713537d9219be068d55",
+      "x": 2125,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Chạm một món thành phần → C01; quay lại đúng combo."
+    },
+    {
+      "id": "S03",
+      "file": "screens/saved-search.png",
+      "sha256": "1120f56516dc8b0b8a72d270f67a7728d4a6726324eef7467cbe20885483142a",
+      "x": 2800,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Tìm trong món đã lưu; không truy vấn cơ sở dữ liệu calo."
+    },
+    {
+      "id": "S04",
+      "file": "screens/saved-filter.png",
+      "sha256": "6a80ae79c8963dcad92532accec2e8c6e21b0451f049ed365f9309d21f9cf3ec",
+      "x": 3475,
+      "y": 3818,
+      "width": 488,
+      "height": 1000,
+      "note": "Áp dụng cho Món đơn; không áp cho danh sách Combo."
+    },
+    {
+      "id": "S05",
+      "file": "screens/saved-swipe.png",
+      "sha256": "090234792cc716e0b006fa7f78601668d34c8eaf293af282a10960eaf4fb2c88",
+      "x": 100,
+      "y": 5308,
+      "width": 488,
+      "height": 1000,
+      "note": "Vuốt trái một thẻ để lộ thùng rác; chỉ tác động món đã lưu."
+    },
+    {
+      "id": "S06",
+      "file": "screens/saved-combo-swipe.png",
+      "sha256": "da78ee486079d598bd7ec6835048e61929b7d745f1dc5307d2976ce16db9692f",
+      "x": 775,
+      "y": 5308,
+      "width": 488,
+      "height": 1000,
+      "note": "Cùng tài sản thùng rác; giữ danh sách và ngữ cảnh hiện tại."
+    },
+    {
+      "id": "S07",
+      "file": "screens/saved-empty.png",
+      "sha256": "53b0b2868d766b663cd1699b7d07278a8b95c779f4bf8b2f6796df3b677c32b2",
+      "x": 1450,
+      "y": 5308,
+      "width": 488,
+      "height": 1000,
+      "note": "Trạng thái khi danh sách tương ứng rỗng; không suy ra đã ăn."
+    },
+    {
+      "id": "S08",
+      "file": "screens/saved-none.png",
+      "sha256": "f21e8cf1bc7cb5a7fefe4d6d12563ed3f476f613f0bf061a33ca8e3afb97fd5e",
+      "x": 2125,
+      "y": 5308,
+      "width": 488,
+      "height": 1000,
+      "note": "Giữ điều kiện tìm/lọc để người dùng điều chỉnh."
+    },
+    {
+      "id": "D01",
+      "file": "screens/update-diary.png",
+      "sha256": "83e4bb5a81d9d15b8f0537fdb45935941fd82c534950c2417dd1e0c0e96983ef",
+      "x": 100,
+      "y": 6798,
+      "width": 488,
+      "height": 1000,
+      "note": "Vuốt độc lập từng món. Không có chức năng sửa món ở Nhật ký."
+    },
+    {
+      "id": "D02",
+      "file": "screens/diary-after.png",
+      "sha256": "c2e422ada0ef89dea1c93b2729737e50f9d4c34a9fd137dcd5c9c8b105d7dc60",
+      "x": 775,
+      "y": 6798,
+      "width": 488,
+      "height": 1000,
+      "note": "Lớp nền chặn tương tác danh sách. Hủy → D01, giữ vị trí cuộn."
+    },
+    {
+      "id": "D03",
+      "file": "screens/diary-deleted-middle.png",
+      "sha256": "c0d0c285532b3690afc3a24f613c7dad29468d9c36cdf5981f0160c69ea69341",
+      "x": 1450,
+      "y": 6798,
+      "width": 488,
+      "height": 1000,
+      "note": "Các món còn lại và đợt ăn được giữ; bộ đếm đợt không đổi."
+    },
+    {
+      "id": "D04",
+      "file": "screens/diary-deleted-last.png",
+      "sha256": "0bd96dddf804b3f0d7bdfac961947cddafa5d00c3582212a4f6c60fd8180c429",
+      "x": 2125,
+      "y": 6798,
+      "width": 488,
+      "height": 1000,
+      "note": "Ví dụ riêng: đợt trống tự được bỏ; giảm bộ đếm tương ứng đúng một lần."
+    },
+    {
+      "id": "R02",
+      "file": "screens/record-empty.png",
+      "sha256": "c31176d424b057b7c5fa2a75b159607a4c20b1d89f4f8772ee571490b4e11657",
+      "x": 100,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Ngày giờ của bản ghi. Nút Xóa chỉ xóa dữ liệu chưa lưu."
+    },
+    {
+      "id": "R03",
+      "file": "screens/record-partial.png",
+      "sha256": "aeafa53da4cc1436575e2a545de20413620f63124591ce6ab4c740ae125a4694",
+      "x": 775,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Các mục tùy chọn có thể thiếu; không tự điền Bình thường."
+    },
+    {
+      "id": "R04",
+      "file": "screens/record-error.png",
+      "sha256": "403ad2b2351167f0297c14f5be8b6f84d702738417ec11fb4db8ef5713de8f3c",
+      "x": 1450,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Hiển thị lỗi tại trường, chặn lưu. Sửa thời lượng → R05."
+    },
+    {
+      "id": "R05",
+      "file": "screens/record-valid.png",
+      "sha256": "c749818c86bae96a941caced47bbeb0c116075604e51bc395967e7a9f0995cd1",
+      "x": 2125,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Lưu tạo đúng một bản ghi; cập nhật đếm ngày và Home."
+    },
+    {
+      "id": "R06",
+      "file": "screens/record-saved.png",
+      "sha256": "c141481d1ea6854b7dc3b84e08a671fd5978caf9deb95b93147979ff95806e35",
+      "x": 2800,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Mở ngay phân tích bản ghi vừa lưu. Đã hiểu → R01."
+    },
+    {
+      "id": "R07",
+      "file": "screens/record-missing.png",
+      "sha256": "7313cf760113cc48e3aefd5eb296caca5ab5f5c3d67cb070d6cc4ce041d6d8a4",
+      "x": 3475,
+      "y": 8288,
+      "width": 488,
+      "height": 1000,
+      "note": "Vẫn trình bày quan sát có dữ liệu; không chẩn đoán/cho điểm."
+    },
+    {
+      "id": "R08",
+      "file": "screens/record-history.png",
+      "sha256": "aff86c0012c63231044769206e16165d61e4f3565eb17d4036aeeea0e49b1ed4",
+      "x": 100,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Chạm bản ghi → R09; dấu cộng → R02; vuốt → R10."
+    },
+    {
+      "id": "R09",
+      "file": "screens/record-reopened.png",
+      "sha256": "c141481d1ea6854b7dc3b84e08a671fd5978caf9deb95b93147979ff95806e35",
+      "x": 775,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Quay lại → R08 giữ cuộn. Không tạo thêm lần đi tiêu."
+    },
+    {
+      "id": "R10",
+      "file": "screens/record-swipe.png",
+      "sha256": "e421a80d9fd29734e4e9a6c9edc6db4b967b7d678d3252b95229cd0a31076831",
+      "x": 1450,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Dòng bo tròn chuyển cùng nội dung; thùng rác có khung bo tròn."
+    },
+    {
+      "id": "R11",
+      "file": "screens/record-delete.png",
+      "sha256": "989f251dc0c68fb6134ec7d77b9801e092cf27057aefabf1c50ddbdc1c52e457",
+      "x": 2125,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Xác nhận cập nhật lịch sử, Home, số đếm ngày và đầu vào A8."
+    },
+    {
+      "id": "R12",
+      "file": "screens/audit-edit-record.png",
+      "sha256": "b7a0ebd992ca114fa5a313501f785da540ea5396403c06fb01c9007c8ae1d0d1",
+      "x": 2800,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Giữ ID; thay ngày cập nhật cả ngày cũ và mới. Không cộng lần mới."
+    },
+    {
+      "id": "R13",
+      "file": "screens/record-nohistory.png",
+      "sha256": "cf3fee0607b862b70555a1b689c19bf2e3e3632153d436cd18614f0f64f3ae05",
+      "x": 3475,
+      "y": 9778,
+      "width": 488,
+      "height": 1000,
+      "note": "Không có bản ghi là thiếu thông tin, không phải xác nhận bằng 0."
+    },
+    {
+      "id": "R14",
+      "file": "screens/record-seven.png",
+      "sha256": "d34200daa62b38ab08ca5803e5d72f7d9438c0b331cb27b314272c3954670643",
+      "x": 100,
+      "y": 11268,
+      "width": 488,
+      "height": 1000,
+      "note": "Xét hôm nay và sáu ngày trước. Đóng/Quay lại → R01."
+    },
+    {
+      "id": "R15",
+      "file": "screens/audit-a8-missing.png",
+      "sha256": "71dde0f0f21f7892108562b3b04db80227e7476bd7fae60109d7efc7809d2d70",
+      "x": 775,
+      "y": 11268,
+      "width": 488,
+      "height": 1000,
+      "note": "Chưa đủ tuổi tài khoản/số bản ghi/bằng chứng: không tạo xu hướng."
+    },
+    {
+      "id": "R16",
+      "file": "screens/audit-a8.png",
+      "sha256": "ff778cf622722c15f23702644500fd0271e1c101db91c34c67e6d89bcd583494",
+      "x": 1450,
+      "y": 11268,
+      "width": 488,
+      "height": 1000,
+      "note": "Nội dung diễn giải phải có bằng chứng; biểu đồ thống kê chưa thiết kế."
+    },
+    {
+      "id": "R17",
+      "file": "screens/audit-offline.png",
+      "sha256": "5287eac43376993608ef5288f2c24bb6832f73dd8dad54dc225393d5a89e1c93",
+      "x": 2125,
+      "y": 11268,
+      "width": 488,
+      "height": 1000,
+      "note": "Ảnh trạng thái hiện có; đồng bộ thật chưa kết nối trong prototype."
+    },
+    {
+      "id": "I01",
+      "file": "screens/update-welcome.png",
+      "sha256": "e7c8f21b3bf046f7f26b998d3cf7841f760a8bb10d261132625e32a0e16d2b01",
+      "x": 100,
+      "y": 12758,
+      "width": 488,
+      "height": 1000,
+      "note": "Gợi ý câu hỏi gửi ngay. Hành động tài khoản mở A02/A03, không gửi chat."
+    },
+    {
+      "id": "I02",
+      "file": "screens/update-auth.png",
+      "sha256": "23713180ca326c2b02d08badaa53ef84fd0047df4d4835d1788129e863acb4dd",
+      "x": 775,
+      "y": 12758,
+      "width": 488,
+      "height": 1000,
+      "note": "Hiển thị hành động theo xác thực; không làm mất lịch sử hội thoại."
+    },
+    {
+      "id": "I03",
+      "file": "screens/ai-confirm.png",
+      "sha256": "10f187c6da8646531369e7dc7b2a10b8d902ba318bcae436185811ec78722ff1",
+      "x": 1450,
+      "y": 12758,
+      "width": 488,
+      "height": 1000,
+      "note": "Bảng dưới cao 2/3. Kéo xuống/đóng hủy sửa tạm. Quyền nhật ký đồng bộ."
+    },
+    {
+      "id": "I04",
+      "file": "screens/update-results.png",
+      "sha256": "cb3d0dd3f914759eb80d3480a63b9f05a28ae177e1dc3f3128bfeef8063c8377",
+      "x": 2125,
+      "y": 12758,
+      "width": 488,
+      "height": 1000,
+      "note": "Thẻ độc lập, mở rộng/ảnh → C01/C02; Đã ăn chỉ lưu lựa chọn vào D01."
+    },
+    {
+      "id": "I05",
+      "file": "screens/update-empty.png",
+      "sha256": "263cfa8c7caa7b6ab4e2f01f47a4ff367e84141d9131a7ec4969a70e5a674e45",
+      "x": 2800,
+      "y": 12758,
+      "width": 488,
+      "height": 1000,
+      "note": "Không bịa món hoặc điểm. Điều chỉnh yêu cầu theo luồng đã duyệt."
+    },
+    {
+      "id": "I06",
+      "file": "screens/ai-reentry.png",
+      "sha256": "59cbaf9dd02678129a9fd3ecba3e3ce49b54e57cad9682d03b4200b074784b7e",
+      "x": 100,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Tiếp tục → cuộc trò chuyện cũ. Đóng → Home. Bắt đầu mới → I07."
+    },
+    {
+      "id": "I07",
+      "file": "screens/ai-new-confirm.png",
+      "sha256": "915ce86d5754d639d554494534e71ae705b2a2ddacc9a7d9302df148528f5a09",
+      "x": 775,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Xóa hội thoại và kết quả chưa lưu; giữ dữ liệu đã lưu độc lập."
+    },
+    {
+      "id": "P01",
+      "file": "screens/audit-persona.png",
+      "sha256": "ee23a59799d746cf041a4d1a7959158443692180ab6e2f0ace42192e8725b9f4",
+      "x": 1450,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Mở bằng bánh răng. Chân dung/nội dung chưa duyệt vẫn là vị trí chờ."
+    },
+    {
+      "id": "P02",
+      "file": "screens/persona-preview.png",
+      "sha256": "ed74d1819e8d7edf07054c7a6ca4f28dc583661a6946e7194dee6e4303b04cd4",
+      "x": 2125,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Vuốt chỉ xem thử; dấu tích vẫn theo nhân vật đang lưu."
+    },
+    {
+      "id": "P03",
+      "file": "screens/persona-success.png",
+      "sha256": "23c7342c21ac54552366f768665706923a8562b1039873aaf34a0e2dd0ef13fa",
+      "x": 2800,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Lưu cập nhật avatar và dấu tích, báo thành công, ở lại trang."
+    },
+    {
+      "id": "P04",
+      "file": "screens/persona-unsaved.png",
+      "sha256": "e0d3ccbb4980837aa9b6831db03f284351460e87458ec4cf7365488f52b25bec",
+      "x": 3475,
+      "y": 14248,
+      "width": 488,
+      "height": 1000,
+      "note": "Lưu thay đổi / Không lưu / Tiếp tục chỉnh sửa. Giữ cuộn chat."
+    }
+  ]
+}

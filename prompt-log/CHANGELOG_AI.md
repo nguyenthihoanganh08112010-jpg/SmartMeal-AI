@@ -23,3 +23,27 @@
 ## 2026-09-27 — SM-PROMPT-003
 
 - Reran four model suites and build/syntax checks before GitHub delivery; all executed checks passed. No additional UI changes.
+
+## 2026-09-27 — SM-PROMPT-004
+
+- Recorded the user's freeze of the current wireframe baseline and added a detailed Vietnamese UX/UI handoff report with editable Markdown, HTML reading edition, source/component map, interaction/data tables and 53 preview-state links.
+- Preserved app source and PRD; distinguished pending artwork/services and documented source-review concerns without treating them as approved design behavior.
+- Added report-specific validation results; prior app test evidence remains dated to its actual execution.
+
+## 2026-09-27 · Photoshop visual flow map
+- Added a layered PSD screen-flow handoff, preview images, source captures and Photoshop editing guide.
+- Preserved the frozen application and PRD. Verified PSD structure and composite; native Photoshop editing remains NOT VERIFIED.
+
+## 2026-10-03 · Mobile app PRD v1.1 implementation in progress
+- Added Expo Android/iOS/web source and five user-selected AI personas, using regular rice artwork in the persona roster.
+- Added meal timestamp, per-dish deletion, digestive/A8 and G/B domain rules, account-isolated Supabase schema and provider adapters.
+- Added honest PSD/PRD audit, identified visual gaps, and corrected initial notebook/welcome layouts and bottom confirmation-sheet placement.
+- Preserved source PSD and PRD. Cloud/native deployment and full visual fidelity remain unverified/incomplete.
+
+## 2026-10-05 · Fresh Intelligent Wellness application
+- Replaced the active mobile visual system with an original design per the newly pasted specification; prior PSD fidelity and old Home guide carousel are superseded.
+- Added reusable Home/pyramid, food detail, recommendation, notebook, image-error and digestive-analysis components; roster now names Anh Anh.
+- Implemented combo priority/max-six, goal review, recipe-version updates, evidence gating, account-scoped read cache and TTS controls.
+- Preserved immutable generation-time classification, independent diary deletion, native modal overlays, separate notebook/eaten data and current-request journal permission.
+- Fixed condition-only regeneration and kept earlier recommendation batches in chronological chat context.
+- 46 local tests, strict TypeScript and web/Android/iOS JavaScript exports passed. Browser permission blocked visual QA; devices and live cloud providers remain NOT VERIFIED.

@@ -1,0 +1,37 @@
+{
+  "source": "Chibi (1).png",
+  "sha256": "d7e4c0c31f5d9f4eff45875fa2d49f3c1e23ce9685ea81cffc831a67ce864227",
+  "crops": {
+    "hin": [
+      28,
+      863,
+      247,
+      1032
+    ],
+    "didi": [
+      278,
+      863,
+      482,
+      1032
+    ],
+    "lin": [
+      516,
+      863,
+      723,
+      1032
+    ],
+    "anh": [
+      757,
+      863,
+      970,
+      1032
+    ],
+    "rice": [
+      996,
+      862,
+      1190,
+      1040
+    ]
+  },
+  "note": "User supplied portraits; regular rice from Chibi (1), no pixel rice."
+}

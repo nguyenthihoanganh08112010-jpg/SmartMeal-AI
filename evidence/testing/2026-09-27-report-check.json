@@ -1,0 +1,20 @@
+{
+  "state_links": 53,
+  "documents": [
+    {
+      "file": "SMARTMEAL_UX_UI_HANDOFF.html",
+      "anchors": 48,
+      "links_and_images": 29,
+      "images": 5,
+      "result": "PASS"
+    },
+    {
+      "file": "STATE_INDEX.html",
+      "anchors": 6,
+      "links_and_images": 60,
+      "images": 0,
+      "result": "PASS"
+    }
+  ],
+  "scope": "Document links, source-derived state inventory, anchors, UTF-8 and image alt text; not new application acceptance tests"
+}
