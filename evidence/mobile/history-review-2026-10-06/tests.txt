@@ -1,0 +1,75 @@
+(node:16580) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/candidates.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ candidate uses only supplied main ingredients and explicitly approved constraints (5.9727ms)
+✔ unverified simultaneous cooking is rejected; sequential and supported parallel plans differ (0.506ms)
+✔ T+10 is inclusive and missing or duplicated combo children cannot pass (0.3731ms)
+(node:15980) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/database.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ database migrations, account isolation and optimistic revision (10048.6121ms)
+(node:14256) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/domain.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ PRD 1.1 boundary 00:00 (92.8288ms)
+✔ PRD 1.1 boundary 02:29 (0.94ms)
+✔ PRD 1.1 boundary 02:30 (0.7315ms)
+✔ PRD 1.1 boundary 09:59 (0.6064ms)
+✔ PRD 1.1 boundary 10:00 (0.7072ms)
+✔ PRD 1.1 boundary 15:29 (0.7617ms)
+✔ PRD 1.1 boundary 15:30 (0.8823ms)
+✔ PRD 1.1 boundary 23:59 (1.425ms)
+✔ snack remains snack at any hour (0.5366ms)
+✔ UTC is interpreted in HCM (3.3311ms)
+✔ invalid generation time cannot be classified (0.8891ms)
+✔ three dishes save one occasion at original time, even on later eaten date (8.9432ms)
+✔ duplicate save operation is idempotent (2.9783ms)
+✔ delete middle then last updates count only once (2.2132ms)
+✔ mixed meal types rejected (0.6086ms)
+✔ incompatible main slots rejected (1.0862ms)
+✔ combo takes precedence over selected component without double counting (0.6978ms)
+✔ image incomplete is not a valid final result (0.3139ms)
+✔ invalid duration 0 (0.3351ms)
+✔ invalid duration -1 (0.1267ms)
+✔ invalid duration NaN (0.1018ms)
+✔ invalid duration Infinity (0.099ms)
+✔ optional fields may all be missing (0.2253ms)
+✔ invalid actual calendar date rejected (0.1616ms)
+✔ editing record never increments; moving date updates counts (0.4438ms)
+✔ missing not zero (0.1974ms)
+✔ three records and seven days permits current description (1.1025ms)
+✔ A8 requires both windows, coverage and per-field counts (2.228ms)
+✔ optional denominator excludes absent values (2.6479ms)
+✔ one calendar day contributes once and missed days reset (0.4755ms)
+✔ backup time boundaries and missing G (1.4801ms)
+✔ G/B conflict and ties retain same group, no I tie-break (1.2787ms)
+(node:23764) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/fresh.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ six component combo is accepted, seven is rejected (5.1459ms)
+✔ combo priority is independent of selection order and preserves unrelated dish (130.2441ms)
+✔ combo normalization never hides a mixed snack/main selection (0.4572ms)
+✔ two overlapping combos remain explicitly unresolved, never double counted (0.3991ms)
+✔ goal review is due after seven days only for completed profile (6.884ms)
+✔ keeping and skipping keep goal history intact and postpone by seven days (0.9894ms)
+✔ legacy missing duration is excluded from average, never converted to zero (0.8956ms)
+✔ version update applies only to saved reference, deduplicates, and requires a newer explicit version (0.4136ms)
+✔ a source string alone is not verified evidence; unsupported nutrient claims stay hidden (0.4819ms)
+✔ a clear time modification preserves original ingredients, goal and temporary meal type (0.5046ms)
+(node:16564) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/nguye/.codex/.chatgpt-projects/g-p-6aae37cc07d8819186a0d64ecf10b3f4/SmartMeal-AI/app/mobile/tests/pyramid-motion.test.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to \\?\C:\Users\nguye\.codex\.chatgpt-projects\g-p-6aae37cc07d8819186a0d64ecf10b3f4\SmartMeal-AI\app\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ pyramid resistance is continuous, symmetric, monotone and bounded for extreme drags (16.968ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11059.5877

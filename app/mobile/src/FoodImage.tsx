@@ -5,5 +5,5 @@ export function FoodImage({source,style}:{source:ImageSourcePropType;style:Style
  const [failed,setFailed]=useState(false);
  const key=JSON.stringify(source);useEffect(()=>setFailed(false),[key]);
  const flat=StyleSheet.flatten(style)||{};
- return <View style={[flat as ViewStyle,{overflow:'hidden',backgroundColor:'#EDF0E8'}]}>{failed?<View style={{flex:1,alignItems:'center',justifyContent:'center',padding:12}}><Text style={{color:palette.muted,fontSize:12,textAlign:'center'}}>Chưa tải được ảnh. Kết nối lại để làm mới dữ liệu.</Text></View>:<Image source={source} style={[StyleSheet.absoluteFill,{resizeMode:flat.resizeMode||'cover'}]} onError={()=>setFailed(true)}/>}</View>;
+ return <View style={[flat as ViewStyle,{overflow:'hidden',backgroundColor:'#EDF0E8'}]}>{failed?<View style={{flex:1,alignItems:'center',justifyContent:'center',padding:12}}><Text style={{color:palette.muted,fontSize:12,textAlign:'center'}}>Chưa tải được ảnh. Kết nối lại để làm mới dữ liệu.</Text></View>:<Image source={source} resizeMode={flat.resizeMode||'cover'} style={{position:'absolute',left:0,top:0,width:'100%',height:'100%'}} onError={()=>setFailed(true)}/>}</View>;
 }

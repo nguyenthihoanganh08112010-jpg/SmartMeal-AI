@@ -66,3 +66,10 @@
 - Replaced decorative mascots with generated Mầm artwork; retained four human personas and stored IDs.
 - Added draggable food-pyramid illustration, full-screen expansion and translucent per-tier detail.
 - BMI chart deferred at user request. 47 tests, TypeScript and all platform exports pass; visual/device checks not verified.
+
+
+## 2026-10-06 · Digestive history and screenshot corrections
+- Purple history cards/week summary with preserved edit/delete navigation; illustrated horizontal form choices.
+- Shape/color ring charts, adjacent summary/guidance and profile-derived BMI scale.
+- Restored abstract pyramid and fixed notebook container measurements/shared image sizing.
+- TypeScript and 47 tests pass; visual verification pending browser access.

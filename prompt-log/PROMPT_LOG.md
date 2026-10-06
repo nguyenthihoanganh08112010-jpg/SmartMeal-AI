@@ -126,3 +126,11 @@ Area:
 - Files: App.tsx, Fresh.tsx, personas.ts, BackButton/BrandMascot/InteractivePyramid/pyramidMotion, motion test, brand PNGs, conversation/index.ts, technical note and logs.
 - Checks: TypeScript PASS, 47/47 tests PASS, web/Android/iOS export PASS. Browser/device gestures and visuals NOT VERIFIED. BMI left unchanged.
 - Evidence: evidence/mobile/brand-pyramid-2026-10-06; generation prompts and provenance in docs/technical/brand-pyramid-2026-10-06.md. Commit recorded with this entry.
+
+
+## 2026-10-06 · HISTORY-REVIEW-01
+- Request: purple digestive-history reference plus six annotated fixes and BMI reference.
+- Implementation: new DigestiveHistory, ObservationChoices, DistributionRing and BmiScale; restored abstract pyramid tiers; corrected measured notebook grid and shared food-image sizing; split summary/guidance.
+- Files: app/mobile/App.tsx and corresponding src components; docs/technical/history-review-2026-10-06.md; logs and evidence.
+- Validation: TypeScript and 47 tests PASS; screenshot/gesture QA NOT VERIFIED. Medical sample claims excluded; actual data and existing categories retained.
+- Evidence: evidence/mobile/history-review-2026-10-06. Commit recorded with this entry.
