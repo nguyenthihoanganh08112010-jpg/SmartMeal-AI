@@ -110,3 +110,11 @@ Area:
 - Verification: TypeScript PASS; 46/46 tests PASS; web export PASS. Browser/device visual QA NOT VERIFIED (tool URL policy).
 - Evidence: evidence/mobile/visual-2026-10-06/tests.txt and export.txt. No fabricated screenshot.
 - Commit: recorded in Git history with this entry.
+
+
+## 2026-10-06 · PERSONA-CAROUSEL-01
+- Request: follow two new persona screenshots; purple Back/Save/pagination; split info cards.
+- Changed: app/mobile/App.tsx; src/PersonaCarousel.tsx; technical note; logs and real export/test evidence.
+- Result: framed portrait carousel with resistance/spring, saved-only check and separate information cards. Existing portraits and save semantics retained.
+- Checks: TypeScript PASS; 46/46 regression PASS; web export PASS. Visual/gesture QA NOT VERIFIED (browser policy).
+- Evidence: evidence/mobile/persona-2026-10-06. Commit recorded with this entry in Git history.

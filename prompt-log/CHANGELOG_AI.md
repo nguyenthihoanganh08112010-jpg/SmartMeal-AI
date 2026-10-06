@@ -53,3 +53,9 @@
 - Applied the user's latest art direction to shared surfaces and Home; added responsive rail and spring button feedback.
 - Kept data, validation and route behavior unchanged; PRD and user-modified PSD preserved.
 - TypeScript, 46 tests and web export pass; visual QA remains NOT VERIFIED.
+
+
+## 2026-10-06 · Persona reference refinement
+- Added white-framed, tilted-neighbor carousel, purple active dots/bar and saved check overlay.
+- Purple frameless Back and purple Save; split existing persona information into separate cards.
+- Preserved preview/save distinction; 46 tests, TypeScript and web export pass. Visual interaction QA not verified.
