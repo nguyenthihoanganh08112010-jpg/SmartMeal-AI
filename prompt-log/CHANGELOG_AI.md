@@ -59,3 +59,10 @@
 - Added white-framed, tilted-neighbor carousel, purple active dots/bar and saved check overlay.
 - Purple frameless Back and purple Save; split existing persona information into separate cards.
 - Preserved preview/save distinction; 46 tests, TypeScript and web export pass. Visual interaction QA not verified.
+
+
+## 2026-10-06 · Shared mascot, pyramid and purple chat
+- Shared frameless purple Back and purple-gradient conversation with lavender user bubbles.
+- Replaced decorative mascots with generated Mầm artwork; retained four human personas and stored IDs.
+- Added draggable food-pyramid illustration, full-screen expansion and translucent per-tier detail.
+- BMI chart deferred at user request. 47 tests, TypeScript and all platform exports pass; visual/device checks not verified.

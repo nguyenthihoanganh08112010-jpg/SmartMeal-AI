@@ -118,3 +118,11 @@ Area:
 - Result: framed portrait carousel with resistance/spring, saved-only check and separate information cards. Existing portraits and save semantics retained.
 - Checks: TypeScript PASS; 46/46 regression PASS; web export PASS. Visual/gesture QA NOT VERIFIED (browser policy).
 - Evidence: evidence/mobile/persona-2026-10-06. Commit recorded with this entry in Git history.
+
+
+## 2026-10-06 · BRAND-PYRAMID-01
+- Request: shared purple back arrow, purple chat gradient; interactive food pyramid; new 3D mascot. User confirmed keeping four human personas and waiting for BMI chart reference.
+- Implemented: reusable back and mascot components, generated alpha assets, image-band detail overlay, measured full-screen expansion, bounded drag resistance with pointer/native handlers, persona visual/server label synchronization preserving account ID.
+- Files: App.tsx, Fresh.tsx, personas.ts, BackButton/BrandMascot/InteractivePyramid/pyramidMotion, motion test, brand PNGs, conversation/index.ts, technical note and logs.
+- Checks: TypeScript PASS, 47/47 tests PASS, web/Android/iOS export PASS. Browser/device gestures and visuals NOT VERIFIED. BMI left unchanged.
+- Evidence: evidence/mobile/brand-pyramid-2026-10-06; generation prompts and provenance in docs/technical/brand-pyramid-2026-10-06.md. Commit recorded with this entry.

@@ -1,5 +1,5 @@
 import {context,headers,json,openai,quota} from '../_shared/http.ts';
-const styles:Record<string,string>={hin:'HIN: thân thiện, nhiệt tình, khích lệ nhẹ nhàng.',lin:'LIN: điềm tĩnh, giải thích mạch lạc.',didi:'Đi Đi: nhẹ nhàng, chu đáo.',anh:'Anh Anh: tươi vui, năng động, không thúc ép.',rice:'Hạt Cơm: giản dị, gần gũi; hạt cơm thường, không phải pixel.'};
+const styles:Record<string,string>={hin:'HIN: thân thiện, nhiệt tình, khích lệ nhẹ nhàng.',lin:'LIN: điềm tĩnh, giải thích mạch lạc.',didi:'Đi Đi: nhẹ nhàng, chu đáo.',anh:'Anh Anh: tươi vui, năng động, không thúc ép.',rice:'Mầm: linh vật mầm cây 3D, giản dị, gần gũi.'};
 Deno.serve(async(req:Request)=>{if(req.method==='OPTIONS')return new Response(null,{headers});try{
  const {user,admin}=await context(req);const body=await req.json();if(typeof body.message!=='string'||body.message.length>4000)throw new Error('Tin nhắn không hợp lệ.');
  const {data}=await admin.from('smartmeal_accounts').select('data').eq('user_id',user.id).single();const persona=styles[data?.data?.persona]||styles.hin;
