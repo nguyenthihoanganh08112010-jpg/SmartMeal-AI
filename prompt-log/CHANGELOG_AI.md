@@ -47,3 +47,9 @@
 - Preserved immutable generation-time classification, independent diary deletion, native modal overlays, separate notebook/eaten data and current-request journal permission.
 - Fixed condition-only regeneration and kept earlier recommendation batches in chronological chat context.
 - 46 local tests, strict TypeScript and web/Android/iOS JavaScript exports passed. Browser permission blocked visual QA; devices and live cloud providers remain NOT VERIFIED.
+
+
+## 2026-10-06 · Visual director update
+- Applied the user's latest art direction to shared surfaces and Home; added responsive rail and spring button feedback.
+- Kept data, validation and route behavior unchanged; PRD and user-modified PSD preserved.
+- TypeScript, 46 tests and web export pass; visual QA remains NOT VERIFIED.
